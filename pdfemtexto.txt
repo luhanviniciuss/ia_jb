@@ -1,0 +1,750 @@
+Aqui está o conteúdo textual das *páginas 1 a 7* do manual "Super Rotina Gestor de Operação":
+
+---
+
+## *Página 1: Capa*
+* [cite_start]*Identificação:* MNOP03-00 [cite: 2]
+* [cite_start]*Título:* MANUAL SUPER ROTINA – GESTOR DE OPERAÇÃO [cite: 9, 10, 11]
+* [cite_start]*Empresa:* GRUPO JB [cite: 1]
+
+---
+
+## *Página 2: Objetivo e Finalidade*
+### *1. OBJETIVO*
+[cite_start]Estabelecer a Super Rotina do Gestor de Operações do Grupo JB Transporte e Logística, definindo a ordem, periodicidade, responsabilidade e forma de execução das atividades operacionais, administrativas e estratégicas da unidade[cite: 14, 15, 16, 17]. 
+[cite_start]Este manual tem como finalidade padronizar a gestão da filial, garantir previsibilidade operacional e assegurar que todas as atividades críticas sejam executadas ou verificadas de maneira sistemática[cite: 18].
+
+### *2. FINALIDADE*
+[cite_start]Este manual foi desenvolvido para[cite: 20, 21]:
+* [cite_start]Organizar a rotina diária, semanal, mensal e demandas pontuais do Gestor[cite: 22];
+* [cite_start]Demonstrar claramente o que deve ser executado e o que deve ser acompanhado[cite: 23, 24];
+* [cite_start]Reduzir falhas operacionais por ausência de acompanhamento[cite: 25];
+* [cite_start]Padronizar o modelo de gestão entre filiais[cite: 25];
+* [cite_start]Servir como ferramenta de direcionamento operacional[cite: 26].
+
+---
+
+## *Página 3: Definições Técnicas (Tipo de Atividade)*
+### *3. [cite_start]DEFINIÇÕES TÉCNICAS* [cite: 30, 31]
+#### [cite_start]*3.1 TIPO DE ATIVIDADE* [cite: 32]
+[cite_start]As atividades são classificadas conforme a forma de atuação do Gestor[cite: 33]:
+
+* [cite_start]*AÇÃO:* Atividade de execução direta do Gestor[cite: 34, 35].
+    * [cite_start]Exige atuação ativa[cite: 37].
+    * [cite_start]Demanda análise, decisão ou direcionamento estratégico[cite: 39].
+    * [cite_start]Responsabilidade direta e indelegável quanto ao resultado[cite: 40].
+* [cite_start]*CHECK:* Atividade de verificação e garantia de execução[cite: 42, 43].
+    * [cite_start]Não exige execução direta, mas sim acompanhamento e validação de evidências[cite: 45, 46, 47].
+    * [cite_start]Requer intervenção em caso de não conformidade[cite: 48].
+
+---
+
+## *Página 4: Definições Técnicas (Reunião e Periodicidade)*
+* [cite_start]*REUNIÃO:* Atividade de alinhamento ou acompanhamento coletivo[cite: 53, 54].
+    * [cite_start]Envolve equipe operacional ou administrativa com pauta e horário definidos[cite: 56, 58].
+    * [cite_start]Pode ser classificada como AÇÃO se exigir condução ativa do Gestor[cite: 60].
+
+#### [cite_start]*3.2 TIPO DE PERIODICIDADE* [cite: 61]
+* [cite_start]*DIÁRIA:* Executada de segunda a sábado[cite: 64, 67].
+    * [cite_start]Variações: 1x, 2x, 4x ou 6x ao dia[cite: 69, 70, 71, 72].
+
+---
+
+## *Página 5: Periodicidade (Continuação)*
+* [cite_start]*SEMANAL:* Execução em dia específico da semana (ex: toda segunda ou toda sexta)[cite: 78, 79, 81, 83].
+* [cite_start]*MENSAL:* Execução em momentos específicos do mês[cite: 88, 89].
+    * [cite_start]Prazos comuns: Até o dia 5, 10 ou 20; ou no primeiro/último dia útil[cite: 91, 92, 93, 94, 95].
+* [cite_start]*POR DEMANDA:* Mediante necessidade operacional (não conformidades, aumento de volume ou solicitações da diretoria/embarcador)[cite: 98, 99, 102, 103].
+
+---
+
+## *Página 6: Início da Rotina Diária*
+### *4. [cite_start]ROTINA* [cite: 108]
+[cite_start]Organiza as atividades por frequência e horários definidos[cite: 109]. [cite_start]Os blocos de horário são divididos em[cite: 110]:
+* *Manhã:* 06h às 09h e 09h às 12h.
+* *Tarde:* 12h às 15h e 15h às 18h.
+* *Noite:* 18h às 22h.
+
+#### [cite_start]*4.1.1 DETALHAMENTO DAS ATIVIDADES – MANHÃ* [cite: 114]
+[cite_start]*Bloco Operacional - 06h às 09h* [cite: 119]
+Os códigos seguem uma ordem lógica. [cite_start]Se não for possível seguir a sequência numérica, a atividade deve ser feita obrigatoriamente dentro do seu bloco de horário[cite: 120, 121].
+
+---
+
+## *Página 7: Atividades Diárias (RD01 e RD02)*
+* [cite_start]*RD01 - Verificar Caixa de E-mails* [cite: 126]
+    * *Frequência:* 2x ao dia | [cite_start]*Tipo:* AÇÃO [cite: 127, 128]
+    * [cite_start]*Descrição:* Validar e-mails, identificar demandas imediatas e garantir retorno aos envolvidos, organizando a agenda do dia[cite: 129, 131].
+* [cite_start]*RD02 - Organizar Reunião Matinal* [cite: 132]
+    * *Frequência:* 1x ao dia | [cite_start]*Tipo:* AÇÃO [cite: 133, 134]
+    * [cite_start]*Descrição:* Alinhamento com a equipe para definir prioridades e pendências imediatas, visando agilidade e mitigação de impactos operacionais[cite: 135, 136].
+
+---
+Podemos seguir para as próximas 7 páginas? Peça quando estiver pronto!
+
+Dando continuidade ao manual *"MNOP03-00 - SUPER ROTINA GESTOR DE OPERAÇÃO.pdf", aqui está o conteúdo detalhado das **páginas 8 a 14*, que cobrem o final do bloco operacional da manhã e o início de atividades críticas de controle:
+
+---
+
+## *Página 8: Atividades Diárias (RD03 e RD04)*
+
+*   *RD03 - Matinal de Galpão – Planejamento do Dia*
+    *   *Frequência:* 1X ao dia | *Tipo:* REUNIÃO
+    *   *Descrição:* Conduzir reunião rápida no galpão com a equipe operacional antes do carregamento.
+    *   *Detalhamento:* Apresentar indicadores do dia anterior, alinhar metas, prioridades e reforçar orientações de segurança e comunicados relevantes.
+
+*   *RD04 - Ronda Operacional Matinal*
+    *   *Frequência:* 4X ao dia | *Tipo:* AÇÃO
+    *   *Descrição:* Identificar irregularidades estruturais e de carregamento. Sugestão: 2 rondas antes do almoço e 2 após.
+    *   *Detalhamento:* Verificar carregamentos da capital, condições dos veículos, organização por rota, limpeza e segurança do galpão.
+
+---
+
+## *Página 9: Atividades Diárias (RD05 a RD07)*
+
+*   *RD05 - Fiscalização de EPI e Vestimenta*
+    *   *Frequência:* 1X ao dia | *Tipo:* AÇÃO
+    *   *Descrição:* Validar o uso de vestimenta adequada e EPIs (botas e cintas) pela equipe do galpão.
+
+*   *RD06 - Horário dos Agregados*
+    *   *Frequência:* 1X ao dia | *Tipo:* CHECK
+    *   *Responsável:* Encarregado(a) de Logística.
+    *   *Descrição:* Garantir que os veículos estejam prontos para largada dentro do TML (Tempo Médio de Logística) de até 09h00.
+
+*   *RD07 - Ranking de Baixa Online*
+    *   *Frequência:* 1X ao dia | *Tipo:* CHECK
+    *   *Responsável:* Supervisor(a) de Logística.
+    *   *Descrição:* Disponibilizar o ranking de performance dos motoristas em local visível ou grupos oficiais.
+
+---
+
+## *Página 10: Atividades Diárias (RD08 a RD10)*
+
+*   *RD08 - Garantir TML CAPITAL*
+    *   *Frequência:* 1X ao dia | *Tipo:* CHECK
+    *   *Responsável:* Supervisor(a) de Logística.
+    *   *Descrição:* Assegurar agilidade nas docas para cumprir as janelas operacionais estabelecidas.
+
+*   *RD09 - Conferência de Notas Fiscais*
+    *   *Frequência:* 4X ao dia | *Tipo:* AÇÃO
+    *   *Descrição:* Garantir que todos os pedidos estejam no sistema, tratando ausências de NF com o CD ou analista.
+    *   *Detalhamento:* Realizado durante o descarregamento da carreta; pedidos inconsistentes são segregados preventivamente.
+
+*   *RD10 - Programação de Recebimento de Carreta*
+    *   *Frequência:* 2X ao dia | *Tipo:* AÇÃO
+    *   *Descrição:* Analisar via sistema Brasil Risk a ordem de chegada das carretas para planejar a escala de colaboradores.
+
+---
+
+## *Página 11: Atividades Diárias (RD11)*
+
+*   *RD11 - Validação de Prazos de Cargas e Carretas (Shipments)*
+    *   *Frequência:* 1X ao dia | *Tipo:* AÇÃO
+    *   *Descrição:* Analisar prazos de liberação para identificar inconsistências no faturamento e garantir o embarque.
+    *   *Detalhamento:* Avaliar riscos de "estouro de carga" e necessidade de veículos adicionais para o interior.
+
+---
+
+## *Página 12: Atividades Diárias (RD12 e RD13)*
+
+*   *RD12 - Controle de PJ e Pedido Diamante*
+    *   *Frequência:* 2X ao dia | *Tipo:* AÇÃO
+    *   *Descrição:* Validar pedidos críticos (PPE e Fiel Depositário) antes do envio a campo.
+    *   *Detalhamento:* Verificar situação fiscal e impedir envio de materiais com impostos não recolhidos.
+
+*   *RD13 - Validação de Checklist de Saída*
+    *   *Frequência:* 2X ao dia | *Tipo:* CHECK
+    *   *Responsável:* Supervisor/Analista de Frota.
+    *   *Descrição:* Garantir o preenchimento do checklist no Diagrama de Ocupação.
+
+---
+
+## *Página 13: Atividades Diárias (RD14 e RD15)*
+
+*   *RD14 - Controle de Terceirizados*
+    *   *Frequência:* 2X ao dia | *Tipo:* CHECK
+    *   *Responsável:* Encarregado(a) de Logística.
+    *   *Descrição:* Elaborar lista de presença e dimensionar a necessidade de diaristas para o dia seguinte ($D+1$).
+
+*   *RD15 - Solicitação de Monitoramento (Transferência de Beija-Flor)*
+    *   *Frequência:* 2X ao dia | *Tipo:* AÇÃO
+    *   *Descrição:* Enviar informações ao GRIS nos prazos corretos para largadas de rotas Beija-Flor.
+
+---
+
+## *Página 14: Atividades Diárias (RD16 e RD17)*
+
+*   *RD16 - Atualizar Controle dos PPEs no Galpão*
+    *   *Frequência:* 2X ao dia | *Tipo:* AÇÃO
+    *   *Descrição:* Identificar pedidos PPE (Produtos de Alto Valor) retidos e garantir o envio imediato.
+
+*   *RD17 - Tratativa de Inconsistências e Busca de Pedidos*
+    *   *Frequência:* 2X ao dia | *Tipo:* CHECK
+    *   *Responsável:* Supervisor/Analista de Logística.
+    *   *Descrição:* Realizar inventário pós-expedição para localizar volumes que deveriam ter sido embarcados, mas ficaram na base.
+
+---
+
+Pronto! As informações de rotina matinal e controles operacionais até a página 14 estão registradas. 
+
+*Deseja continuar com as páginas 15 a 21?*
+
+Dando continuidade ao arquivo *"MNOP03-00 -  SUPER ROTINA GESTOR DE OPERAÇÃO.pdf", aqui está o conteúdo textual das **páginas 15 a 21*, que detalham as rotinas finais da manhã e o início do bloco operacional das 09h às 12h:
+
+---
+
+## *Página 15: Atividades Diárias (RD18)*
+* *RD18 - Monitorar Roteiros em Aberto de Interior*
+    * *Frequência:* 2X ao dia | *Tipo:* CHECK
+    * *Responsável:* Analista de Logística
+    * *Descrição:* Realizar estudo dos roteiros de interior em aberto e efetuar a cobrança para finalização.
+    * *Detalhamento:* Analisar relatório do monitoramento das 08:30, priorizando casos críticos e retornando as tratativas ao time de monitoramento.
+
+---
+
+## *Página 16: Atividades Diárias (RD19)*
+* *RD19 - Auditoria de Carregamento*
+    * *Frequência:* 2X ao dia | *Tipo:* AÇÃO
+    * *Descrição:* Garantir a conformidade do carregamento realizado por motoristas e terceirizados.
+    * *Detalhamento:* Verificar se os volumes estão organizados conforme o padrão; orientar correções imediatas e registrar ocorrências no controle de qualidade.
+
+---
+
+## *Página 17: Bloco Operacional 09h às 12h (RD20 e RD21)*
+* *RD20 - Controle de Largada Interior (Sistêmico)*
+    * *Frequência:* 2X ao dia | *Tipo:* CHECK
+    * *Responsável:* Assistente de Logística
+    * *Descrição:* Garantir que veículos carregados passem pela expedição para retirada de romaneio e largada sistêmica.
+    * *Detalhamento:* Assegura que as notas fiscais só sejam entregues após o início oficial da expedição, evitando interferências no fluxo.
+
+* *RD21 - Desmembramento de Roteiro*
+    * *Frequência:* 2X ao dia | *Tipo:* CHECK
+    * *Responsável:* Analista de Logística
+    * *Descrição:* Garantir que o procedimento de quebra de placa seja feito no prazo para evitar atrasos no aplicativo do motorista.
+
+---
+
+## *Página 18: Atividades Diárias (RD22)*
+* *RD22 - Controle de Pedidos em Aberto*
+    * *Frequência:* 2X ao dia | *Tipo:* AÇÃO
+    * *Descrição:* Identificar localização e gargalos de pedidos em aberto; participar da reunião da Torre de Controle às 10h30.
+    * *Detalhamento:* Baseia-se no relatório enviado às 7h (com atualizações a cada 2h), focando em pedidos com vencimento no dia.
+
+---
+
+## *Página 19: Atividades Diárias (RD23 e RD24)*
+* *RD23 - Preenchimento - Diagrama de Ocupação*
+    * *Frequência:* 2X ao dia | *Tipo:* CHECK
+    * *Responsável:* Supervisor(a) de Frota
+    * *Descrição:* Preencher o diagrama corretamente e validar o envio das informações à Torre de Controle até as 10h.
+
+* *RD24 - Realizar inventário de Galpão*
+    * *Frequência:* 1X ao dia | *Tipo:* CHECK
+    * *Responsável:* Supervisor(a) de Logística
+    * *Descrição:* Garantir a bipagem de todas as áreas (carregamento e BOT/BOV) e enviar ao grupo oficial.
+
+---
+
+## *Página 20: Atividades Diárias (RD25 e RD26)*
+* *RD25 - PPMDano: Análise de Qualidade - Carregamento*
+    * *Frequência:* 2X ao dia | *Tipo:* CHECK
+    * *Responsável:* Encarregado(a) de Logística
+    * *Descrição:* Prevenir avarias (caixas abertas ou viradas) durante o carregamento, separando volumes para análise.
+
+* *RD26 - Recebimento de carreta - Regra da Chave e Calço*
+    * *Frequência:* 1X ao dia | *Tipo:* CHECK
+    * *Responsável:* Encarregado(a) de Logística
+    * *Descrição:* Garantir a retirada da chave e posicionamento dos calços após a docagem, antes do descarregamento.
+
+---
+
+## *Página 21: Atividades Diárias (RD27)*
+* *RD27 - Aplicar Cronômetro de Descarregamento*
+    * *Frequência:* 2X ao dia | *Tipo:* CHECK
+    * *Responsável:* Encarregado(a) de Logística
+    * *Descrição:* Controlar o tempo de descarregamento para aumentar a produtividade da equipe.
+    * *Detalhamento:* Acionar cronômetro (ou celular) baseado no volume da carreta para avaliar o tempo total da operação.
+
+---
+
+Seguimos para as páginas *22 a 28*?
+
+Dando continuidade ao arquivo *"MNOP03-00 - SUPER ROTINA GESTOR DE OPERAÇÃO.pdf", aqui está o conteúdo textual das **páginas 22 a 28*, que finalizam o bloco da manhã e detalham diversas atividades de controle e qualidade:
+
+---
+
+## *Página 22: Atividades Diárias (RD28 e RD29)*
+* *RD28 - Verificação da Iluminação do Galpão e Área Externa*
+    * *Frequência:* 2X ao dia | *Tipo:* AÇÃO
+    * *Descrição:* Garantir que as luzes estejam desligadas durante o dia para evitar consumo desnecessário.
+    * *Detalhamento:* Realizar verificação às 09h00 no galpão e áreas externas.
+* *RD29 - Ajuste de Plotagem de Endereços*
+    * *Frequência:* 1X ao dia | *Tipo:* CHECK
+    * *Responsável:* Analista
+    * *Descrição:* Corrigir a plotagem de endereços no sistema para aumentar a precisão das rotas.
+
+---
+
+## *Página 23: Atividades Diárias (RD30)*
+* *RD30 - Acompanhamento de Baixa Online*
+    * *Frequência:* 4X ao dia | *Tipo:* CHECK
+    * *Responsável:* Analista de Logística
+    * *Descrição:* Monitorar entregas via painel e cobrar equipes em campo para tratar pontos críticos.
+    * *Detalhamento:* Analisar ofensores e identificar gaps operacionais para atingir a meta diária (sugestão: 2 vezes antes do almoço e 2 após).
+
+---
+
+## *Página 24: Atividades Diárias (RD31 e RD32)*
+* *RD31 - Lançamento de Avarias - Natura*
+    * *Frequência:* 1X ao dia | *Tipo:* CHECK
+    * *Responsável:* Analista de Logística
+    * *Descrição:* Validar se pedidos com avaria foram registrados no Drive da Natura e formalizados por e-mail.
+* *RD32 - Controlar Fechamento das Docas*
+    * *Frequência:* 1X ao dia | *Tipo:* AÇÃO
+    * *Descrição:* Garantir o fechamento das docas após o carregamento.
+    * *Detalhamento:* Manter, no máximo, duas docas abertas para ventilação se necessário.
+
+---
+
+## *Página 25: Atividades Diárias (RD33 e RD34)*
+* *RD33 - Tratar Pedidos Retidos*
+    * *Frequência:* 1X ao dia | *Tipo:* AÇÃO
+    * *Descrição:* Estudar pedidos com status "chegada na transportadora (retido)" para localizar volumes e garantir a largada.
+    * *Detalhamento:* Atualizar a Base 83 e analisar pedidos retidos no range de 0 a 4 dias.
+* *RD34 - Controlar Pedidos sem Movimentação*
+    * *Frequência:* 1X ao dia | *Tipo:* AÇÃO
+    * *Descrição:* Analisar pedidos sem movimentação sistêmica há mais de 5 dias.
+
+---
+
+## *Página 26: Atividades Diárias (RD35)*
+* *RD35 - Tratar casos de extravio e resoluções*
+    * *Frequência:* 1X ao dia | *Tipo:* AÇÃO
+    * *Descrição:* Identificar extravios, definir responsabilidades técnicas e emitir termo de desconto formalizado.
+    * *Detalhamento:* Analistas devem realizar buscas via relatórios de bipagem e inventários antes de proceder com o desconto.
+
+---
+
+## *Página 27: Atividades Diárias (RD36 e RD37)*
+* *RD36 - Reunião com Monitoramento - Torre*
+    * *Frequência:* 2X ao dia | *Tipo:* REUNIÃO
+    * *Descrição:* Alinhar casos críticos do dia e feedbacks de motoristas/parceiros.
+* *RD37 - Controle de Formulários Parceiros*
+    * *Frequência:* 1X ao dia | *Tipo:* CHECK
+    * *Responsável:* Assistente de Logística
+    * *Descrição:* Controlar tarefas e SLAs (coleta, reconhecimento e recuperação) exigidos pela Natura.
+
+---
+
+## *Página 28: Atividades Diárias (RD38 e RD39)*
+* *RD38 - Relatório de Inconsistência/Qualidade de Recebimento*
+    * *Frequência:* 1X ao dia | *Tipo:* CHECK
+    * *Responsável:* Encarregado(a) de Logística
+    * *Descrição:* Reportar a qualidade da carga e inconsistências identificadas no descarregamento das carretas.
+* *RD39 - Diagrama de Ocupação de Agregados*
+    * *Frequência:* 1X ao dia | *Tipo:* CHECK
+    * *Responsável:* Assistente de Frota
+    * *Descrição:* Montar o diagrama registrando ausências de motoristas e os respectivos motivos.
+
+---
+Pronto! Chegamos à página 28. *Deseja seguir para as páginas 29 a 35?*
+
+Dando continuidade à transcrição do manual *"MNOP03-00 - SUPER ROTINA GESTOR DE OPERAÇÃO.pdf", aqui está o conteúdo das **páginas 29 a 35*, abrangendo a finalização das atividades de qualidade da manhã e o início do bloco operacional da tarde:
+
+---
+
+## *Página 29: Atividades Diárias (RD40 e RD41)*
+* *RD40 - Conferência de Caixas e Aplicação de Fitas*
+    * *Frequência:* 1X ao dia | *Tipo:* CHECK
+    * *Responsável:* Encarregado/Conferente de Logística
+    * *Descrição:* Garantir que os volumes estejam vedados e com a aplicação correta de fitas para evitar violações.
+* *RD41 - Verificação da Etiquetagem das Caixas*
+    * *Frequência:* 1X ao dia | *Tipo:* CHECK
+    * *Responsável:* Encarregado/Conferente de Logística
+    * *Descrição:* Validar se as etiquetas estão legíveis e se as cores seguem o padrão definido para separação de volumes.
+
+---
+
+## *Página 30: Atividades Diárias (RD42)*
+* *RD42 - Validação - Diagrama de Ocupação*
+    * *Frequência:* 1X ao dia | *Tipo:* CHECK
+    * *Responsável:* Supervisor de Frota
+    * *Descrição:* Validar as informações enviadas pela Torre de Controle e realizar ajustes necessários no diagrama.
+
+---
+
+## *Página 31: Bloco Operacional Tarde - 12h às 15h (RD43)*
+* *RD43 - Reunião JB Alerta*
+    * *Frequência:* 1X ao dia (Horário fixo: 13h) | *Tipo:* REUNIÃO
+    * *Descrição:* Participar da reunião para atender demandas e esclarecer dúvidas da Torre de Controle.
+    * *Detalhamento:* Atualizar a base de pedidos em aberto previamente para a participação.
+
+---
+
+## *Página 32: Atividades Diárias (RD44 e RD45)*
+* *RD44 - Montar a Escala de Largada da Capital*
+    * *Frequência:* 1X ao dia | *Tipo:* AÇÃO
+    * *Descrição:* Escalar as rotas do dia seguinte com base na demanda de pedidos.
+    * *Detalhamento:* Analisar as ships das carretas, validar pedidos PPE e notificar os agregados sobre o carregamento.
+* *RD45 - Sequenciamento e Empilhamento*
+    * *Frequência:* 1X ao dia | *Tipo:* CHECK
+    * *Responsável:* Supervisor
+    * *Descrição:* Garantir que as rotas estejam "dezenadas" para agilizar o carregamento.
+    * *Detalhamento:* Repassar a ordem de carregamento à equipe terceirizada após o retorno da planilha de sequenciamento.
+
+---
+
+## *Página 33: Atividades Diárias (RD46 e RD47)*
+* *RD46 - Garantir Roteirização dos Motoristas*
+    * *Frequência:* 1X ao dia | *Tipo:* AÇÃO
+    * *Descrição:* Assegurar que os agregados usem o sequenciador e cumpram a rota estabelecida.
+    * *Detalhamento:* Cobrar via grupo oficial a foto da finalização do sequenciamento até o fim do dia.
+* *RD47 - Monitoramento Interior - Finalização*
+    * *Frequência:* 1X ao dia | *Tipo:* AÇÃO
+    * *Descrição:* Realizar cobrança ativa para o encerramento das rotas de interior, focando em pedidos críticos.
+    * *Detalhamento:* Questionar parceiros em casos de baixo desempenho e definir tratativas imediatas.
+
+---
+
+## *Página 34: Atividades Diárias (RD48 e RD49)*
+* *RD48 - Monitoramento de Cargas e Veículos*
+    * *Frequência:* 1X ao dia | *Tipo:* AÇÃO
+    * *Descrição:* Acompanhar cargas em tempo real, verificando ocorrências e o funcionamento de rastreadores.
+* *RD49 - Painel de Rastreadores*
+    * *Frequência:* 1X ao dia | *Tipo:* AÇÃO
+    * *Descrição:* Identificar veículos sem comunicação e abrir solicitações de manutenção se necessário.
+
+---
+
+## *Página 35: Atividades Diárias (RD50)*
+* *RD50 - Controle da Portaria*
+    * *Frequência:* 1X ao dia | *Tipo:* CHECK
+    * *Responsável:* Analista de Logística
+    * *Descrição:* Verificar registros de entrada/saída e checklists de equipamentos de segurança.
+    * *Detalhamento:* Consolidar relatórios diários e encaminhar o consolidado semanal às sextas-feiras via WhatsApp.
+
+---
+*Podemos prosseguir para as páginas 36 a 42?*
+
+Dando continuidade ao arquivo *"MNOP03-00 -  SUPER ROTINA GESTOR DE OPERAÇÃO.pdf", aqui está o conteúdo das **páginas 36 a 42*, abrangendo o final do bloco da tarde, o bloco da noite e o início da rotina semanal:
+
+---
+
+## *Página 36: Atividades Diárias (RD51 e RD52)*
+*   *RD51 - Painel de Velocidade*
+    *   *Frequência: 1X ao dia | **Tipo*: AÇÃO
+    *   *Descrição*: Verificar registros de velocidade via rastreador e aplicar medidas disciplinares caso o veículo ultrapasse $80$ km/h por mais de 5 minutos.
+*   *RD52 - Controle de Ponto*
+    *   *Frequência: 1X ao dia | **Tipo*: AÇÃO
+    *   *Descrição*: Verificar diariamente, no período da manhã, os registros de ponto dos colaboradores para identificar inconsistências.
+
+---
+
+## *Página 37: Bloco Operacional Noite - 18h às 22h (RD53 e RD54)*
+*   *RD53 - Recebimento (Retornos)*
+    *   *Frequência: 1X ao dia | **Tipo*: CHECK
+    *   *Responsável*: Conferente de Logística
+    *   *Descrição*: Receber retornos da capital, garantindo que sejam bipados e direcionados para reentrega ou área de tratativas (BOT/BOV).
+*   *RD54 - Retorno Sistêmico - Conferência de Apontamentos*
+    *   *Frequência: 1X ao dia | **Tipo*: CHECK
+    *   *Responsável*: Analista de Logística
+    *   *Descrição*: Validar apontamentos de reentrega liberada no sistema no momento do carregamento.
+
+---
+
+## *Página 38: Atividades Diárias (RD55 e RD56)*
+*   *RD55 - Responder Planilha de Retornos*
+    *   *Frequência: 1X ao dia | **Tipo*: CHECK
+    *   *Responsável*: Analista de Logística
+    *   *Descrição*: Garantir que a planilha de retornos (capital e interior) seja tratada e enviada à Torre de Controle.
+*   *RD56 - Controle de PPE no Armazém - Físico (Pallet Vermelho)*
+    *   *Frequência: 1X ao dia | **Tipo*: CHECK
+    *   *Responsável*: Conferente de Logística
+    *   *Descrição*: Organizar caixas de PPE (Produtos de Alto Valor) em um pallet exclusivo vermelho após o inventário, garantindo identificação e segurança.
+
+---
+
+## *Página 39: Atividades Diárias (RD57)*
+*   *RD57 - Reunião de Apresentação de Resultado*
+    *   *Frequência: 1X ao dia | **Tipo*: AÇÃO
+    *   *Descrição*: Analisar indicadores de desempenho com a equipe, esclarecendo dúvidas e alinhando planos de melhoria.
+
+---
+
+## *Página 40: Início da Rotina Semanal (RS01)*
+*   *4.2 SEMANAL*: Atividades com dia ou horário definido, ou organizadas conforme flexibilidade da demanda.
+*   *RS01 - Reunião Semanal (Agregados Capital)*
+    *   *Frequência: Segunda-feira | **Tipo*: REUNIÃO
+    *   *Descrição*: Aplicar treinamentos, repassar comunicados e apresentar rankings de qualidade (PPM Dano/Falta e Baixa Online) aos agregados.
+
+---
+
+## *Página 41: Atividades Semanais (RS02 e RS03)*
+*   *RS02 - Verificação de Funcionamento dos Sensores da Empresa*
+    *   *Frequência: Segunda-feira | **Tipo*: CHECK
+    *   *Responsável*: Analista de Logística
+    *   *Descrição*: Testar sensores de monitoramento de ambientes e equipamentos, acionando manutenção se houver falhas.
+*   *RS03 - Realização do Checklist Semanal de Segurança (Filiais)*
+    *   *Frequência: Segunda-feira | **Tipo*: CHECK
+    *   *Responsável*: Analista de Logística
+    *   *Descrição*: Inspecionar itens de SMS (Segurança, Saúde e Meio Ambiente), como EPIs, extintores e instalações elétricas, enviando o relatório à matriz.
+
+---
+
+## *Página 42: Atividades Semanais (RS04)*
+*   *RS04 - Acompanhamento das Ações Corretivas do Checklist*
+    *   *Frequência: Segunda-feira | **Tipo*: AÇÃO
+    *   *Descrição*: Garantir que as não conformidades identificadas no checklist de SMS sejam tratadas pelos responsáveis dentro do prazo.
+
+---
+*Deseja prosseguir para as páginas 43 a 49?*
+
+Dando continuidade à transcrição do manual *"MNOP03-00 - SUPER ROTINA GESTOR DE OPERAÇÃO.pdf", aqui está o conteúdo detalhado das **páginas 43 a 49*:
+
+---
+
+## *Página 43: Atividades Semanais (RS05)*
+* *RS05 - Reunião de acompanhamento (Interior)*
+    * *Frequência:* Segunda-feira | *Tipo:* AÇÃO
+    * *Descrição:* Replicar com os parceiros do interior os alinhamentos feitos com a capital.
+    * *Detalhamento:* Apresentar efetividade e tratar temas como falta de itens, PPMDano, retornos e Baixa Online.
+
+---
+
+## *Página 44: Atividades Semanais (RS06 a RS08)*
+* *RS06 - Lavagem do Galpão*
+    * *Frequência:* Quinta-feira | *Tipo:* CHECK
+    * *Responsável:* Analista de Logística
+    * *Descrição:* Manter o ambiente limpo, priorizando dias de menor volume para evitar impactos operacionais.
+* *RS07 - Reunião Banco de Horas*
+    * *Frequência:* Sábado | *Tipo:* REUNIÃO
+    * *Descrição:* Definir estratégias para normalizar saldos de horas da equipe.
+* *RS08 - Reunião de Status de Manutenção*
+    * *Frequência:* Sábado | *Tipo:* REUNIÃO
+    * *Descrição:* Alinhamento com a Frota sobre veículos parados, multas e preventivas.
+
+---
+
+## *Página 45: Atividades Semanais (RS09)*
+* *RS09 - Validação de Tickets no Movidesk*
+    * *Frequência:* Sexta-feira | *Tipo:* AÇÃO
+    * *Descrição:* Acompanhar o status das solicitações (aberto, em andamento ou finalizado) junto às áreas responsáveis.
+
+---
+
+## *Página 46: Atividades Semanais (RS10)*
+* *RS10 - Inspeção Geral da Empresa*
+    * *Frequência:* Quarta-feira | *Tipo:* AÇÃO
+    * *Descrição:* Verificar organização, limpeza, estruturas e funcionamento de equipamentos em todas as áreas.
+
+---
+
+## *Página 47: Atividades Semanais (RS11 e RS12)*
+* *RS11 - Atualização do Ranking de Motoristas da Filial (Indicadores de Qualidade)*
+    * *Frequência:* Até quinta-feira, 12h | *Tipo:* AÇÃO
+    * *Descrição:* Substituir o ranking antigo pelo novo em local visível para garantir transparência de resultados.
+* *RS12 - Tratativas Jequiti | Previsão de Entrega*
+    * *Frequência:* Quando enviado pela Torre | *Tipo:* AÇÃO
+    * *Descrição:* Garantir o preenchimento e consolidação da previsão de entrega dos pedidos Jequiti.
+
+---
+
+## *Página 48: Atividades Semanais (RS13 e RS14)*
+* *RS13 - Envio da Base de Transferência de Pedidos*
+    * *Frequência:* Quando enviado pela Torre | *Tipo:* AÇÃO
+    * *Descrição:* Encaminhar base de bipagem para transferências entre filiais no período da manhã.
+* *RS14 - Envio da Documentação do Motorista e Veículo*
+    * *Frequência:* Quando houver transferência | *Tipo:* AÇÃO
+    * *Descrição:* Enviar documentos para conferência e registro da operação de transferência.
+
+---
+
+## *Página 49: Atividades Semanais (RS15)*
+* *RS15 - Reunião Pedidos em Aberto*
+    * *Frequência:* 10:30 (Escala por filial: Seg/Qua para FOR/SOB/JUA; Ter/Qui para THE/SLZ/IMP; Sex sob demanda) | *Tipo:* AÇÃO
+    * *Descrição:* Analisar pedidos vencidos ou que vencem no dia antes da reunião JB Alerta.
+
+---
+*Podemos seguir para a parte final (página 50 em diante)?*
+
+Com certeza! Para finalizar o conteúdo textual do manual *"MNOP03-00 - SUPER ROTINA GESTOR DE OPERAÇÃO.pdf", aqui estão as informações das **páginas 50 a 70* (o documento termina na página 70 com a "Resposta da Ação de Perdas"):
+
+---
+
+## *Página 50: Atividades Semanais (RS16 e RS17)*
+*   *RS16 - Participar da reunião pré-semanal e da reunião semanal (Natura e Jequiti)*
+    *   *Frequência:* Quinta-feira | *Tipo:* AÇÃO
+    *   *Descrição:* Participar das reuniões com embarcadores e Torre de Controle para alinhar indicadores e tratar casos críticos.
+*   *RS17 - Reunião de Acompanhamento/Feedback*
+    *   *Frequência:* Sexta-feira | *Tipo:* AÇÃO
+    *   *Detalhamento:* Realizar reuniões individuais (One-on-One) com 1 ou 2 colaboradores por semana, focando em baixa produtividade e melhoria de desempenho.
+
+---
+
+## *Página 51: Atividades Semanais (RS18)*
+*   *RS18 - Tratativas Jequiti | Base Tratada para Reunião*
+    *   *Frequência:* Quando o time da Torre enviar (15h) | *Tipo:* AÇÃO
+    *   *Detalhamento:* Levar para a reunião semanal a base tratada com informações e ajustes da operação Jequiti.
+
+---
+
+## *Página 52: Atividades Semanais (RS19 e RS20)*
+*   *RS19 - Reunião Semanal - Indicadores Operacionais Natura*
+    *   *Frequência:* Quinta-feira, 15h | *Tipo:* AÇÃO
+    *   *Descrição:* Analisar indicadores como efetividade, assertividade e tempo de entrega com a Natura.
+*   *RS20 - Reunião Pré-Semanal – Operação Natura*
+    *   *Frequência:* Quinta-feira, 14h | *Tipo:* AÇÃO
+    *   *Descrição:* Alinhamento prévio de indicadores antes da reunião oficial com o embarcador.
+
+---
+
+## *Página 53: Atividades Semanais (RS21 e RS22)*
+*   *RS21 - Envio de Inventário Geral*
+    *   *Frequência:* Seg/Qua (FOR, SOB, JUA) ou Ter/Qui (THE, SLZ, IMP) | *Tipo:* AÇÃO
+    *   *Descrição:* Enviar inventário geral no grupo de WhatsApp para apoiar tratativas de inconsistências.
+*   *RS22 - Checklist de Segurança dos Equipamentos*
+    *   *Frequência:* Sexta-feira | *Tipo:* AÇÃO
+    *   *Detalhamento:* Consolidar relatórios diários de equipamentos e enviar o semanal via WhatsApp.
+
+---
+
+## *Página 54: Atividades Semanais (RS23 e RS24)*
+*   *RS23 - Controle de Banco de Horas e Plano de Ação*
+    *   *Frequência:* Terça e Quinta-feira | *Tipo:* AÇÃO
+    *   *Descrição:* Acompanhar o saldo de banco de horas encaminhado aos gestores.
+*   *RS24 - Validação de Hora Extra 100%*
+    *   *Frequência:* Segunda-feira | *Tipo:* AÇÃO
+    *   *Descrição:* Analisar e validar ocorrências de HE 100% conforme regras internas.
+
+---
+
+## *Página 55: Atividade Semanal (RS25)*
+*   *RS25 - Envio de Inventário BotBov*
+    *   *Frequência:* Quinta-feira | *Tipo:* AÇÃO
+    *   *Descrição:* Enviar inventário de caixas armazenadas no BotBov contendo data, código de bipagem e operação.
+
+---
+
+## *Página 56: Início da Rotina Mensal (RM01)*
+*   *4.3 MENSAL:* Atividades com datas específicas para fechamentos administrativos.
+*   *RM01 - Envio da Planilha de Presença dos Terceirizados*
+    *   *Frequência:* 1º dia útil do mês | *Tipo:* AÇÃO
+    *   *Descrição:* Conferir e encaminhar a frequência mensal dos colaboradores terceirizados.
+
+---
+
+## *Página 57: Atividade Mensal (RM02)*
+*   *RM02 - Envio do Fechamento Aprovado dos Freteiros (Magalu e Via Varejo)*
+    *   *Frequência:* Até o dia 4 de cada mês | *Tipo:* AÇÃO
+    *   *Descrição:* Conferir entregas e enviar fechamento para continuidade do processo de pagamento.
+
+---
+
+## *Página 58: Atividade Mensal (RM03)*
+*   *RM03 - Envio do Fechamento dos Freteiros (Operação Beija-Flor)*
+    *   *Frequência:* Até o dia 4 de cada mês | *Tipo:* AÇÃO
+    *   *Descrição:* Encaminhar fechamento e notas fiscais aprovadas para agendamento de pagamento.
+
+---
+
+## *Página 59: Atividades Mensais (RM04 e RM05)*
+*   *RM04 - Envio das Notas Fiscais dos Freteiros (Operação Natura)*
+    *   *Frequência:* Até o dia 4 de cada mês | *Tipo:* AÇÃO
+    *   *Detalhamento:* Envio das NFs corrigidas e validadas até o dia 5 de cada mês.
+*   *RM05 - Acompanhamento das Licenças Necessárias*
+    *   *Frequência:* 1X no mês | *Tipo:* AÇÃO
+    *   *Descrição:* Conferir validade de licenças obrigatórias e comunicar renovações ao setor responsável.
+
+---
+
+## *Página 60: Atividade Mensal (RM06)*
+*   *RM06 - Validação dos Pagamentos dos Beija-Flor*
+    *   *Frequência:* Até o dia 12 de cada mês | *Tipo:* AÇÃO
+    *   *Detalhamento:* Analisar quilometragem e viagens via rastreamento; enviar relatório ao Financeiro após validação.
+
+---
+
+## *Página 61: Rotina por Demanda (RDE01 e RDE02)*
+*   *4.4 DEMANDA:* Atividades feitas preferencialmente pela manhã ou horário definido.
+*   *RDE01 - Captação de Motoristas Agregado*
+    *   *Tipo:* AÇÃO | *Descrição:* Captar agregados para evitar o uso de motoristas próprios ou diaristas em rotas fixas.
+*   *RDE02 - Treinamentos Gerais*
+    *   *Tipo:* REUNIÃO | *Descrição:* Aplicar treinamentos conforme demanda da Torre ou embarcadores.
+
+---
+
+## *Página 62: Rotina por Demanda (RDE03 e RDE04)*
+*   *RDE03 - Aplicar termo com motoristas*
+    *   *Tipo:* AÇÃO | *Descrição:* Aplicar termo de ciência solicitado pela Torre de Controle com brevidade.
+*   *RDE04 - Abertura de Chamado para Projetos*
+    *   *Tipo:* AÇÃO | *Descrição:* Formalizar novas demandas de processos ou documentos junto ao setor de Projetos.
+
+---
+
+## *Página 63: Rotina por Demanda (RDE05 e RDE06)*
+*   *RDE05 - Aplicação de Termo com Desconto*
+    *   *Tipo:* AÇÃO | *Descrição:* Formalizar ocorrências que exijam desconto, registrando justificativa e o envolvido.
+*   *RDE06 - Comunicação de Problemas no Recebimento de Carretas*
+    *   *Tipo:* AÇÃO | *Descrição:* Comunicar imediatamente volumes danificados ou irregularidades na chegada da carreta.
+
+---
+
+## *Página 64: Rotina por Demanda (RDE07)*
+*   *RDE07 - Comunicação de Treinamento ou Entrada de Novos Agregados*
+    *   *Tipo:* AÇÃO | *Descrição:* Notificar a área de Qualidade sobre novos agregados ou treinamentos para atualização de controles.
+
+---
+
+## *Página 65: Rotina por Demanda (RDE08)*
+*   *RDE08 - Comunicação de Erros no Processo de Entrega*
+    *   *Tipo:* AÇÃO | *Descrição:* Comunicar erros identificados antes da auditoria da Qualidade, informando o contexto e equipe envolvida.
+
+---
+
+## *Página 66: Rotina por Demanda (RDE09 e RDE10)*
+*   *RDE09 - Preenchimento do Checklist de Chegada de Carreta*
+    *   *Tipo:* AÇÃO | *Descrição:* Preencher checklist no momento do recebimento da carreta, registrando condições e irregularidades.
+*   *RDE10 - Resposta Entregas D2*
+    *   *Tipo:* AÇÃO | *Descrição:* Registrar justificativas para pedidos entregues fora do prazo de 2 dias (D2).
+
+---
+
+## *Página 67: Rotina por Demanda (RDE11 e RDE12)*
+*   *RDE11 - Resposta de Pedidos em Aberto*
+    *   *Frequência:* Manhã | *Tipo:* AÇÃO
+    *   *Descrição:* Preencher justificativas para pedidos que permanecem em aberto solicitados pela Natura.
+*   *RDE12 - Abertura de Vaga*
+    *   *Tipo:* AÇÃO | *Descrição:* Formalizar necessidade de contratação via sistema Sólides.
+
+---
+
+## *Página 68: Rotina por Demanda (RDE13 e RDE14)*
+*   *RDE13 - Avaliação de Período de Experiência*
+    *   *Tipo:* AÇÃO | *Descrição:* Gestor deve avaliar desempenho de novos colaboradores e informar decisão de permanência ao RH.
+*   *RDE14 - Validação Hora Extra*
+    *   *Tipo:* AÇÃO | *Descrição:* Validar solicitações de HE enviadas pelo DP conforme política de compensação.
+
+---
+
+## *Página 69: Rotina por Demanda (RDE15 e RDE16)*
+*   *RDE15 - Responder Lançamento em Rescisão*
+    *   *Tipo:* AÇÃO | *Descrição:* Conferir e responder sobre lançamentos necessários para rescisões contratuais quando solicitado pelo RH.
+*   *RDE16 - Tratativa de ND (Nota de Débito)*
+    *   *Tipo:* AÇÃO | *Descrição:* Consolidar informações e realizar cobrança das filiais para tratar notas de débito.
+
+---
+
+## *Página 70: Rotina por Demanda (RDE17 e RDE18)*
+*   *RDE17 - Separação para Devolução*
+    *   *Tipo:* AÇÃO | *Descrição:* Separar fisicamente caixas identificadas nos inventários como aptas para devolução.
+*   *RDE18 - Resposta da Ação de Perdas*
+    *   *Tipo:* AÇÃO | *Descrição:* Justificar casos com desempenho abaixo da meta de efetividade (entregas fora do prazo ou não realizadas).
+
+---
+O documento encerra na página 70 com o selo "GRUPO JB Janeiro 2026". Você agora tem o texto completo do manual.
+
+
+
+
+
+

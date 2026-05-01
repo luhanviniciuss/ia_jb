@@ -1,0 +1,22 @@
+SUPER ROTINA GESTOR DE OPERAÇÃO
+70
+RDE17 - Separação para Devolução
+📌 Tipo:
+Descrição: Garantir a separação e a confirmação das caixas aptas para
+devolução.
+Detalhamento: Após o recebimento e análise dos inventários, quando houver
+identificação de caixas aptas para devolução, a filial deverá realizar a
+separação física dos volumes informados e encaminhar a confirmação para
+continuidade do processo de devolução.
+AÇÃO
+RDE18 -Resposta da Árvore de Perdas
+ 📌 Tipo:
+Descrição: Garantir o envio das justificativas das perdas operacionais.
+Detalhamento: Quando solicitado, o gestor deve justificar os casos em que
+a operação apresentou desempenho abaixo da meta de efetividade,
+informando os motivos das entregas realizadas fora do prazo ou não
+realizadas.
+AÇÃOMNOP03 - 00
+SUPER ROTINA GESTOR DE OPERAÇÃO
+CONSIDERAÇÕES FINAIS
+GRUPO JB Janeiro 2026
