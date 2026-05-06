@@ -1,0 +1,78 @@
+=================================================================
+ESTIMATIVA DE CUSTOS - JB INTELLIGENCE (GEMINI 1.5 FLASH)
+=================================================================
+Modelo: gemini-1.5-flash-latest
+Volume Estimado: 1.000 perguntas / dia
+Data da Estimativa: 04/05/2026
+
+1. PREMISSAS DE CONSUMO POR PERGUNTA:
+-----------------------------------------------------------------
+A. INPUT (Entrada):
+   - Sistema Prompt + Instruções: ~300 tokens
+   - Histórico (últimas 2 trocas): ~500 tokens
+   - Contexto RAG (60 trechos D23/MNOP): ~4.500 tokens
+   - Pergunta do Usuário: ~50 tokens
+   TOTAL MÉDIO INPUT: 5.350 tokens / pergunta
+
+B. OUTPUT (Saída):
+   - Respostas Diretas e Curtas: ~50 tokens / pergunta
+
+2. CÁLCULO DE TOKENS DIÁRIOS (1.000 PERGUNTAS):
+-----------------------------------------------------------------
+- Input Total: 1.000 * 5.350 = 5.350.000 tokens (5,35 Milhões)
+- Output Total: 1.000 * 50 = 50.000 tokens (0,05 Milhões)
+
+3. CUSTO POR MILHÃO DE TOKENS (Tabela Oficial Google Cloud):
+-----------------------------------------------------------------
+- Input: $0,075 USD por 1 milhão de tokens
+- Output: $0,30 USD por 1 milhão de tokens
+
+4. CUSTO FINANCEIRO ESTIMADO:
+-----------------------------------------------------------------
+A. Custo Diário:
+   - Input: 5,35 * $0,075 = $0,401
+   - Output: 0,05 * $0,30 = $0,015
+   TOTAL DIÁRIO: $0,416 USD (~R$ 2,08)
+
+B. Custo Mensal (30 dias):
+   - TOTAL MENSAL: $12,48 USD (~R$ 62,40)
+
+=================================================================
+COMPARATIVO: API CLOUD (GEMINI) VS. HARDWARE LOCAL (OLLAMA)
+=================================================================
+
+1. OPÇÃO API (SITUAÇÃO ATUAL):
+   - Investimento Inicial: R$ 0,00
+   - Custo Fixo: ~R$ 62,40 / mês (variável por uso)
+   - Manutenção: Nenhuma (Google cuida da infra)
+   - Qualidade: Modelo Flash-Latest (alta inteligência e velocidade)
+
+2. OPÇÃO LOCAL (HARDWARE PRÓPRIO):
+   A. Investimento Inicial (Hardware Mínimo para 1.000 req/dia):
+      - GPU (RTX 3060 12GB): R$ 2.200,00
+      - PC Base (Fonte 650W, 32GB RAM, SSD): R$ 3.500,00
+      TOTAL INVESTIMENTO: R$ 5.700,00
+   
+   B. Custos Operacionais:
+      - Energia Elétrica (Média 200W/h - 24/7): ~R$ 115,00 / mês
+      - Depreciação do Hardware: ~R$ 100,00 / mês
+      TOTAL OPERACIONAL: R$ 215,00 / mês
+
+3. ANÁLISE DE CUSTO-BENEFÍCIO (ROI):
+-----------------------------------------------------------------
+- Ponto de Equilíbrio: A API custa R$ 62,40. O custo operacional do
+  modelo local (luz + depreciação) já é MAIOR que o custo da API.
+- Investimento: Com os R$ 5.700,00 do hardware local, você paga
+  quase 8 ANOS de uso da API do Gemini.
+- Desempenho: O modelo local (ex: Llama 3 8B) é limitado. Para chegar
+  na inteligência do Gemini, precisaria de 2x RTX 3090 (R$ 15.000+).
+
+4. CONCLUSÃO TÉCNICA:
+-----------------------------------------------------------------
+Para o Grupo JB, a API do Gemini 1.5 Flash é a opção mais barata e 
+eficiente. O modelo local só se justificaria por extrema privacidade 
+(off-line total) ou se o volume subisse para 50.000+ perguntas/dia.
+
+=================================================================
+Relatório gerado pelo JB Intelligence
+=================================================================

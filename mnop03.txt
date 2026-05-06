@@ -1,0 +1,1894 @@
+
+## PAGINA 1 MNOP03 ##
+G R U P O J B
+GRUPO
+M A N U A L
+GESTOR DE OPERAÇÃO
+SUPER ROTINA
+M N O P 0 3 - 0 0
+
+## PAGINA 2 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+1
+S U M Á R I O
+M N O P 0 3 - 0 0
+1 . OBJETIVO
+Estabelecer a Super Rotina do Gestor
+de Operações do Grupo JB Transporte
+e Logística , definindo a ordem ,
+periodicidade , responsabilidade e
+forma de execução das atividades
+operacionais , administrativas e
+estratégicas da unidade .
+Este manual tem como finalidade
+padronizar a gestão da filial , garantir
+previsibilidade operacional e
+assegurar que todas as atividades
+críticas sejam executadas ou
+verificadas de maneira sistemática .
+2 . FINALIDADE
+Este manual foi desenvolvido para :
+Organizar a rotina diária , semanal , mensal e demandas pontuais do Gestor ;
+Demonstrar claramente o que deve ser executado e o que deve ser
+acompanhado ;
+Reduzir falhas operacionais por ausência de acompanhamento ;
+Padronizar o modelo de gestão entre filiais ;
+Servir como ferramenta de direcionamento operacional .
+
+## PAGINA 3 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+2
+Atividade de verificação e garantia de execução .
+Caracteriza - se por :
+Não exigir execução direta do Gestor ;
+Exigir acompanhamento e validação ;
+Exigir conferência de evidências ;
+Requerer intervenção em caso de não conformidade .
+Atividade de execução direta do Gestor .
+Caracteriza - se por :
+Exigir atuação ativa do Gestor ;
+Não se limitar à verificação de terceiros ;
+Demandar análise , decisão ou direcionamento estratégico ;
+Ser responsabilidade direta e indelegável quanto ao resultado .
+C H E C K
+S U M Á R I O
+M N O P 0 3 - 0 0
+3 . DEFINIÇÕES TÉCNICAS
+A Ç Ã O
+Para correta interpretação e aplicação deste manual , estabelecem - se as
+seguintes definições :
+3 . 1 TIPO DE ATIVIDADE
+As atividades da Super Rotina são classificadas conforme a forma de
+atuação do Gestor na atividade .
+Em atividades classificadas como AÇÃO , o Gestor é o executor principal .
+Em atividades classificadas como CHECK , o Gestor é o responsável por
+garantir que a atividade será realizada corretamente .
+
+## PAGINA 4 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+3
+Atividade de alinhamento , direcionamento ou acompanhamento
+coletivo .
+Caracteriza - se por :
+Envolver equipe operacional ou administrativa ;
+Ter objetivo definido ( alinhamento , correção , planejamento ou
+acompanhamento ) ;
+Possuir horário e pauta estabelecidos ;
+Poder ser conduzida pelo Gestor ou contar com sua participação
+como convidado .
+A reunião pode ser classificada como AÇÃO quando exigir condução
+ativa do Gestor .
+R E U N I Ã O
+M N O P 0 3 - 0 0
+3 . 2 TIPO DE PERIODICIDADE
+As atividades da Super Rotina são organizadas conforme sua
+periodicidade macro , podendo conter especificação de frequência
+detalhada .
+Pode conter variação de frequência :
+1 x a o d i a
+2 x a o d i a
+4 x a o d i a
+6 x a o d i a
+A quantidade de execuções será indicada na própria atividade .
+D I Á R I A
+Atividade executada de segunda a sábado .
+
+## PAGINA 5 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+4
+Pode conter variação de prazo :
+• Até o dia 5 de cada mês
+• Até o dia 1 0 de cada mês
+• Até o dia 2 0 de cada mês
+• Primeiro dia útil do mês
+• Último dia útil do mês
+📍 A data de execução será indicada na própria atividade .
+M E N S A L
+Execução em momentos específicos do mês
+Exemplos :
+🚨 Não conformidade identificada
+📦 Aumento de volume operacional
+📋 Solicitação da Diretoria
+🚛 Solicitação do Embarcador
+POR DEMANDA
+Mediante necessidade operacional
+M N O P 0 3 - 0 0
+Exemplos :
+✔ Toda segunda - feira
+✔ Toda terça - feira e quarta - feira
+✔ Toda sexta - feira
+✔ Todo sábado
+📍 O dia exato será indicado na descrição da atividade .
+S E M A N A L
+Execução em dia específico da semana
+
+## PAGINA 6 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+5
+MANHÃTARDENOITE
+0 6 h à s 0 9 h 1 2 h à s 1 5 h 1 8 h à s 2 2 h
+0 9 h à s 1 2 h 1 5 h à s 1 8 h -
+4 . 1 . D I Á R I A
+4 . 1 . 1 . DETALHAMENTO DAS ATIVIDADES – MANHÃ
+Os códigos das atividades seguem a ordem lógica de
+realização dentro de cada bloco de horário .
+Caso não seja possível executá - las exatamente na
+sequência numérica , a atividade deverá ,
+obrigatoriamente , ser realizada dentro do respectivo
+bloco de horário ao qual está vinculada .
+A rotina organiza as atividades do Gestor por tipo de frequência : Diária ,
+semanal , mensal e por demanda , com horários definidos para garantir
+organização e padronização na execução .
+Bloco Operacional – 0 6 h às 0 9 h
+S U M Á R I O
+4 . R O T I N A
+M N O P 0 3 - 0 0
+A rotina diária reúne atividades que acontecem todos
+os dias . Elas podem ser feitas uma ou mais vezes ao
+longo do dia , conforme a necessidade , garantindo o
+acompanhamento e o bom andamento das
+o p e r a ç õ e s .
+
+## PAGINA 7 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+RD 0 1 - Verificar Caixa de E - mails
+🔁 Frequência :
+📌 T i p o :
+Descrição : Validar todos os e - mails recebidos , identificar demandas que
+exigem resposta ou tratativa imediata e garantir retorno aos envolvidos nas
+reuniões e solicitações do dia .
+Detalhamento : Realizar a leitura dos e - mails recebidos , identificando
+demandas que exigem resposta ou ação imediata . Garantir o retorno
+dentro dos prazos estabelecidos e validar compromissos e reuniões do dia ,
+assegurando organização da agenda .
+6
+M N O P 0 3 - 0 0
+RD 0 2 - Organizar Reunião Matinal
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar alinhamento com a equipe , definindo prioridades ,
+pendências e direcionamentos necessários para a execução das
+atividades do dia .
+Detalhamento : Definir ações claras e estruturadas para tratativa de
+pendências que demandem atenção imediata , assegurando priorização
+adequada , agilidade na execução e mitigação de impactos operacionais .
+1 X A O D I A
+A Ç Ã O
+A Ç Ã O
+2 X A O D I A
+
+## PAGINA 8 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+RD 0 3 - Matinal de Galpão – Planejamento do Dia
+🔁 Frequência :
+📌 T i p o :
+Descrição : Conduzir reunião rápida com a equipe operacional para alinhar
+atividades , reforçar prioridades , comunicar avisos relevantes e esclarecer
+expectativas do dia .
+Detalhamento : Realizar reunião breve no galpão , antes do início do
+carregamento , para apresentação dos indicadores do dia anterior ,
+alinhamento das metas e prioridades do dia vigente , bem como reforço de
+orientações operacionais e comunicados relevantes , quando aplicável .
+7
+1 X A O D I A
+A Ç Ã O
+RD 0 4 - Ronda Operacional Matinal
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar ronda no galpão para identificar irregularidades
+operacionais , estruturais e de carregamento , garantindo a correta
+execução dos processos . Sugestão : realizar 2 rondas antes do almoço e 2
+a p ó s o a l m o ç o .
+Detalhamento : Realizar a verificação dos carregamentos da capital ,
+garantindo condições operacionais dos veículos , organização das cargas
+conforme rota e a adequada limpeza , organização e segurança do galpão .
+4 X A O D I A
+R E U N I Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 9 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+RD 0 5 - Fiscalização de EPI e Vestimenta
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar a validação dos colaboradores quanto ao uso de
+vestimenta adequada para permanência na filial e uso de EPI das equipes
+do galpão , desde bota a uso de cintas também .
+Detalhamento : Realizar rondas periódicas no galpão , verificando se as
+operações estão sendo executadas conforme os padrões estabelecidos .
+Conferir o uso adequado de vestimentas e Equipamentos de Proteção
+Individual ( EPIs ) , assegurando conformidade com as normas de segurança
+e disciplina operacional , incluindo a obrigatoriedade de cintas
+devidamente fechadas
+A Ç Ã O
+8
+1 X A O D I A
+RD 0 6 - Horário dos Agregados
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Encarregado ( a ) de Logística
+Descrição : Acompanhar o início das atividades , garantindo que os veículos
+estejam prontos para largada dentro do TML estabelecido de até 0 9 h 0 0 . Em
+casos de atraso , realizar cobrança imediata e tratar a causa , evitando
+impactos na expedição e na operação .
+
+1 X A O D I A
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 10 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+9
+Detalhamento : Comunicar , por meio do grupo oficial , os horários
+programados de carregamento de cada agregado , assegurando
+alinhamento prévio das equipes . Fiscalizar o início das operações dentro do
+horário estabelecido , garantindo pontualidade , prevenindo atrasos no
+processo de carregamento e assegurando o cumprimento das janelas
+operacionais .
+RD 0 7 - Ranking de Baixa Online
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Supervisor ( a ) de Logística
+Descrição : Disponibilizar o ranking de baixa online em local visível na
+unidade ou nos grupos oficiais da operação , garantindo transparência e
+acompanhamento da performance dos motoristas .
+Detalhamento : A equipe de monitoramento envia diariamente , nos grupos
+dos agregados , o ranking de andamento e o status de fechamento dos
+motoristas , permitindo o acompanhamento da performance em tempo real .
+Com base nessas informações , identificar possíveis desvios ou gargalos
+operacionais e promover tratativas ágeis , minimizando impactos nos
+resultados do dia .
+1 X A O D I A
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 11 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+RD 0 8 - Garantir TML CAPITAL
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Supervisor ( a ) de Logística
+Descrição : Garantir agilidade no carregamento das docas , evitando
+desvios operacionais e improdutividade , assegurando o cumprimento do
+TML estabelecido .
+Detalhamento : Assegurar que o fluxo de carregamento ocorra com
+prioridade , organização e agilidade . Prevenir gargalos operacionais e
+garantir o cumprimento das janelas operacionais estabelecidas .
+1 0
+1 X A O D I A
+A Ç Ã O
+RD 0 9 - Conferência de Notas Fiscais
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir que não existam pedidos fora do sistema por ausência
+de nota fiscal , realizando a tratativa imediata junto ao CD responsável ou
+analista .
+Detalhamento : O procedimento é realizado durante o descarregamento da
+carreta , quando a analista identifica e registra possíveis inconsistências . A
+ocorrência é comunicada à operação para segregação preventiva dos
+pedidos até a tratativa e retorno da Natura .
+4 X A O D I A
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 12 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+1 1
+A Ç Ã O
+RD 1 0 - Programação de Recebimento de Carreta
+🔁 Frequência :
+📌 T i p o :
+Descrição : Analisar , por meio do sistema Brasil Risk , a programação e a
+ordem de chegada das carretas na filial , a fim de planejar a escala de
+colaboradores e a demanda de carregamento .
+Detalhamento : Procedimento realizado no início do dia , com base nos
+dados de quantidade de carretas programadas e no horário previsto de
+c h e g a d a .
+2 X A O D I A
+RD 1 1 - Validação de Prazos de Cargas e Carretas
+( Shipments )
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar a análise dos prazos de liberação das cargas e carretas ,
+identificando possíveis inconsistências no faturamento e garantindo o
+cumprimento dos prazos de embarque .
+1 X A O D I A
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 13 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+1 2
+Detalhamento : Analisar o prazo de liberação das cargas das carretas , com
+o objetivo de identificar possíveis inconsistências no faturamento e avaliar
+a necessidade de ajuste na janela de largadas do interior , inclusive com
+eventual antecipação de embarque . Também deve ser considerado o risco
+de estouro de carga , podendo haver necessidade de alocação de veículo
+adicional para a respectiva região ou rota .
+A Ç Ã O
+RD 1 2 - Controle de PJ e Pedido Diamante
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar a validação dos pedidos antes do envio a campo ,
+garantindo que atendam aos critérios de controle de PPE e procedimento
+de fiel depositário .
+Detalhamento : Validar junto ao analista da torre responsável pela
+demanda se os pedidos estão aptos para envio a campo , considerando os
+critérios de controle de PPE e o cumprimento do procedimento de fiel
+depositário . Assegurar que todos os pedidos sejam analisados , sem
+omissões , com atenção especial aos clientes de maior criticidade . Verificar
+também a situação fiscal dos pedidos , impedindo o envio de materiais com
+pendências , como impostos não recolhidos .
+2 X A O D I A
+M N O P 0 3 - 0 0
+
+## PAGINA 14 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+RD 1 3 - Validação de Checklist de saída
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Supervisor / Analista de Frota
+Descrição : Cobrar e validar se os veículos que saíram da unidade estão
+realizando o preenchimento do checklist de saída no Diagrama de
+O c u p a ç ã o .
+Detalhamento : Rodízio realizado pelo Supervisor de Frota no pátio ,
+validando a execução do checklist e conferindo o relatório após a
+e x p e d i ç ã o .
+1 3
+2 X A O D I A
+RD 1 4 - Controle de Terceirizados
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Encarregado ( a ) de Logística
+Descrição : Garantir a quantidade adequada de colaboradores das equipes
+terceirizadas , elaborar a lista de presença e registrar , quando aplicável , a
+quantidade de diaristas .
+Detalhamento : Realizar chamada no início de cada turno para conferência
+dos colaboradores presentes , controlando entradas e saídas . Ao final do
+dia , dimensionar a necessidade de terceiros para o turno D + 1 e , em caso de
+divergências ou ausências , acionar a empresa terceirizada para reposição .
+2 X A O D I A
+C H E C K
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 15 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+RD 1 6 - Atualizar controle dos PPEs no galpão
+🔁 Frequência :
+📌 T i p o :
+Descrição : Analisar os pedidos classificados como PPE que permanecem no
+galpão , identificando a causa e garantindo o envio imediato para campo .
+Detalhamento : Extrair relatórios durante a expedição para identificar
+pedidos que ainda estejam retidos na base . Essa análise permite agir
+rapidamente , corrigindo falhas no carregamento e garantindo que todos os
+volumes sejam enviados corretamente .
+RD 1 5 - Solicitação de Monitoramento
+( Transferência de Beija - Flor )
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar o envio das informações necessárias ao GRIS no prazo
+correto quando houver largada de Rotas Beija flor .
+Detalhamento : Realizar o envio das informações necessárias ao GRIS no
+prazo correto quando houver largada de rotas Beija - Flor , preferencialmente
+no período da manhã . Caso não seja possível , o envio poderá ser realizado
+a t é à s 1 5 h .
+1 4
+2 X A O D I A
+A Ç Ã O
+2 X A O D I A
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 16 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+RD 1 7 - Tratativa de inconsistências e busca de
+p e d i d o s
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Supervisor / Analista de Logística
+Descrição : Garantir a identificação e tratativa de pedidos com
+inconsistências no galpão .
+Detalhamento : Realizar inventário após a expedição para identificar
+pedidos que deveriam ter sido embarcados no dia , mas permaneceram na
+base . A atividade permite localizar os volumes , corrigir a situação de forma
+imediata e evitar novos erros ou impactos no nível de serviço .
+1 5
+2 X A O D I A
+C H E C K
+RD 1 8 - Monitorar Roteiros em Aberto de Interior
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Analista de Logística
+Descrição : Realizar estudo dos roteiros de interior que estão em aberto e ,
+após análise dos casos , efetuar a cobrança para finalização dos mesmos .
+Detalhamento : Analisar o relatório enviado pelo time de monitoramento às
+0 8 : 3 0 , priorizando os casos mais críticos . Realizar cobrança junto aos
+parceiros e , sempre que houver tratativas , retornar ao time de
+monitoramento para atualização do relatório .
+2 X A O D I A
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 17 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+1 6
+A Ç Ã O
+RD 1 9 - Auditoria de Carregamento
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o acompanhamento e a conformidade do
+carregamento realizado por motoristas e equipes terceirizadas .
+Detalhamento : Realizar diariamente a auditoria do carregamento durante
+a execução da atividade , verificando se os volumes estão sendo
+posicionados e organizados conforme o padrão estabelecido . Caso sejam
+identificadas irregularidades , orientar a correção imediata , registrar a
+ocorrência e preencher o controle do time de qualidade , quando necessário
+e incluindo também as operações do interior , sempre que possível
+2 X A O D I A
+M N O P 0 3 - 0 0
+
+## PAGINA 18 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+1 7
+RD 2 0 - Controle de Largada Interior ( Sistêmico )
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Assistente de Logística
+Descrição : Garantir que todos os veículos que foram carregados nas docas
+passem pela expedição para retirada do romaneio e realização da largada
+sistêmica .
+Detalhamento : Procedimento executado pela equipe de expedição para
+garantir que os agregados retirem as notas fiscais somente após o início
+oficial da expedição e a liberação dos roteiros . A medida assegura a
+organização do fluxo operacional , evita interferências no carregamento e
+mantém o controle do processo , validando sistemicamente se o roteiro foi
+devidamente liberado ( largado ) .
+Bloco Operacional – 0 9 h às 1 2 h
+2 X A O D I A
+C H E C K
+RD 2 1 - Desmembramento de Roteiro
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Analista de Logística
+Descrição : Garantir que o procedimento de quebra de placa seja realizado
+de forma correta e dentro do prazo , a fim de evitar atraso na entrega ao
+cliente final por ausência de roteiro vinculado no aplicativo .
+2 X A O D I A
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 19 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+1 8
+RD 2 2 - Controle de Pedidos em Aberto
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar o controle dos pedidos que constam na base de
+pedidos em aberto , identificando sua localização , os gargalos existentes e
+as ações necessárias para tratativa . Quando aplicável , participar das
+reuniões de pedidos em aberto da Torre de Controle , realizadas às 1 0 h 3 0 .
+Detalhamento : O controle e a atualização são realizados com base no
+relatório de pedidos em aberto enviado pelo time de monitoramento , com
+envio às 7 h e atualizações a cada duas horas no grupo oficial de WhatsApp .
+A análise dos pedidos críticos permite identificar ocorrências ,
+impedimentos e prioridades , direcionando as ações à equipe operacional ,
+com foco nos pedidos com vencimento no dia . Para rotas do interior , as
+tratativas são conduzidas nos grupos dos parceiros , com cobrança de
+posicionamento e definição de prazos para finalização
+2 X A O D I A
+Detalhamento : Procedimento realizado prioritariamente no período da
+manhã , com o objetivo de garantir que todos os motoristas da ponta
+estejam com seus roteiros aptos para realizar as baixas no momento do
+recebimento da carga .
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 20 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+1 9
+RD 2 3 - Preenchimento - Diagrama de Ocupação
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Supervisor ( a ) de Frota
+Descrição : Realizar o preenchimento do Diagrama de Ocupação de forma
+correta , garantindo que reflita a situação real da operação e validando as
+informações por meio do envio à Torre de Controle .
+Detalhamento : O preenchimento deve ser realizado até as 1 0 h , garantindo
+a consolidação das informações dentro do prazo . No dia anterior , deve ser
+realizada reunião de pré - alinhamento para verificar a disponibilidade de
+motoristas e veículos , assegurando o planejamento adequado da
+operação e reduzindo riscos de indisponibilidade .
+2 X A O D I A
+C H E C K
+RD 2 4 - Realizar inventário de Galpão
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Supervisor ( a ) de Logística
+Descrição : Realizar o inventário do galpão , garantindo a bipagem de todas
+as áreas e realizar o envio para torre de controle nos dias combinados .
+Detalhamento : Inventário realizado diariamente pelo conferente ,
+garantindo que todas as áreas ( carregamento e BOT / BOV – incluindo
+pedidos fora da área de BOT / BOV ) sejam bipadas e enviadas ao time
+interno e à Torre de Controle , por meio do grupo INVENTÁRIOS GRUPO JB .
+1 X A O D I A
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 21 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+2 0
+RD 2 5 - PPMDano : Análise de Qualidade -
+Carregamento
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Encarregado ( a ) de Logística
+Descrição : Garantir o acompanhamento e controle de qualidade no
+carregamento , prevenindo avarias como caixas abertas , viradas ou
+armazenadas de forma incorreta .
+Detalhamento : Acompanhamento realizado no momento do
+carregamento , em conjunto com o encarregado , verificando possíveis
+avarias e separando os volumes para as devidas tratativas com o time de
+analistas , responsável por registrar as inconsistências .
+2 X A O D I A
+C H E C K
+RD 2 6 - Recebimento de carreta - Regra da
+C h a v e e C a l ç o
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Encarregado ( a ) de Logística
+Descrição : Garantir que o procedimento de segurança de chave e calço
+seja aplicado corretamente no recebimento de carretas .
+1 X A O D I A
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 22 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+2 1
+Detalhamento : Acompanhar a chegada das carretas e , após a docagem ,
+garantir que a chave do veículo seja retirada e que os calços sejam
+devidamente posicionados . Verificar o cumprimento do procedimento
+antes do início do descarregamento , assegurando a segurança da
+operação e prevenindo movimentações indevidas do veículo .
+RD 2 7 - Aplicar Cronômetro de Descarregamento
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Encarregado ( a ) de Logística
+Descrição : Realizar o controle de tempo de descarregamento ,
+estabelecendo metas e acelerando a equipe a fim de conseguirem ser
+mais produtivos .
+Detalhamento : Realizar análise da quantidade de volumes de cada carreta
+e acionar o cronômetro para acompanhar o tempo de descarregamento . A
+medição permite avaliar o tempo total da operação , sendo que , nas
+unidades que não possuírem cronômetro , deverá ser utilizado dispositivo
+alternativo , como o próprio celular .
+2 X A O D I A
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 23 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+2 2
+RD 2 8 - Verificação da Iluminação do Galpão e
+Área Externa
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir que as luzes do galpão e das áreas externas da
+empresa estejam desligadas durante o período diurno , evitando consumo
+desnecessário de energia elétrica .
+Detalhamento : Diariamente , às 0 9 h 0 0 , realizar a verificação da iluminação
+do galpão e das áreas externas da empresa . Caso sejam identificadas
+luzes ligadas , deve - se providenciar o desligamento .
+2 X A O D I A
+RD 2 9 - Ajuste de Plotagem de Endereços
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Analista
+Descrição : Garantir a correção e atualização da plotagem dos endereços
+no sistema , visando maior precisão nas rotas e eficiência nas entregas .
+1 X A O D I A
+C H E C K
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 24 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+2 3
+Detalhamento : Analisar os endereços com inconsistências identificadas
+durante as entregas ou no acompanhamento das baixas . Realizar os
+ajustes necessários no sistema , corrigindo localização , coordenadas ou
+informações incorretas . Após a correção , acompanhar os resultados para
+garantir que o problema foi solucionado e não volte a ocorrer .
+RD 3 0 - Acompanhamento de Baixa Online
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Analista de Logística
+Descrição : Realizar o acompanhamento das entregas por meio do painel
+de baixa online fornecido pela Torre de Controle ou equipe de
+monitoramento , efetuando a cobrança junto às equipes em campo a fim
+de identificar e tratar os pontos críticos .
+Detalhamento : Envio do relatório de baixa online para análise dos
+principais ofensores e identificação de possíveis gaps operacionais . Com
+base nas informações apuradas , é realizada cobrança imediata das ações
+corretivas , visando assegurar o atingimento da meta diária estabelecida .
+Sugestão : realizar 2 acompanhamentos antes do almoço e 2 após o
+a l m o ç o .
+4 X A O D I A
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 25 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+2 4
+RD 3 1 - Lançamento de Avarias - Natura
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Analista de Logística
+Descrição : Validar se todos os pedidos com avaria tiveram registro no Drive
+da Natura e se a solicitação foi formalizada ao Analista Natura via e - mail .
+Detalhamento : Verificar diariamente os e - mails de notificação enviados
+pelo time e os respectivos retornos da Natura , garantindo o devido
+acompanhamento . Os casos também devem ser tratados nas reuniões
+diárias , com base na planilha de pedidos em aberto .
+1 X A O D I A
+C H E C K
+RD 3 2 - Controlar Fechamento das Docas
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o fechamento adequado das docas após a finalização
+das operações de carregamento .
+Detalhamento : Após a expedição e conclusão das atividades no galpão ,
+realizar o fechamento de todas as docas . Manter , no máximo , duas docas
+abertas quando necessário para ventilação , assegurando a organização ,
+segurança e controle do ambiente .
+1 X A O D I A
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 26 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+2 5
+RD 3 3 - Tratar Pedidos Retidos
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar estudo dos pedidos que constam como “ chegada na
+transportadora ( retido ) ” , a fim de identificar o motivo da ocorrência ,
+localizar os volumes e garantir a largada imediata .
+Detalhamento : Realizar a atualização da Base 8 3 , com análise dos pedidos
+retidos classificados em range de 0 a 4 dias . Os pedidos identificados como
+retidos devem ser direcionados ao Analista para tratativa junto à equipe do
+galpão . A análise contempla a verificação de possível envio indevido para
+rota por erro de expedição , avaliando alocação incorreta em roteiro por
+meio de relatórios de bipagem , além de conferência física via inventário
+para validar se o pedido permanece na base . Em todos os casos , deve ser
+definida ação corretiva estruturada , seja para reinserção prioritária em rota ,
+seja para manutenção em evidência quando caracterizado como perda na
+largada do interior , garantindo rastreabilidade e mitigação de
+reincidências .
+1 X A O D I A
+A Ç Ã O
+RD 3 4 - Controlar Pedidos sem Movimentação
+🔁 Frequência :
+📌 T i p o :
+Descrição : Analisar os pedidos sem movimentação sistêmica há mais de 5
+dias , identificando a causa , localizando os volumes e garantindo a devida
+tratativa .
+1 X A O D I A
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 27 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+2 6
+Detalhamento : Analisar , por meio de relatórios , os pedidos sem
+movimentação e realizar a cobrança aos parceiros para finalização ,
+quando já estiverem em rota . Nos casos de pedidos inseridos sem
+evolução , verificar a situação e cobrar retorno do Analista Natura via e -
+mail . Se o pedido constar na filial , realizar busca física no galpão e , caso
+não seja localizado , abrir ticket de extravio para tratativa formal .
+RD 3 5 - Tratar casos de extravio e resoluções
+🔁 Frequência :
+📌 T i p o :
+Descrição : Sempre que identificado , tratar os possíveis casos de extravio de
+carga , realizando análise técnica para definição de responsabilidade .
+Após apuração , emitir o termo de desconto devidamente formalizado e
+assinado .
+Detalhamento : O time de Analistas deve realizar todos os procedimentos
+de busca de pedidos com possível extravio , por meio de relatórios de
+bipagem , inventários e análise das bipagens de parceiros ( especialmente
+em casos com mais de uma parada , como veículo beija - flor ) . Após as
+análises e mediante evidência da última movimentação registrada , deve -
+se identificar o responsável e , na sequência , proceder com a abertura do
+termo de desconto , garantindo o retorno do documento devidamente
+assinado .
+1 X A O D I A
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 28 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+2 7
+RD 3 6 - Reunião com Monitoramento - Torre
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar reunião com a equipe de monitoramento da Torre de
+Controle para alinhamento dos principais casos do dia e do dia anterior .
+Na reunião , levantar feedbacks de parceiros e motoristas , além de
+evidenciar os principais problemas relacionados aos pedidos vencidos e
+com vencimento no dia .
+Detalhamento : Realizar reunião diária com o time de monitoramento para
+levantamento de dados e identificação de casos críticos que demandam
+maior atenção , com definição de plano de ação para resolução .
+2 X A O D I A
+RD 3 7 - Controle de Formulários Parceiros
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Assistente de Logística
+Descrição : Controlar as tarefas e formulários operacionais dos parceiros ,
+garantindo o cumprimento dos prazos ( SLA ) das solicitações da Natura e o
+envio correto das evidências .
+Detalhamento : Acompanhar diariamente solicitações ( coleta ,
+reconhecimento e recuperação ) , garantindo execução dentro do SLA ,
+escaneamento e envio ao drive de evidências , controle da devolução de
+caixas e atualização de bases e inventários .
+C H E C K
+R E U N I Ã O
+1 X A O D I A
+M N O P 0 3 - 0 0
+
+## PAGINA 29 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+2 8
+RD 3 8 - Relatório de Inconsistência / Qualidade
+de Recebimento
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Encarregado ( a ) de Logística
+Descrição : Garantir que , a cada descarregamento de carreta , seja
+realizado o reporte da qualidade do recebimento da carga e das possíveis
+inconsistências identificadas .
+Detalhamento : Acompanhar relatórios de pendências por meio do grupo
+de Qualidade e monitorar os e - mails de notificação referentes às
+inconsistências .
+1 X A O D I A
+RD 3 9 - Diagrama de Ocupação de Agregados
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Assistente de Frota
+Descrição : Montar o Diagrama de Ocupação dos agregados , registrando os
+motoristas ausentes com os respectivos motivos detalhados , a fim de
+manter histórico estruturado para análises futuras .
+Detalhamento : Realizar a conferência e o preenchimento da planilha do
+Diagrama de Agregados , notificando em conjunto com o Diagrama de
+Ocupação dos motoristas da casa .
+C H E C K
+1 X A O D I A
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 30 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+2 9
+RD 4 0 - Conferência de Caixas e Aplicação de
+F i t a s
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Encarregado / Conferente de Logística
+Descrição : Garantir que as caixas estejam devidamente conferidas e com a
+aplicação correta das fitas , assegurando a integridade dos volumes
+durante o processo operacional .
+Detalhamento : Realizar diariamente a conferência das caixas durante a
+operação , verificando se os volumes estão devidamente fechados e se a
+aplicação das fitas está sendo realizada corretamente , conforme o padrão
+estabelecido . Deve - se observar se as caixas estão bem vedadas , sem
+abertura ou risco de violação . Caso sejam identificadas irregularidades ,
+orientar a correção imediata junto à equipe responsável , garantindo a
+segurança e a integridade dos volumes durante o transporte .
+1 X A O D I A
+C H E C K
+RD 4 1 - Verificação da Etiquetagem das Caixas
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Encarregado / Conferente de Logística
+Descrição : Garantir que a etiquetagem das caixas esteja sendo realizada
+conforme o padrão estabelecido , incluindo a correta aplicação das cores
+das etiquetas para identificação dos volumes .
+1 X A O D I A
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 31 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+3 0
+Detalhamento : Realizar diariamente a verificação da etiquetagem das
+caixas durante a operação , conferindo se as etiquetas estão aplicadas
+corretamente , legíveis e seguindo o padrão definido . Deve - se observar
+especialmente se as cores das etiquetas estão sendo utilizadas conforme a
+padronização da operação , garantindo a correta identificação e separação
+dos volumes . Caso sejam identificadas divergências , orientar a correção
+imediata junto à equipe responsável , evitando erros no processo
+operacional e garantindo a rastreabilidade adequada das caixas .
+RD 4 2 - Validação - Diagrama de Ocupação
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Supervisor de Frota
+Descrição : Realizar a validação do preenchimento do Diagrama de
+Ocupação enviado pela Torre de Controle .
+Detalhamento : O Supervisor valida as informações reportadas pela Torre
+de Controle . Caso haja alguma alteração , realiza o devido ajuste no
+Diagrama .
+1 X A O D I A
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 32 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+3 1
+4 . 1 . 2 . DETALHAMENTO DAS ATIVIDADES – TARDE
+RD 4 3 - Reunião JB Alerta
+Todos os dias - 1 3 h
+🔁 Frequência :
+📌 T i p o :
+Descrição : Participar , quando necessário , do JB Alerta , mantendo - se
+disponível no horário estabelecido para atendimento às demandas e
+esclarecimento de dúvidas da equipe da Torre de Controle .
+Detalhamento : Atualizar a base de pedidos em aberto para participação
+na reunião do JB Alerta .
+1 X A O D I A
+R E U N I Ã O
+HORÁRIO FIXO
+Bloco Operacional – 1 2 h às 1 5 h
+M N O P 0 3 - 0 0
+
+## PAGINA 33 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+3 2
+RD 4 4 - Montar a escala de Largada da Capital
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar a montagem da escala das rotas de capital do dia
+seguinte , com base na demanda de pedidos e nas necessidades
+operacionais do campo .
+Detalhamento : Após o recebimento das ships de carretas em trânsito ,
+realizar estudo da demanda de pedidos com vencimento no dia .
+Verificar a quantidade de agregados que irão carregar , validando o PPE e ,
+na sequência , notificá - los sobre o carregamento .
+1 X A O D I A
+RD 4 5 - Sequenciamento e Empilhamento
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Supervisor
+Descrição : Garantir que as rotas estejam empilhadas ( dezenadas ) ,
+assegurando maior celeridade no horário de carregamento dos veículos .
+Detalhamento : Após o retorno da planilha de sequenciamento , repassar a
+ordem de carregamento à equipe terceirizada para realização da
+separação e empilhamento dos pedidos na sequência correta , garantindo
+maior agilidade no momento do carregamento .
+C H E C K
+1 X A O D I A
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 34 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+3 3
+RD 4 6 - Garantir Roteirização dos Motoristas
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir que os motoristas realizem o sequenciamento das rotas
+pelo sequenciador e cumpram a roteirização estabelecida , quando
+a p l i c á v e l .
+Detalhamento : Após o envio da planilha de sequenciamento , os agregados
+têm até o final do dia para concluir o processo . A cobrança é realizada via
+grupo oficial , e os agregados devem enviar foto da finalização do
+sequenciamento para validação .
+1 X A O D I A
+RD 4 7 - Monitoramento Interior - Finalização
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir a finalização das entregas das rotas de interior ,
+realizando cobrança ativa aos motoristas para encerramento das rotas ,
+com prioridade aos pedidos mais críticos .
+Detalhamento : Monitoramento realizado com envio de atualizações de
+baixas ao longo do dia , garantindo a efetividade dos roteiros e das entregas
+com vencimento no dia . Quando identificado baixo desempenho ,
+questionar os parceiros sobre o motivo da baixa evolução e definir tratativa
+imediata .
+1 X A O D I A
+A Ç Ã O
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 35 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+3 4
+RD 4 8 - Monitoramento de Cargas e Veículos
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar o acompanhamento das cargas e veículos em tempo
+real , garantindo o controle das rotas , a identificação de ocorrências e a
+segurança durante o transporte .
+Detalhamento : Monitorar as cargas e os veículos em tempo real ,
+verificando o andamento das rotas , possíveis ocorrências e o
+funcionamento dos rastreadores . Garantir que os veículos estejam dentro
+dos padrões estabelecidos pela empresa , assegurando maior controle
+operacional e segurança durante todo o transporte .
+1 X A O D I A
+RD 4 9 - Painel de Rastreadores
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar o acompanhamento diário dos rastreadores ,
+identificando os veículos com e sem comunicação , garantindo o controle
+das informações e a tratativa das irregularidades .
+1 X A O D I A
+A Ç Ã O
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 36 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+3 5
+RD 5 0 - Controle da Portaria
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Analista de Logística
+Descrição : Realizar a verificação dos registros de entrada e saída das filiais
+cuja portaria está sob responsabilidade da área , garantindo o controle e
+acompanhamento das movimentações de pessoas , veículos e
+mercadorias .
+Detalhamento : Realizar checklists nos equipamentos de segurança das
+filiais , considerando itens com verificação diária e semanal . Registrar os
+equipamentos em conformidade ( OK ) e os que apresentam irregularidades
+( N OK ) . Consolidar o relatório diário no painel ao final do dia e encaminhar ,
+todas as sextas - feiras , o relatório semanal e diário pelo WhatsApp .
+1 X A O D I A
+C H E C K
+Detalhamento : Baixar diariamente o relatório dos rastreadores e inserir o
+arquivo na pasta específica para execução da ferramenta responsável pela
+geração do painel . Verificar a quantidade de veículos comunicando e sem
+comunicação , realizando a tratativa dos casos identificados e , quando
+necessário , abrir solicitação de manutenção . Encaminhar o painel
+diariamente , até o final do expediente , no grupo do GRIS no WhatsApp .
+M N O P 0 3 - 0 0
+
+## PAGINA 37 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+3 6
+RD 5 1 - Painel de Velocidade
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar a verificação dos registros de entrada e saída das filiais
+cuja portaria está sob responsabilidade da área , garantindo o controle e
+acompanhamento das movimentações de pessoas , veículos e
+mercadorias .
+Detalhamento : Baixar os relatórios dos rastreadores e executar a
+ferramenta responsável pela geração do painel de velocidade ,
+identificando veículos que estejam acima do limite permitido . Quando
+identificado que o veículo ultrapassou 8 0 km / h por mais de 5 minutos ,
+registrar a ocorrência e aplicar as medidas disciplinares previstas , que
+podem incluir atenção verbal , advertência escrita ou suspensão .
+1 X A O D I A
+A Ç Ã O
+RD 5 2 - Controle de Ponto
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o acompanhamento dos registros de ponto dos
+colaboradores .
+Descrição : Realizar diariamente , no período da manhã , a verificação dos
+registros de ponto dos colaboradores , identificando inconsistências ou
+pendências .
+1 X A O D I A
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 38 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+3 7
+RD 5 3 - Recebimento ( Retornos )
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Conferente de Logística
+Descrição : Realizar o recebimento de todos os retornos de capital do dia ;
+em caso de pendência , efetuar a cobrança imediata aos motoristas .
+Detalhamento : Cobrar os agregados quanto a todos os retornos ,
+garantindo que sejam devidamente bipados .
+Analisar os casos que demandam nova tentativa de entrega e , quando não
+aplicável , direcionar os pedidos para a área de tratativas BOT / BOV .
+1 X A O D I A
+4 . 1 . 3 DETALHAMENTO DAS ATIVIDADES – NOITE
+C H E C K
+RD 5 4 - Retorno Sistêmico - Conferência de
+Apontamentos
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Analista de Logística
+Descrição : Garantir os apontamentos de reentrega liberada no sistema e a
+bipagem de todos os retornos .
+1 X A O D I A
+C H E C K
+Bloco Operacional – 1 8 h ás 2 2 h
+M N O P 0 3 - 0 0
+
+## PAGINA 39 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+3 8
+Detalhamento : A equipe de expedição realiza a validação dos
+apontamentos de nova tentativa ( reentrega liberada ) no momento do
+carregamento dos agregados .
+RD 5 5 - Responder Planilha de Retornos
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Analista de Logística
+Descrição : Garantir que a planilha de retornos seja devidamente tratada e
+respondida ao time da Torre de Controle .
+Detalhamento : Garantir a bipagem dos pedidos de retorno , tanto de
+capital quanto de interior .
+1 X A O D I A
+C H E C K
+RD 5 6 - Controle de PPE no armazém - Físico
+( Pallet vermelho )
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Conferente de Logística
+Descrição : Realizar o controle de PPE após o inventário e montar o pallet
+exclusivo de caixas de PPE no galpão ( Pallet Vermelho ) .
+1 X A O D I A
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 40 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+3 9
+Detalhamento : Conferir as caixas de PPE após o inventário , separar
+exclusivamente esse material e organizar no Pallet Vermelho , garantindo
+empilhamento seguro e correta identificação no galpão .
+RD 5 7 - Reunião de apresentação de resultado
+🔁 Frequência :
+📌 T i p o :
+Descrição : Apresentar e analisar os resultados operacionais do período ,
+alinhando informações com a equipe e promovendo entendimento sobre
+desempenho , indicadores e pontos de melhoria .
+Detalhamento : Apresentar os indicadores e resultados do período à equipe ,
+esclarecer dúvidas e alinhar ações ou melhorias necessárias . eventuais
+ações ou melhorias necessárias .
+1 X A O D I A
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 41 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+4 0
+5 . 1 DETALHAMENTO DAS ATIVIDADES
+4 . 2 . S E M A N A L
+RS 0 1 - Reunião Semanal ( Agregados Capital )
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar reunião semanal com os agregados da capital para
+aplicação de treinamentos , repasse de comunicados e apresentação dos
+indicadores de desempenho ( PPM Dano e Falta , reclamações de CSAT e
+Baixa Online ) . Coletar feedbacks do campo e garantir alinhamento com os
+direcionamentos da Torre de Controle .
+Detalhamento : Reunião realizada com os agregados da capital ,
+apresentando informações relevantes como retornos , Baixa Online , PPM
+Dano e Falta . Reforçar continuamente os procedimentos corretos a serem
+seguidos , garantindo alinhamento operacional e padronização das
+p r á t i c a s .
+SEGUNDA - FEIRA
+R E U N I Ã O
+A rotina semanal contempla atividades que
+devem ser realizadas ao longo da semana . Em
+alguns casos , essas atividades possuem dia ou
+horário previamente definidos para execução .
+Quando não houver definição específica , a atividade deverá ser organizada pelo
+gestor dentro da sua rotina semanal , garantindo que seja realizada dentro do
+período estabelecido . Esse formato proporciona maior flexibilidade na gestão do
+tempo , permitindo que as atividades sejam distribuídas conforme a demanda
+operacional da semana .
+M N O P 0 3 - 0 0
+
+## PAGINA 42 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+4 1
+RS 0 2 - Verificação de Funcionamento dos
+Sensores da Empresa
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Analista de Logística
+Descrição : Garantir que os sensores instalados na empresa estejam
+funcionando corretamente , assegurando a confiabilidade das medições e
+evitando falhas no monitoramento dos ambientes e equipamentos .
+Detalhamento : Realizar verificação periódica dos sensores , garantindo seu
+correto funcionamento e registro das leituras no sistema . Identificar falhas ,
+ausência de sinal ou inconsistências e , quando necessário , realizar ajustes
+ou acionar a manutenção , assegurando a confiabilidade do
+monitoramento dos ambientes e equipamentos .
+SEGUNDA - FEIRA
+RS 0 3 - Realização do Checklist Semanal de
+Segurança ( Filiais )
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Analista de Logística
+Descrição : Realizar checklist semanal de Segurança , Saúde e Meio
+Ambiente ( SMS ) nas filiais , assegurando a verificação das condições de
+segurança e o correto acompanhamento pelo Técnico de Segurança da
+m a t r i z
+SEGUNDA - FEIRA
+C H E C K
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 43 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+4 2
+Detalhamento : Realizar semanalmente o preenchimento do checklist de
+inspeção de Segurança , Saúde e Meio Ambiente ( SMS ) nas filiais ,
+considerando que essas unidades não possuem Técnico de Segurança
+dedicado . O checklist deve contemplar a verificação de itens relacionados
+a EPIs , condições da edificação , instalações elétricas , armazenamento de
+materiais , ergonomia , prevenção contra incêndio e condições sanitárias ,
+conforme estabelecido no formulário de inspeção . Após a realização da
+inspeção , o checklist deve ser encaminhado ao Técnico de Segurança da
+matriz para acompanhamento . Caso seja identificada alguma não
+conformidade , deve - se solicitar o serviço necessário ou a aquisição de
+materiais junto ao setor de compras , seguindo o procedimento interno
+estabelecido .
+RS 0 4 - Acompanhamento das Ações Corretivas
+do Checklist
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o acompanhamento das ações corretivas provenientes
+do checklist semanal de Segurança , Saúde e Meio Ambiente ( SMS ) ,
+assegurando o tratamento das não conformidades identificadas nas filiais .
+A Ç Ã O
+SEGUNDA - FEIRA
+DOWNLOAD DO
+CHECKLIST
+M N O P 0 3 - 0 0
+
+## PAGINA 44 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+4 3
+Detalhamento : Realizar semanalmente o acompanhamento das ações
+corretivas geradas a partir do checklist de inspeção de Segurança , Saúde e
+Meio Ambiente ( SMS ) aplicado nas filiais . Verificar se as não conformidades
+identificadas estão sendo tratadas dentro do prazo e acompanhar a
+execução das providências necessárias junto aos responsáveis .
+RS 0 5 - Reunião de acompanhamento ( Interior )
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar reunião com os parceiros do interior , replicando os
+principais alinhamentos e direcionamentos aplicados na reunião com os
+parceiros da capital .
+Detalhamento : Realizar reunião semanal apresentando a efetividade dos
+parceiros e tratando temas como : falta de itens , PPMDano , procedimentos
+de retorno de pedidos , Baixa Online , entre outros pontos operacionais
+relevantes .
+A Ç Ã O
+SEGUNDA - FEIRA
+M N O P 0 3 - 0 0
+
+## PAGINA 45 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+4 4
+RS 0 6 - Lavagem do Galpão
+🔁 Frequência :
+📌 T i p o :
+👤 Responsável : Analista de Logística
+Descrição : Realizar a lavagem do galpão para manter o ambiente limpo e
+organizado . Definir previamente o melhor dia para execução , priorizando
+períodos com menor volume de carga , a fim de evitar movimentação
+excessiva de pallets e impactos na operação .
+Detalhamento : Realizar a lavagem do galpão uma vez por semana ,
+priorizando o dia com menor volume de pedidos na base , a fim de manter o
+ambiente limpo e organizado .
+QUINTA - FEIRA
+RS 0 7 - Reunião Banco de Horas
+🔁 Frequência :
+📌 T i p o :
+Descrição : Acompanhar o andamento do banco de horas das equipes e
+definir estratégias para normalização dos saldos , garantindo equilíbrio
+operacional e conformidade com as diretrizes internas .
+Detalhamento : Realizar reunião semanal para análise do banco de horas e
+definição de plano de ação para redução dos saldos . Em casos de saldo
+muito negativo , direcionar transferência temporária ou apoio a setores com
+demanda , visando equilibrar a jornada de trabalho .
+S Á B A D O
+R E U N I Ã O
+C H E C K
+M N O P 0 3 - 0 0
+
+## PAGINA 46 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+4 5
+RS 0 8 - Reunião de Status de Manutenção
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar reunião com a equipe de Frota para entendimento claro
+dos principais pontos operacionais , como veículos em manutenção , multas ,
+preventivas e resultados de checklist , garantindo alinhamento e definição
+de ações corretivas .
+Detalhamento : Realizar reunião diária de frota para analisar o status de
+cada veículo , definir ações para agilizar sua liberação e atualizar a planilha
+compartilhada com a expedição sobre manutenções e prazos de retorno à
+o p e r a ç ã o .
+S Á B A D O
+R E U N I Ã O
+RS 0 9 - Validação de Tickets no Movidesk
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o acompanhamento e controle dos tickets abertos na
+plataforma Movidesk , verificando as solicitações registradas , o status das
+demandas e o andamento das tratativas junto às áreas responsáveis .
+SEXTA - FEIRA
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 47 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+4 6
+Detalhamento : Realizar semanalmente a consulta dos tickets abertos no
+Movidesk , analisando as solicitações registradas e classificando o status de
+cada demanda ( aberto , em andamento ou finalizado ) . Avaliar se as
+tratativas estão sendo conduzidas dentro do prazo esperado e identificar
+possíveis pendências ou necessidades de acompanhamento junto às
+áreas responsáveis , garantindo a devida evolução ou encerramento das
+solicitações .
+RS 1 0 - Inspeção Geral da Empresa
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir que as condições gerais da empresa estejam
+adequadas para o funcionamento das atividades operacionais ,
+identificando possíveis irregularidades ou necessidades de ajuste .
+Detalhamento : Realizar semanalmente uma inspeção geral nas áreas da
+empresa , verificando as condições do ambiente , organização dos espaços ,
+funcionamento de equipamentos e possíveis situações que possam
+impactar a operação . Durante a inspeção , observar aspectos como
+limpeza , organização , integridade de estruturas , equipamentos e
+dispositivos instalados . Caso sejam identificadas irregularidades ou
+necessidades de correção , registrar a ocorrência e comunicar o setor
+responsável para providências .
+QUARTA - FEIRA
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 48 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+4 7
+RS 1 1 - Atualização do Ranking de Motoristas
+da Filial ( Indicadores de Qualidade )
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir a atualização semanal do ranking de motoristas da
+filial , assegurando visibilidade dos resultados e desempenho da operação .
+Detalhamento : A equipe de Qualidade envia semanalmente o ranking de
+motoristas . Após o recebimento , o gestor deve realizar a atualização do
+material , removendo o ranking anterior e substituindo pelo novo em local
+visível e de grande circulação na operação . O objetivo é garantir
+transparência dos resultados e acompanhamento contínuo do
+desempenho dos motoristas .
+ATÉ QUINTA - FEIRA , 1 2 H
+A Ç Ã O
+RS 1 2 - Tratativas Jequiti | Previsão de
+E n t r e g a
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o preenchimento da previsão de entrega dos pedidos
+da operação Jequiti .
+QUANDO O TIME DA TORRE ENVIAR
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 49 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+4 8
+Detalhamento : Quando a base de pedidos for enviada pela área
+responsável , o gestor deve encaminhar a relação de pedidos para os
+responsáveis pelas rotas realizarem o preenchimento da previsão de
+entrega . Após o preenchimento , as informações devem ser consolidadas e
+enviadas para a área responsável para atualização e acompanhamento
+dos pedidos .
+RS 1 3 - Envio da Base de Transferência de
+P e d i d o s
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o envio da base de transferência de pedidos entre
+f i l i a i s .
+Detalhamento : As filiais devem encaminhar semanalmente a base de
+bipagem contendo os pedidos que serão transferidos entre unidades ( SLZ
+→ IMP | FOR → JUA e SOB ) . O envio deve ocorrer no período da manhã para
+possibilitar o tratamento da base e a emissão dos documentos de
+transporte necessários .
+QUANDO O TIME DA TORRE ENVIAR
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 50 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+4 9
+RS 1 4 - Envio da Documentação do
+Motorista e Veículo
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o envio da documentação do motorista e do veículo
+utilizados nas transferências entre filiais .
+Detalhamento : Sempre que houver operação de transferência entre filiais ,
+a unidade responsável deve encaminhar a documentação do motorista e
+do veículo que realizará o transporte , permitindo a conferência e o registro
+das informações da operação
+QUANDO O TIME DA TORRE ENVIAR
+A Ç Ã O
+RS 1 5 - Reunião Pedidos em Aberto
+🔁 Frequência :
+Seg / Qua → FOR , SOB , JUA
+Ter / Qui → THE , SLZ , IMP
+Sex → Sob demanda
+📌 T i p o :
+Descrição : Garantir a análise dos pedidos em aberto antes da reunião JB
+A l e r t a .
+Detalhamento : A reunião ocorre após a largada das rotas e tem como
+objetivo identificar pedidos vencidos , pedidos que vencerão no dia e
+possíveis cenários críticos da operação
+1 0 : 3 0
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 51 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+5 0
+RS 1 6 - Participar da reunião pré - semanal e
+da reunião semanal ( Natura e Jequiti )
+🔁 Frequência :
+📌 T i p o :
+Descrição : Participar das reuniões semanais com os embarcadores
+( principalmente Natura e Jequiti ) e das reuniões de alinhamento prévias
+com a Torre de Controle , garantindo preparação adequada e alinhamento
+estratégico .
+Detalhamento : Participar das reuniões pré - semanais para discutir os
+indicadores e os gaps identificados ao longo da semana , definindo ações
+para resolução dos casos quando necessário .
+Participar das reuniões semanais com Natura e Jequiti para
+acompanhamento dos indicadores e tratativa dos casos críticos que
+demandam atenção e solução .
+A Ç Ã O
+QUINTA - FEIRA
+RS 1 7 - Reunião de
+Acompanhamento / Feedback
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar feedback com os colaboradores da equipe .
+A Ç Ã O
+SEXTA - FEIRA
+M N O P 0 3 - 0 0
+
+## PAGINA 52 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+5 1
+Detalhamento : Realizar reuniões individuais ( One - on - One ) com , no
+mínimo , 1 ou 2 colaboradores por semana , priorizando profissionais com
+indicadores de baixa produtividade . O objetivo é identificar as causas do
+desempenho abaixo do esperado , realizar análise estruturada do cenário e
+definir ações de melhoria , visando maior eficiência e assertividade na
+execução das atividades diárias .
+RS 1 8 - Tratativas Jequiti | Base Tratada para
+R e u n i ã o
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir a apresentação das tratativas da operação Jequiti na
+reunião semanal .
+Detalhamento : O gestor deve levar para a reunião semanal a base
+previamente tratada com as informações e ajustes realizados na operação
+Jequiti . Durante a reunião , os dados são apresentados para análise e
+alinhamento das tratativas .
+A Ç Ã O
+QUANDO O TIME DA TORRE ENVIAR , 1 5 H
+M N O P 0 3 - 0 0
+
+## PAGINA 53 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+5 2
+RS 1 9 - Reunião Semanal – Indicadores
+Operacionais Natura
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir a participação na reunião semanal de análise
+operacional com a Natura .
+Detalhamento : Durante a reunião são apresentados e analisados os
+indicadores operacionais , como efetividade , assertividade , duração de rota
+e tempo de entrega , permitindo avaliar o desempenho da operação e
+alinhar possíveis tratativas .
+A Ç Ã O
+QUINTA - FEIRA , 1 5 H
+RS 2 0 - Reunião Pré - Semanal – Operação
+N a t u r a
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o alinhamento prévio das informações antes da
+reunião semanal com a Natura .
+Detalhamento : A reunião pré - semanal ocorre antes da reunião oficial com
+a Natura e tem como objetivo revisar os indicadores e alinhar as
+informações que serão apresentadas .
+A Ç Ã O
+QUINTA - FEIRA , 1 4 H
+M N O P 0 3 - 0 0
+
+## PAGINA 54 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+5 3
+RS 2 2 - Checklist de Segurança dos
+Equipamentos
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar a verificação dos equipamentos de segurança das filiais
+por meio de checklists , garantindo o acompanhamento das condições de
+funcionamento e a identificação de possíveis irregularidades .
+A Ç Ã O
+SEXTA - FEIRA
+RS 2 1 - Envio de Inventário Geral
+🔁 Frequência :
+Seg / Qua : Filiais FOR , SOB , JUA
+Ter / Qui : Filiais THE , SLZ , IMP
+📌 T i p o :
+Descrição : Garantir o envio do inventário geral da filial para apoio na
+tratativa de inconsistências operacionais .
+Detalhamento : O inventário geral deve ser enviado no grupo de WhatsApp
+de inventários , conforme a programação definida para cada filial . Esse
+inventário contempla a visão geral das caixas , incluindo materiais em
+BotBov , armazém e rota , e é utilizado para análise e tratativa de
+inconsistências .
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 55 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+5 4
+Detalhamento : Realizar checklists nos equipamentos de segurança das
+filiais , considerando itens com verificação diária e semanal . Registrar os
+equipamentos que estão OK e os que apresentam irregularidades .
+Consolidar o relatório diário no painel ao final do dia e encaminhar , todas
+as sextas - feiras , o relatório diário e semanal pelo WhatsApp .
+RS 2 3 - Controle de Banco de Horas e Plano
+d e A ç ã o
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o acompanhamento do saldo de banco de horas das
+f i l i a i s .
+Detalhamento : O saldo de banco de horas é encaminhado aos gestores
+toda terça - feira e quinta - feira para acompanhamento e controle das
+horas dos colaboradores .
+A Ç Ã O
+TERÇA - FEIRA E QUINTA - FEIRA
+M N O P 0 3 - 0 0
+
+## PAGINA 56 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+5 5
+RS 2 4 - Validação de Hora Extra 1 0 0 %
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir a validação das ocorrências de horas extras com
+adicional de 1 0 0 % .
+Detalhamento : As ocorrências de hora extra 1 0 0 % são encaminhadas
+semanalmente às segundas - feiras para análise e validação do gestor
+conforme regras internas .
+A Ç Ã O
+SEGUNDA - FEIRA
+RS 2 5 - Envio de Inventário BotBov
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o envio do inventário BotBov da filial para controle das
+caixas armazenadas nessa localização .
+Detalhamento : O inventário BotBov deve ser enviado toda quinta - feira , por
+meio do grupo de WhatsApp de inventários . O arquivo deve conter , no
+mínimo , data , código da bipagem , localização e operação , permitindo a
+identificação das caixas armazenadas no BotBov e no armazém .
+A Ç Ã O
+QUINTA - FEIRA
+M N O P 0 3 - 0 0
+
+## PAGINA 57 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+5 6
+A rotina mensal reúne atividades realizadas em datas
+específicas ao longo do mês , ligadas a controles
+administrativos , envios , fechamentos e conferências .
+4 . 3 M E N S A L
+RM 0 1 - Envio da Planilha de Presença dos
+Terceirizados
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o envio da planilha contendo o registro de presença
+mensal dos colaboradores terceirizados , assegurando o controle e
+acompanhamento das informações de frequência .
+Detalhamento : Encaminhar mensalmente , no primeiro dia útil de cada mês ,
+a planilha contendo o registro de presença dos colaboradores terceirizados
+referente ao mês anterior . Antes do envio , deve ser realizada a conferência
+das informações para garantir que os dados estejam completos e corretos .
+Após a validação , efetuar o envio conforme procedimento estabelecido
+para registro e controle das informações .
+A Ç Ã O
+1 º D I A Ú T I L D O M Ê S
+Embora rotinas diárias e semanais também possam ter prazos , a mensal
+se destaca por concentrar atividades com datas previamente definidas ,
+garantindo organização e cumprimento das demandas ao longo do
+p e r í o d o .
+M N O P 0 3 - 0 0
+
+## PAGINA 58 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+5 7
+RM 0 2 - Envio do Fechamento Aprovado dos
+Freteiros ( Magalu e Via Varejo )
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o envio do fechamento mensal aprovado dos freteiros
+que atuam nas operações Magalu e Via Varejo , assegurando a conferência
+das entregas realizadas e a continuidade do processo de pagamento .
+Detalhamento : Encaminhar mensalmente o fechamento contendo as
+entregas realizadas pelos freteiros vinculados às operações Magalu e Via
+Varejo . Antes do envio , deve ser realizada a conferência das informações ,
+garantindo que os dados estejam corretos e devidamente aprovados . O
+envio deve ocorrer até o dia 4 de cada mês , permitindo a continuidade do
+processo de agendamento e liberação de pagamento aos prestadores de
+s e r v i ç o .
+A Ç Ã O
+ATÉ O DIA 4 DE CADA MÊS
+M N O P 0 3 - 0 0
+
+## PAGINA 59 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+5 8
+RM 0 3 - Envio do Fechamento dos Freteiros
+( Operação Beija - Flor )
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o envio do fechamento mensal aprovado e das notas
+fiscais dos freteiros que atuam na operação Beija - Flor , assegurando a
+conferência das viagens realizadas e o correto encaminhamento para o
+processo de pagamento .
+Detalhamento : Encaminhar mensalmente o fechamento contendo as
+entregas realizadas pelos freteiros vinculados às operações Magalu e Via
+Varejo . Antes do envio , deve ser realizada a conferência das informações ,
+garantindo que os dados estejam corretos e devidamente aprovados . O
+envio deve ocorrer até o dia 4 de cada mês , permitindo a continuidade do
+processo de agendamento e liberação de pagamento aos prestadores de
+s e r v i ç o .
+A Ç Ã O
+ATÉ O DIA 4 DE CADA MÊSATÉ O DIA 4 DE CADA MÊS
+M N O P 0 3 - 0 0
+
+## PAGINA 60 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+5 9
+RM 0 4 - Envio das Notas Fiscais dos
+Freteiros ( Operação Natura )
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o envio das notas fiscais emitidas pelos freteiros que
+atuam na operação Natura , assegurando o correto encaminhamento das
+informações para o processo de pagamento .
+Detalhamento : Encaminhar mensalmente as notas fiscais emitidas pelos
+freteiros referentes aos serviços prestados na operação Natura . Antes do
+envio , deve ser realizada a conferência das informações para garantir que
+a nota fiscal esteja correta e em conformidade com os serviços executados .
+O envio deve ocorrer até o dia 5 de cada mês , respeitando o prazo
+necessário para o agendamento e liberação do pagamento .
+A Ç Ã O
+ATÉ O DIA 4 DE CADA MÊS
+RM 0 5 - Acompanhamento das Licenças
+Necessárias
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o acompanhamento das licenças necessárias para o
+funcionamento da empresa , assegurando que estejam válidas e dentro do
+prazo de renovação .
+A Ç Ã O
+1 X N O M Ê S
+M N O P 0 3 - 0 0
+
+## PAGINA 61 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+6 0
+Detalhamento : Realizar mensalmente a verificação das licenças
+obrigatórias da empresa , conferindo os prazos de validade e eventuais
+necessidades de renovação . Em caso de licenças próximas do vencimento
+ou que demandem atualização , registrar a situação e comunicar o setor
+responsável para que sejam tomadas as providências necessárias .
+RM 0 6 - Validação dos Pagamentos dos
+Beija - Flor
+🔁 Frequência :
+📌 T i p o :
+Descrição : Realizar a validação dos pagamentos dos veículos Beija - Flor ,
+analisando as viagens realizadas e a quilometragem percorrida , garantindo
+o correto envio das informações ao Financeiro e às filiais .
+Detalhamento : Receber , no início de cada mês , os e - mails das filiais com o
+envio das viagens realizadas pelos veículos Beija - Flor , conforme documento
+padrão . Baixar os relatórios de rastreamento e de viagens realizadas ,
+executando a ferramenta de análise para identificar divergências de
+quilometragem , viagens com inconsistências e possíveis falhas no
+processo , como ausência de início ou finalização de viagem . Após a
+validação , encaminhar o relatório ao Financeiro e às filiais , até o dia 1 2 , para
+conferência , autorização e continuidade do processo de pagamento .
+A Ç Ã O
+ATÉ O DIA 1 2 DE CADA MÊS
+M N O P 0 3 - 0 0
+
+## PAGINA 62 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+6 1
+4 . 4 D E M A N D A
+RDE 0 1 - Captação de Motoristas Agregado
+
+📌 T i p o :
+Descrição : Quando houver necessidade , por falta de um motorista fixo na
+rota , realizar a captação de novos agregados para garantir a não utilização
+de motoristas contratados da casa ou o uso de diaristas .
+Detalhamento : Divulgar vagas nos canais disponíveis ( WhatsApp , redes
+sociais e por meio de indicação ) e manter base de motoristas diaristas
+para acionamento quando necessário .
+A Ç Ã O
+RDE 0 2 - Treinamentos Gerais
+
+📌 T i p o :
+Descrição : Garantir a aplicação dos treinamentos às equipes , conforme
+direcionamento dos embarcadores ou da Torre de Controle .
+Detalhamento : Utilizar as reuniões diárias para aplicação de treinamentos ,
+quando necessário .
+R E U N I Ã O
+As atividades de rotina por demanda devem ser
+feitas , de preferência , pela manhã . Caso já exista
+um horário definido , esse horário deve ser seguido .
+M N O P 0 3 - 0 0
+
+## PAGINA 63 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+6 2
+RDE 0 3 - Aplicar termo com motoristas
+
+📌 T i p o :
+Descrição : A Torre de Controle poderá solicitar a aplicação de termo de
+ciência aos motoristas , sejam agregados ou próprios . A aplicação deve
+ocorrer com a maior brevidade possível , preferencialmente em dia
+previamente definido na semana , garantindo que o motorista esteja
+formalmente ciente do ocorrido . Quando necessário , poderá ser solicitado
+ao setor de Qualidade da Torre de Controle a emissão do respectivo termo .
+Detalhamento : Após o recebimento e análise dos termos a serem
+aplicados , definidos em reunião pré - semanal , agendar reunião com os
+parceiros para apresentar o motivo da ocorrência e formalizar a aplicação
+do termo de ciência . O objetivo é garantir alinhamento e evitar reincidência
+dos mesmos problemas .
+A Ç Ã O
+RDE 0 4 - Abertura de Chamado para
+Projetos
+
+📌 T i p o :
+Descrição : Garantir que novas demandas relacionadas a processos ,
+criação ou atualização de documentos sejam formalizadas junto ao setor
+de Projetos , assegurando o correto mapeamento , padronização e registro
+das informações .
+PARA ORIENTAÇÕES
+DETALHADAS , CONSULTAR
+O MANUAL MNOP 0 2 - 0 0 –
+GESTÃO DE PEDIDOS
+C R Í T I C O S .
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 64 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+6 3
+Detalhamento : Sempre que identificado um novo processo a ser mapeado ,
+a necessidade de criação de um novo documento ou a atualização de um
+documento existente , deve ser realizado o registro de chamado junto ao
+setor de Projetos . No chamado devem ser descritas as informações
+necessárias sobre a demanda , incluindo objetivo , contexto e detalhes do
+processo ou documento a ser tratado . Após a abertura , acompanhar o
+andamento da solicitação até sua conclusão , garantindo que a demanda
+seja devidamente analisada e tratada pela equipe responsável .
+RDE 0 5 - Aplicação de Termo com Desconto
+📌 T i p o :
+Descrição : Garantir a formalização de ocorrências que demandem
+aplicação de termo com desconto , conforme situações identificadas no
+processo operacional .
+Detalhamento : Sempre que identificada uma ocorrência passível de
+desconto , deve ser realizado o preenchimento e encaminhamento do
+termo correspondente , conforme fluxo interno estabelecido . O registro deve
+conter as informações da ocorrência , o colaborador ou prestador envolvido
+e a justificativa para aplicação do desconto , assegurando o devido
+tratamento da demanda .
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 65 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+6 4
+RDE 0 6 - Comunicação de Problemas no
+Recebimento de Carretas
+📌 T i p o :
+Descrição : Garantir a comunicação imediata de problemas identificados
+no recebimento de carretas , especialmente em casos de volumes
+danificados .
+Detalhamento : Sempre que houver chegada de carreta com volumes
+avariados , danificados ou qualquer outra irregularidade identificada no
+recebimento , a ocorrência deve ser comunicada imediatamente à área
+responsável para tratativa e registro conforme fluxo interno .
+da demanda .
+A Ç Ã O
+RDE 0 7 - Comunicação de Treinamento ou
+Entrada de Novos Agregados
+📌 T i p o :
+Descrição : Garantir que a área de Qualidade seja comunicada sempre que
+houver entrada de novos agregados ou necessidade de treinamento .
+Detalhamento : Sempre que houver treinamento ou entrada de novos
+agregados , a área responsável deverá comunicar a ocorrência à área
+competente para registro e acompanhamento conforme o fluxo interno .
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 66 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+6 5
+Detalhamento : Sempre que houver treinamento ou entrada de novo
+agregado na operação , a informação deve ser repassada à área de
+Qualidade , garantindo que o controle dos envolvidos esteja atualizado e
+que as orientações necessárias sejam aplicadas conforme o processo
+estabelecido .
+RDE 0 8 - Comunicação de Erros no Processo
+de Entrega
+📌 T i p o :
+Descrição : Garantir a comunicação de erros identificados no processo de
+entrega antes da validação ou auditoria da Qualidade .
+Detalhamento : Sempre que for identificado erro no processo de entrega , a
+ocorrência deve ser comunicada antes da validação ou auditoria da
+Qualidade , contendo as informações necessárias sobre o motorista ou
+equipe envolvida e o contexto da ocorrência .
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 67 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+6 6
+RDE 0 9 - Preenchimento do Checklist de
+Chegada de Carreta
+📌 T i p o :
+Descrição : Garantir o preenchimento do checklist de chegada de carreta
+no momento do recebimento
+Detalhamento : Sempre que houver chegada de carreta na unidade , deve
+ser realizado o preenchimento do checklist de chegada conforme fluxo
+estabelecido , registrando as condições da carreta e possíveis
+irregularidades identificadas no momento da chegada .
+A Ç Ã O
+RDE 1 0 - Resposta Entregas D 2
+📌 T i p o :
+Descrição : Garantir o envio das justificativas das entregas fora do prazo D 2 .
+Detalhamento : Quando houver pedidos entregues fora do prazo
+estabelecido , o gestor deve registrar a justificativa na base correspondente ,
+informando os motivos que impactaram a realização da entrega dentro do
+p r a z o .
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 68 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+6 7
+RDE 1 1 - Resposta de Pedidos em Aberto
+🔁 Frequência :
+📌 T i p o :
+Descrição : Garantir o envio das justificativas dos pedidos em aberto
+solicitados pela Natura .
+Detalhamento : Quando solicitado , o gestor deve preencher a base com as
+justificativas dos pedidos que permanecem em aberto , informando o
+motivo da não realização da entrega dentro do prazo previsto .
+M A N H Ã
+A Ç Ã O
+RDE 1 2 - Abertura de Vaga
+📌 T i p o :
+Descrição : Garantir a formalização da necessidade de contratação e o
+registro da solicitação de vaga no sistema Sólides , conforme processo
+interno de recrutamento e seleção .
+Detalhamento : Sempre que houver necessidade de contratação , seja por
+aumento de demanda , substituição de colaborador , criação de nova
+função ou reestruturação da equipe , a área solicitante deverá realizar a
+abertura da vaga no sistema Sólides , seguindo o fluxo estabelecido no
+processo de recrutamento e seleção .
+A Ç Ã O
+PARA ORIENTAÇÕES
+DETALHADAS , CONSULTAR
+O MANUAL MNRH 0 2 - 0 0 –
+MANUAL DE ABERTURA DE
+VAGA - SÓLIDES
+M N O P 0 3 - 0 0
+
+## PAGINA 69 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+6 8
+RDE 1 3 - Avaliação de Período de Experiência
+📌 T i p o :
+Descrição : Garantir que o gestor responsável avalie o desempenho do
+colaborador durante o período de experiência e informe ao RH a decisão
+sobre a continuidade do vínculo .
+Detalhamento : Próximo ao término do período de experiência , o setor de
+Recursos Humanos enviará um e - mail ao gestor responsável solicitando a
+avaliação do colaborador . O gestor deverá analisar o desempenho ,
+comportamento e aderência às atividades da função e responder ao RH
+informando se o colaborador seguirá para continuidade no contrato ou se
+não haverá permanência na empresa , permitindo que as providências
+administrativas sejam tomadas conforme processo interno .
+A Ç Ã O
+RDE 1 4 - Validação Hora Extra
+📌 T i p o :
+Descrição : Garantir a validação das solicitações de horas extras conforme
+regras internas da empresa .
+Detalhamento : Sempre que houver registro de hora extra , o Departamento
+Pessoal ( DP ) receberá a solicitação para análise . O DP deverá verificar as
+informações enviadas e validar a ocorrência conforme as regras internas e
+política de compensação de horas da empresa .
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 70 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+6 9
+RDE 1 5 - Responder Lançamento em Rescisão
+📌 T i p o :
+Descrição : Garantir a conferência das informações necessárias para rescisão
+contratual .
+Detalhamento : Quando solicitado pelo RH , o gestor deverá analisar e
+responder sobre os lançamentos necessários para realização da rescisão .
+A Ç Ã O
+RDE 1 6 - Tratativa de ND ( Nota de Débito )
+📌 T i p o :
+Descrição : Garantir o levantamento e a consolidação das informações
+necessárias para tratativa das notas de débito .
+Detalhamento : Sempre que houver recebimento de ND ou ND mensal , a área
+responsável deverá consolidar as informações pendentes e realizar a
+cobrança das filiais para complementação dos dados necessários à tratativa .
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 71 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+7 0
+RDE 1 7 - Separação para Devolução
+📌 T i p o :
+Descrição : Garantir a separação e a confirmação das caixas aptas para
+d e v o l u ç ã o .
+Detalhamento : Após o recebimento e análise dos inventários , quando houver
+identificação de caixas aptas para devolução , a filial deverá realizar a
+separação física dos volumes informados e encaminhar a confirmação para
+continuidade do processo de devolução .
+A Ç Ã O
+RDE 1 8 - Resposta da Árvore de Perdas
+📌 T i p o :
+Descrição : Garantir o envio das justificativas das perdas operacionais .
+Detalhamento : Quando solicitado , o gestor deve justificar os casos em que
+a operação apresentou desempenho abaixo da meta de efetividade ,
+informando os motivos das entregas realizadas fora do prazo ou não
+realizadas .
+A Ç Ã O
+M N O P 0 3 - 0 0
+
+## PAGINA 72 MNOP03 ##
+SUPER ROTINA GESTOR DE OPERAÇÃO
+CONSIDERAÇÕES FINAIS
+GRUPO JBJaneiro 2 0 2 6

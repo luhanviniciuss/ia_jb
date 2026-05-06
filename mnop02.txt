@@ -1,0 +1,1276 @@
+
+## PAGINA 1 MNOP02 ##
+G R U P O J B
+GRUPO
+M A N U A L
+PEDIDOS CRÍTICOS
+G E S T Ã O D E
+M N O P 0 2 - 0 0
+
+## PAGINA 2 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+1
+1 . 1 . FINALIDADE DO MANUAL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 0 3
+2 . COMO UTILIZAR ESTE MANUAL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 0 4
+ÁREA DE ESTUDOS
+3 . DEFINIÇÃO DE PEDIDO CRÍTICO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 0 6
+4 . CLASSIFICAÇÃO DE CRITICIDADE ( RANGE ) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 0 7
+5 . FLUXOS OPERACIONAIS DE TRATATIVA DE PEDIDOS CRÍTICOS
+5 . 1 Formas de Localização . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 0 8
+5 . 2 Áreas Críticas de Busca . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 0 8
+5 . 3 Relatório de Bipagem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 0 9
+6 . PEDIDO NÃO LOCALIZADO
+6 . 1 Reconhecimento . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 0
+6 . 2 Termo de Desconto . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 1
+6 . 3 Solicitação de Termo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 2
+7 . PEDIDO – DEFINIÇÃO DE SITUAÇÃO E AÇÃO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 4
+8 . SITUAÇÕES SISTÊMICAS
+8 . 1 Em Transferência . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 5
+8 . 2 Na Filial . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 6
+8 . 3 E m R o t a . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 7
+8 . 4 R e t o r n o . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 8
+8 . 5 Identificou Avaria ? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 9
+9 . FUNDAMENTOS – CHECKPOINT FINAL
+9 . 1 Regra de Ouro . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1
+9 . 2 Análise Inicial – Como o Gestor Deve Pensar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1
+1 0 . RANGE A x RANGE B – O Que Muda na Prática . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 2
+S U M Á R I O
+M N O P 0 2 - 0 0
+
+## PAGINA 3 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+2
+1 1 . ERROS MAIS COMUNS ( E COMO EVITAR ) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 2
+1 2 . RECONHECIMENTO x TERMO – COMO DECIDIR SEM ERRO . . . . . . . . . . . . . . . . . . . 2 3
+1 3 . BIPAGEM – COMO LER ALÉM DO ÓBVIO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 3
+1 4 . RESPONSABILIDADE SISTÊMICA – BOTBOV . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 4
+1 5 . SITUAÇÕES DE ALTO RISCO DE DESCONTO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 4
+1 6 . LIVRO DE OCORRÊNCIAS – QUANDO É OBRIGATÓRIO . . . . . . . . . . . . . . . . . . . . . . . . . . 2 5
+1 7 . FECHAMENTO CORRETO DO DIA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 5
+ÁRVORE DE DECISÕES
+1 8 . Orientação de Leitura do Processo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 8
+1 9 . NA FILIAL
+1 9 . 1 Chegada na Transportadora / Retido / Associado à Roteiro . . . . . . . . . . . . . . . 2 9
+1 9 . 2 Reentrega Liberada . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 1
+2 0 . E M R O T A . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 3
+2 1 . R E T O R N O
+2 1 . 1 Retorno Não Crítico . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 5
+2 1 . 2 Retorno Crítico – Falta de Volume . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 6
+2 2 . EM TRANSFERÊNCIA
+2 2 . 1 Identificação da Falta de Pedido na Carreta . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 8
+2 2 . 2 Consolidação das Informações . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 9
+2 2 . 3 Verificação no Inventário . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 0
+2 2 . 4 Tratativa com a Natura . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 0
+2 2 . 5 Retorno da Natura . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 0
+2 0 . CONSIDERAÇÕES FINAIS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 1
+S U M Á R I O
+M N O P 0 2 - 0 0
+
+## PAGINA 4 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+3
+Este manual tem como finalidade orientar os gestores das filiais na tomada de
+decisão relacionada a gestão de pedidos críticos , abrangendo pedidos com
+vencimento no dia ou já vencidos .
+O objetivo é padronizar critérios de análise , prazos e ações , garantindo que
+todas as decisões sejam tomadas de forma consistente , segura e alinhada às
+diretrizes operacionais do Grupo JB Transporte e Logística .
+O material foi estruturado para apoiar o gestor desde a análise inicial do
+pedido , passando pela identificação das ocorrências , validações físicas e
+sistêmicas , até a definição da ação correta no sistema , reduzindo riscos
+operacionais , falhas de tratativa e prejuízos financeiros .
+Este manual também tem como propósito :
+Assegurar maior controle e rastreabilidade das decisões ;
+Minimizar erros de interpretação dos status sistêmicos ;
+Proteger a operação e o gestor por meio de registros e tratativas corretas ;
+Garantir agilidade na resolução de pedidos críticos , respeitando os prazos
+definidos por criticidade ( range de vencimento ) .
+FINALIDADE DO MANUAL
+M N O P 0 2 - 0 0
+
+## PAGINA 5 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+4
+Este manual foi desenvolvido para orientar o gestor de forma prática , objetiva
+e segura na gestão e resolução de pedidos críticos .
+A análise dos pedidos deve ser realizada diariamente , preferencialmente no
+horário das 7 h às 9 h , garantindo tempo hábil para identificar possíveis
+problemas e executar as correções necessárias antes do impacto operacional
+ao longo do dia .
+Para a correta utilização do material , siga rigorosamente as orientações
+a b a i x o :
+Sempre inicie pela Análise Inicial , conforme indicado no fluxo ;
+Responda às perguntas de forma objetiva , seguindo a lógica da Árvore de
+D e c i s õ e s ;
+Avalie cada cenário conforme as condições apresentadas ( quando
+aplicável : sim , não ou demais direcionamentos indicados ) ;
+O próprio fluxo indicará a ação correta a ser tomada ;
+Respeite rigorosamente o range de vencimento e os prazos definidos para
+cada criticidade .
+⚠ Importante :
+A Área de Estudos apresenta os conceitos , regras , prazos , responsabilidades e
+critérios que fundamentam as decisões .
+A Árvore de Decisões contém os fluxos operacionais que orientam , de forma
+prática , o que deve ser feito em cada situação .
+Este material deve ser utilizado como ferramenta de consulta estruturada e
+apoio à decisão no dia a dia operacional .
+COMO UTILIZAR ESTE MANUAL
+M N O P 0 2 - 0 0
+
+## PAGINA 6 MNOP02 ##
+G R U P O J B
+GRUPO
+M N O P 0 2 - 0 0
+GESTÃO DE PEDIDOS CRÍTICOS
+5
+E S T U D O S
+Á R E A D E
+M N O P 0 2 - 0 0
+
+## PAGINA 7 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+6
+1 . DEFINIÇÃO DE PEDIDO CRÍTICO
+M N O P 0 2 - 0 0
+Antes de iniciar a análise dos pedidos , é
+importante entender quando um pedido
+exige atenção imediata da operação .
+Pedido crítico não é apenas pedido vencido .
+Pedidos com status sistêmicos críticos também
+exigem análise imediata .
+O QUE É , AFINAL , UM PEDIDO CRÍTICO ?
+Pedido crítico é todo pedido que apresenta vencimento no dia da análise ,
+vencimento já ocorrido ou qualquer status sistêmico que indique risco
+operacional , exigindo acompanhamento prioritário e análise imediata .
+Esses pedidos representam risco para a operação logística , podendo gerar
+atrasos na entrega , divergências de volume ou inconsistências entre o status
+registrado no sistema e a situação real do pedido .
+Em resumo
+Um pedido crítico é aquele que exige atenção imediata da operação , seja por
+vencimento ou por status sistêmico que indique risco na entrega ou
+inconsistência operacional , como por exemplo :
+Apontamento de Fora de Rota ;
+Apontamento de Falta de Volume ;
+pedidos sem movimentação sistêmica por mais de 5 dias , desde que não
+seja uma ocorrência finalizdora .
+
+## PAGINA 8 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+7
+🔥 Range B – Muito Crítico
+Pedido extremamente crítico .
+Prazo : Resolução obrigatória no mesmo dia .
+Obrigatoriedade : Lançamento de ocorrência finalizadora no sistema até o
+fim do dia , para pedidos vencidos há 4 dias ou mais .
+
+🔴 Range A – Crítico
+Pedido crítico , porém com tempo razoável para resolução . Abrange pedidos
+com vencimento no dia , vencidos há 1 dia ou vencidos entre 2 e 3 dias .
+Prazo : Deve ser apontada ocorrência finalizadora no sistema em até 3 dias ,
+contados a partir do vencimento .
+2 . CLASSIFICAÇÃO DE CRITICIDADE ( RANGE )
+M N O P 0 2 - 0 0
+Todo pedido deve ser classificado antes de qualquer ação :
+
+## PAGINA 9 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+8
+3 . 2 ÁREAS CRÍTICAS DE BUSCA
+O inventário deve
+obrigatoriamente incluir :
+BOTBOV Externo ;
+BOTBOV Interno .
+A t e n ç ã o :
+Essas áreas concentram
+pendências e
+inconsistências e não
+podem ser ignoradas .
+INVENTÁRIO FÍSICO
+Realizado no mínimo duas vezes por
+s e m a n a .
+RELATÓRIO DE BIPAGEM ( DETALHAMENTO NO ITEM
+2 . 3 – RELATÓRIO DE BIPAGEM )
+Deve informar :
+Tipo de bipagem ( entrada , conferência de
+roteiro , retorno ou consulta completa ) ;
+Data e horário ;
+Usuário responsável .
+BUSCA VISUAL
+Verifique visualmente na subrota onde a
+caixa deveria estar .
+O primeiro objetivo é localizar fisicamente as caixas antes de qualquer outra
+tratativa para envio imediato à rota .
+3 . FLUXOS OPERACIONAIS DE TRATATIVA DE PEDIDOS CRÍTICOS
+3 . 1 FORMAS DE LOCALIZAÇÃO
+M N O P 0 2 - 0 0
+
+## PAGINA 10 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+9
+3 . 3 RELATÓRIO DE BIPAGEM
+M N O P 0 2 - 0 0
+O Relatório de Bipagem é a evidência sistêmica que comprova a
+movimentação do volume dentro da operação .
+Ele deve ser consultado sempre que houver :
+Falta de volume ;
+Divergência de inventário ;
+Dúvida sobre recebimento ;
+Validação antes de qualquer decisão crítica .
+ONDE ACESSAR NO SISTEMA ( MY TRACKING )
+Caminho completo : MyTracking → RELATÓRIOS → 1 1 - Conferências e Leituras
+( 2 ) → 6 7 - Conferência Geral ( Via APP )
+O QUE O RELATÓRIO INFORMA
+1 . Conferente responsável
+2 . Tipo de movimentação :
+E n t r a d a
+Conferência de roteiro
+R e t o r n o
+Consulta completa
+4 . Data e horário da leitura
+5 . Código da remessa
+6 . Motorista do roteiro
+COMO UTILIZAR NA PRÁTICA :
+1 . Antes de qualquer decisão , validar :
+2 . O volume possui bipagem registrada ?
+3 . A movimentação está coerente com o histórico ?
+4 . Quem realizou a leitura ?
+
+## PAGINA 11 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+1 0
+Antes de qualquer análise interna , deve - se confirmar se o pedido já está com
+o cliente , evitando retrabalho e desperdício de tempo .
+4 . PEDIDO NÃO LOCALIZADO
+M N O P 0 2 - 0 0
+CLIENTE RECEBEU O PEDIDO ?
+Realizar contato ativo com o ( a ) cliente ( ligação ou WhatsApp ) .
+CLIENTE CONFIRMA
+RECEBIMENTO
+S i t u a ç ã o :
+Cliente confirma que
+recebeu o pedido ;
+Entrega realizada , porém
+sem baixa no sistema ( falha
+operacional ) .
+A ç ã o :
+Enviar Reconhecimento
+para assinatura ;
+Após retorno assinado ,
+ajustar para Entrega
+Realizada ;
+Encerrar o processo .
+CLIENTE NÃO ATENDE
+S i t u a ç ã o :
+Não foi possível confirmar a entrega
+com o cliente .
+A ç ã o :
+Enviar Reconhecimento para
+assinatura ;
+Se retornar assinado → ajustar
+para Entrega Realizada e
+encerrar ;
+Se não retornar → Avançar para
+a E t a p a 3 . 2 .
+CLIENTE INFORMA QUE
+N Ã O R E C E B E U
+Avançar para Etapa 3 . 2 .
+4 . 1 . RECONHECIMENTO
+
+## PAGINA 12 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+1 1
+S i t u a ç ã o :
+Não há qualquer registro de
+recebimento ou movimentação
+da caixa no sistema .
+A ç ã o :
+Prejuízo assumido pela
+e m p r e s a ;
+Solicitar Termo de Desconto
+para a empresa ;
+Documento exige autorização
+da diretoria .
+S i t u a ç ã o :
+Houve registro de recebimento ou
+movimentação da caixa no sistema
+em algum momento , porém a caixa
+não foi localizada fisicamente .
+A ç ã o :
+Reunir evidências disponíveis
+( relatório de bipagem , registros e
+h o r á r i o s ) ;
+Avaliar responsabilidade pela
+divergência ;
+Havendo erro operacional ,
+solicitar Termo de Desconto ao
+responsável apontado no
+registro ;
+Encerrar o processo .
+M N O P 0 2 - 0 0
+EXISTE MOVIMENTAÇÃO SISTÊMICA ?
+Analisar o Relatório de Bipagem .
+COM MOVIMENTAÇÃO
+REGISTRADA
+SEM MOVIMENTAÇÃO
+REGISTRADA
+4 . 2 . TERMO DE DESCONTO
+O Termo de Desconto somente deve ser avaliado após confirmar se houve ou
+não movimentação sistêmica da caixa , evitando conclusões precipitadas e
+responsabilização incorreta .
+
+
+## PAGINA 13 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+1 2
+4 . 3 SOLICITAÇÃO DE TERMO
+M N O P 0 2 - 0 0
+O processo de Solicitação de Termo tem como finalidade formalizar a
+responsabilização quando identificada falha operacional ou extravio
+confirmado .
+O fluxo envolve dois responsáveis :
+Solicitante
+Analista Administrativo
+ONDE INICIAR A SOLICITAÇÃO
+A solicitação deve ser realizada exclusivamente via Forms
+oficial , contendo :
+E - mail corporativo ;
+Nome completo ;
+Descrição detalhada do ocorrido .
+Após o envio , a solicitação é registrada para análise .
+O Analista Administrativo :
+1 . Analisa diariamente as solicitações recebidas ;
+2 . Possui prazo de até 2 4 horas para avaliação ;
+3 . Registra as informações na planilha de controle de
+t e r m o s ;
+4 . Emite o termo com base nas informações registradas ;
+5 . Cria o chamado no MoviDesk ;
+6 . Envia o termo ao solicitante via e - mail ( MoviDesk ) .
+O termo pode ser visualizado :
+Pelo e - mail recebido ;
+Diretamente no chamado do MoviDesk .
+ANÁLISE E EMISSÃO DO TERMO
+Acesse o Forms de
+Solicitação
+Acesse o MoviDesk
+Atenção : Após o envio , é gerado o número do ticket para
+acompanhamento no MoviDesk .
+
+## PAGINA 14 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+1 3
+M N O P 0 2 - 0 0
+ASSINATURA E DEVOLUÇÃO
+Após o recebimento do termo , o solicitante deve :
+1 . Conferir as informações ;
+2 . Aplicar o termo ao responsável ;
+3 . Coletar assinatura :
+Do responsável direto ; ou
+De duas testemunhas , quando aplicável .
+Prazo máximo para devolução : 4 8 horas .
+O envio deve ser realizado respondendo ao e - mail do
+c h a m a d o .
+Ao receber o termo assinado , o Analista Administrativo :
+1 . Confirma as informações ;
+2 . Encerra o ticket no MoviDesk com status “ Termo Assinado ” ;
+3 . Realiza o download do documento ;
+4 . Arquiva o termo .
+VALIDAÇÃO E ARQUIVAMENTO
+
+## PAGINA 15 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+1 4
+D e s c r i ç ã o :
+A caixa foi localizada fisicamente , porém não há motorista
+disponível no momento para realizar a entrega .
+A ç ã o :
+Registrar a ocorrência no Livro de Ocorrências .
+M N O P 0 2 - 0 0
+5 . PEDIDO – DEFINIÇÃO DE SITUAÇÃO E AÇÃO
+Ações imediatas obrigatórias :
+D e s c r i ç ã o :
+A caixa foi localizada fisicamente e não há
+impedimentos operacionais para o envio .
+A ç ã o :
+Colocar em rota no mesmo dia , sempre que possível .
+CAIXA LOCALIZADA E DISPONÍVEL PARA ENTREGA
+CAIXA LOCALIZADA , MAS INDISPONÍVEL PARA ENTREGA
+D e s c r i ç ã o :
+A caixa não foi localizada fisicamente após as tentativas
+d e b u s c a .
+A ç ã o :
+Registrar a ocorrência no Livro de Ocorrências .
+PEDIDO NÃO LOCALIZADO
+Acesse o Livro de
+Ocorrências
+Orientação Importante :
+A ocorrência registrada deve sempre refletir a
+situação real da caixa no momento da análise ;
+Evite registros genéricos que não representam
+fielmente o ocorrido .
+
+## PAGINA 16 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+1 5
+O QUE O SISTEMA NORMALMENTE INDICA :
+Ocorrência Inserido / integrado ;
+Se trata de uma ocorrência anterior a chegada do pedido na filial ;
+Costuma indicar data de faturamento .
+ONDE CONSULTAR INFORMAÇÕES :
+Existe um Drive específico para registro e
+acompanhamento das inconsistências relacionadas a
+esse status . Para acessar , escaneie o QR Code ao lado .
+PAPEL DO BOTBOV CENTRAL :
+Centralizar e analisar as inconsistências de todas as
+filiais , garantindo padronização da tratativa .
+COMO ESSA SITUAÇÃO PODE OCORRER :
+Pedido ainda não chegou na filial ;
+Pedido chegou parcialmente ;
+Pedido chegou completo , porém sem entrada sistêmica ( geralmente
+identificado na área de inconsistências ) .
+O QUE A NATURA INFORMA NO DRIVE :
+Pedido enviado ;
+Data de envio parcial ;
+Autorização de erro de formação de carga .
+M N O P 0 2 - 0 0
+6 . SITUAÇÕES SISTÊMICAS
+6 . 1 . SITUAÇÃO : EM TRANSFERÊNCIA
+O pedido está em processo de transferência para a filial de destino .
+Acesse o Drive
+
+## PAGINA 17 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+1 6
+CHEGADA NA TRANSPORTADORA
+Pedido registrado como chegado no sistema da filial ;
+Entrada pode ocorrer de forma automática ou manual ;
+Atenção : Entrada manual no sistema com perda física do volume indica
+forte risco de desconto para o responsável .
+CHEGADA NA TRANSPORTADORA ( RETIDO )
+Pedido retido para conferência ;
+Pode ocorrer por :
+Falta de capacidade do veículo ;
+Pedido não localizado no carregamento .
+REENTREGA LIBERADA
+Pedido retirado da lista de retorno ;
+A existência física do volume deve ser validada ;
+Atenção : Em caso de perda física , o desconto será atribuído a quem
+liberou a reentrega .
+DESFECHOS POSSÍVEIS :
+Natura assume erro → Lançar Erro de Formação de Carga → Finalizar ;
+Pedido especial ( Diamante ou PJ ) → Aguardar envio do parcial .
+M N O P 0 2 - 0 0
+6 . 2 . SITUAÇÃO : NA FILIAL
+Pedidos com ocorrências que indicam que a carga se encontra na filial e está
+liberada para seguir para a rota .
+Atenção : Se os pedidos se enquadram no Range B , sinalizar
+imediatamente no grupo oficial da Natura , a fim de acelerar a
+resolução do caso .
+
+
+## PAGINA 18 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+1 7
+ASSOCIADO À ROTEIRO
+Pedido separado e associado ao roteiro de largada .
+M N O P 0 2 - 0 0
+6 . 3 . SITUAÇÃO : EM ROTA
+SAIU PARA ENTREGA
+O pedido está com o parceiro em campo ;
+Indica que o roteiro já foi largado e a entrega está em execução .
+TRANSFERÊNCIA ENTRE ROTEIROS
+O pedido pode ser transferido de um roteiro para outro no sistema .
+Essa ação não confirma que o pedido esteja fisicamente em rota e
+pode gerar interpretações incorretas do status .
+Cenários possíveis :
+Transferência para roteiro já largado
+Pedido incluído em um roteiro que já saiu para entrega ;
+Fluxo considerado normal ;
+Sem impacto operacional adicional .
+Transferência para roteiro não largado
+Pedido aparece no sistema como transferido ( teoricamente “ em
+r o t a ” ) ;
+Pode gerar falsa percepção de que o pedido já está em entrega ;
+Atenção : A transferência entre roteiros não confirma que o pedido
+esteja em rota . Sempre validar a situação real antes de avançar no
+f l u x o .
+Se tratam de pedidos que estão em rota de entrega . Todos os pedidos com
+esse status estão associados a um roteiro operacional .
+
+## PAGINA 19 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+1 8
+M N O P 0 2 - 0 0
+6 . 4 . SITUAÇÃO : RETORNO
+Pedido com retorno apontado pelo motorista , necessitando atualização de status e
+maior cobrança ao parceiro / motorista devido ao risco de perda do pedido .
+OCORRÊNCIA NÃO CRÍTICA ( RETORNO COMUM )
+Pedido retornou por motivo operacional comum ;
+Exemplos :
+1 ª tentativa de entrega ;
+Fora de rota ;
+Chuvas na região ;
+Quebra de veículo ;
+Fora de horário ;
+Local perigoso .
+Atenção : Verificar por que a caixa foi direcionada à rota incorreta e
+avaliar se o pedido foi associado corretamente ao roteiro ou ao motorista .
+OCORRÊNCIA CRÍTICA – FALTA DE VOLUME
+Pedidos com volumes incompletos não devem
+ser aceitos no recebimento de retorno pela
+E x p e d i ç ã o ;
+O motorista é responsável pela prestação de
+contas do ocorrido , devendo verificar a última
+rota realizada e localizar o volume / caixa
+faltante ;
+Somente após a localização do volume o
+pedido poderá seguir para uma nova entrega .
+Caso o volume não seja localizado , deverá ser
+avaliada a aplicação de Termo de Desconto .
+
+## PAGINA 20 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+1 9
+2 º . COMUNICAÇÃO A NATURA
+Após registro das evidências :
+Enviar e - mail com as evidências para os analistas da
+N a t u r a ;
+Preencher drive oficial de avarias .
+M N O P 0 2 - 0 0
+6 . 5 . IDENTIFICOU AVARIA ?
+1 º . FLUXO MÍNIMO NA FILIAL
+Identificou avaria ? Registrar evidência imediatamente .
+Tirar fotos claras de :
+Caixa amassada ;
+Produto vazado ;
+Embalagem danificada .
+Se houver vazamento : Incluir foto do lote do produto .
+💡 Quando aplicar
+Sempre que for identificada avaria física no volume , seja :
+Caixa amassada ;
+Produto vazado ;
+Embalagem rompida .
+A . AVARIA IDENTIFICADA EM ROTA
+Via de regra , a responsabilidade é do motorista ,
+conforme apuração operacional .
+📌 Exceção – Produto específico : Body splash
+Aquavibe .
+Para este produto , a Natura assume a
+responsabilidade , pois já reconheceu
+formalmente a fragilidade da embalagem .
+
+## PAGINA 21 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+2 0
+C . TRATATIVA – DEMAIS PRODUTOS ( EM ROTA )
+Quando a avaria em rota não for o produto Aquavibe :
+1 . Caixa fica com o parceiro ;
+2 . Lançar ocorrência finalizadora : Mercadoria Extraviada ;
+3 . Aplicar Termo de Desconto ao motorista .
+B . TRATATIVA – PRODUTO AQUAVIBE ( EM ROTA )
+Quando a avaria em rota for referente ao produto
+Aquavibe ( Body Splash ) :
+1 . Trazer a caixa avariada para a unidade ;
+2 . Registrar evidência fotográfica :
+Foto da caixa ;
+Foto da etiqueta da caixa ;
+Foto da etiqueta do produto ;
+3 . Enviar as fotos no Drive de Avarias ;
+4 . A Expedição consolida as informações e encaminha
+e - mail padrão ao analista da Natura .
+M N O P 0 2 - 0 0
+ACESSE O DRIVE DE
+A V A R I A S
+
+## PAGINA 22 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+2 1
+Antes de qualquer decisão , responda mentalmente :
+Já tentei localizar fisicamente a caixa ?
+Já validei todas as áreas críticas ?
+Já consultei o Relatório de Bipagem ?
+.
+Atenção : Se alguma resposta for NÃO , a análise está incompleta .
+Pedido parado é prejuízo invisível !
+6 . 1 . REGRA DE OURO ( NUNCA PULE ESTA ETAPA )
+Objetivo primário : Localizar a caixa e colocar em rota o quanto antes .
+Formas de localização ( ordem prática )
+Busca visual na subrota correta ;
+Inventário físico ( mín . 2 x por semana ) ;
+Relatório de bipagem .
+Áreas que MAIS apresentam problemas :
+BOTBOV Interno ;
+BOTBOV Externo ;
+Área de Inconsistências ;
+Área de Avarias .
+Busca rasa gera decisão errada . Sempre faça busca minuciosa .
+M N O P 0 2 - 0 0
+7 . FUNDAMENTOS – CHECKPOINT FINAL
+8 . ANÁLISE INICIAL - COMO O GESTOR DEVE PENSAR
+
+## PAGINA 23 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+Erro 1 : Não fazer inspeção visual do galpão .
+Sempre validar quantidade de pedidos no sistema + físico .
+Erro 2 : Pular direto para Termo de Desconto .
+Reconhecimento vem antes , sempre que aplicável .
+Erro 3 : Não registrar no Livro de Ocorrências .
+Registro protege o gestor e a operação .
+Erro 4 : Achar que “ transferido ” é sempre em rota .
+Validar se o roteiro já deu largada .
+Erro 5 : Realizar chegada manual no sistema sem validação física do
+v o l u m e .
+A chegada manual é exclusiva do BOTBOV Central , mediante
+evidência física do volume pela filial ( foto e inventário / bipagem ) .
+2 2
+Range A – Crítico
+Pedido crítico ;
+Vencimento no dia ou
+até 3 dias vencidoS ;
+Prazo de resolução : até
+3 d i a s ;
+Permite investigação
+mais profunda ;
+Exige ocorrência
+finalizadora .
+⚠ Range B sem ação imediata = Termo para o gestor no valor do pedido .
+Range B – Muito Crítico
+Pedido extremamente
+c r í t i c o ;
+4 dias ou mais
+vencidoS ;
+Prazo : resolver no
+m e s m o d i a ;
+Prioridade máxima ;
+Nunca deixar para o
+dia seguinte .
+M N O P 0 2 - 0 0
+1 0 . ERROS MAIS COMUNS ( E COMO EVITAR )
+9 . RANGE A x RANGE B – O QUE MUDA NA PRÁTICA
+
+
+## PAGINA 24 MNOP02 ##
+Use RECONHECIMENTO quando :
+O ( A ) cliente confirma o recebimento do pedido ;
+Não há qualquer movimentação sistêmica que comprove falha
+operacional ;
+O caso apresenta tendência de extravio , porém não há evidências
+suficientes para caracterizar erro operacional .
+Vá direto para TERMO quando :
+O pedido não foi localizado após análise inicial obrigatória ;
+No fluxo de pedido não localizado , o ( a ) cliente informa que não
+r e c e b e u ;
+Há movimentação sistêmica com falha de procedimento
+comprovada ;
+Há indício claro de erro operacional .
+Reconhecimento não é garantia de encerramento . Ele é tentativa de
+v a l i d a ç ã o .
+GESTÃO DE PEDIDOS CRÍTICOS
+2 3
+Sempre observe :
+Quem bipou ;
+Em qual módulo ;
+Em que horário ;
+Se faz sentido com o fluxo físico .
+Bipagem isolada não prova entrega , mas aponta
+responsabilidade .
+M N O P 0 2 - 0 0
+1 2 . BIPAGEM : COMO LER ALÉM DO ÓBVIO
+1 1 . RECONHECIMENTO x TERMO – COMO DECIDIR
+S E M E R R O
+
+## PAGINA 25 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+2 4
+Atenção ao processo de encerramento das ocorrências críticas .
+M N O P 0 2 - 0 0
+1 3 . RESPONSABILIDADE SISTÊMICA – BOTBOV CENTRAL
+Somente o BOTBOV Central realiza o lançamento de Mercadoria
+Extraviada no sistema My Tracking .
+O lançamento da ocorrência finalizadora “ Mercadoria Extraviada ” no
+sistema é de responsabilidade exclusiva do time BOTBOV Central .
+A filial não deve realizar diretamente esse lançamento no sistema .
+Quando identificado extravio durante a análise :
+A filial deve :
+Realizar a busca física completa do volume ;
+Validar histórico de bipagem e inventário ;
+Registrar a situação no Livro de Ocorrências ;
+Solicitar Termo de Desconto , quando aplicável ;
+Sinalizar o BOTBOV central a necessidade do lançamento no
+s i s t e m a .
+Redobre atenção quando houver :
+Entrada manual sem validação física ;
+Reentrega Liberada sem caixa localizada ;
+Apontamento de falta de volume ;
+Pedido sem qualquer bipagem após chegada na filial .
+Nessas situações , documente tudo antes de decidir .
+1 4 . SITUAÇÕES DE ALTO RISCO DE DESCONTO
+
+
+## PAGINA 26 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+2 5
+Registrar sempre que :
+Caixa localizada , mas não saiu no dia ;
+Pedido localizado em rota , mas sem
+finalização no mesmo dia ;
+Pedido crítico sem definição imediata ;
+Qualquer exceção ao fluxo normal .
+O que não está registrado , não existe .
+ACESSO AO LIVRO DE
+OCORRÊNCIAS
+M N O P 0 2 - 0 0
+1 5 . LIVRO DE OCORRÊNCIAS – QUANDO É OBRIGATÓRIO
+
+
+## PAGINA 27 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+2 6
+Todo pedido crítico deve encerrar o dia em um dos status abaixo :
+Range A – Crítico :
+Caixa em rota , com prazo de finalização de até 3 dias ( no máximo ) ;
+Caso documentado e escalonado , quando aplicável .
+Range B – Muito Crítico :
+Pedido em rota e finalizado imediatamente ( no mesmo dia ) ;
+Caso documentado e escalonado , quando aplicável .
+Atenção : Todo caso deve encerrar com uma ocorrência finalizadora
+registrada no MyTracking .
+Exemplos :
+✅ Entrega realizada ;
+✅ Mercadoria Extraviada ( sempre com Termo de Desconto ) ;
+✅ Mercadoria avariada ( com aprovação da Natura ou termo , quando
+a p l i c á v e l ) .
+Ou caso o pedido sofra alguma ocorrência de BOTBOV , como exemplo :
+Endereço não localizado , mudou - se , CN ausente , etc .
+Importante : Nem toda “ Ocorrência BOTBOV ” deve ser tratada como
+finalizadora , para evitar encerramento indevido do caso .
+M N O P 0 2 - 0 0
+1 6 . FECHAMENTO CORRETO DO DIA
+
+## PAGINA 28 MNOP02 ##
+G R U P O J B
+GRUPO
+D E C I S Õ E S
+Á R V O R E D E
+M N O P 0 2 - 0 0
+GESTÃO DE PEDIDOS CRÍTICOS
+M N O P 0 2 - 0 0
+2 7
+
+## PAGINA 29 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+2 8
+M N O P 0 2 - 0 0
+ORIENTAÇÃO DE LEITURA DO PROCESSO
+A partir desta página , o procedimento será apresentado em formato de
+passo a passo operacional , descrevendo a sequência lógica das
+atividades que devem ser executadas para a gestão de pedidos críticos .
+Cada etapa do processo deverá ser seguida na ordem apresentada ,
+respeitando as decisões indicadas em cada fase , conforme os
+direcionamentos estabelecidos ( ex . : SE SIM , SE NÃO ou demais
+encaminhamentos previstos no fluxo ) .
+Em determinados pontos do fluxo , serão indicadas páginas específicas
+deste documento que contêm detalhamento complementar da etapa ,
+com orientações mais aprofundadas sobre :
+critérios de verificação ;
+áreas críticas de busca ;
+análises sistêmicas ;
+tratativas específicas ;
+E t c .
+Sempre que houver indicação de detalhamento , o usuário deverá consultar
+a página referenciada para apoio à execução da atividade , retornando em
+seguida ao fluxo principal para continuidade do processo .
+
+## PAGINA 30 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+2 9
+M N O P 0 2 - 0 0
+NA FILIAL
+Este procedimento contempla duas situações distintas , cada uma com fluxo
+específico de tratamento .
+A primeira situação refere - se aos pedidos que se encontram na base da
+transportadora , aplicável as ocorrências : Chegada na Transportadora ,
+Chegada na Transportadora ( retido ) e Associado à Roteiro .
+A segunda situação refere - se aos pedidos classificados como Reentrega
+Liberada , que seguem fluxo próprio após retorno de rota .
+O fluxo a ser seguido deve ser definido conforme a situação identificada
+para o pedido .
+1 . CHEGADA NA TRANSPORTADORA , CHEGADA NA TRANSPORTADORA
+( RETIDO ) E ASSOCIADO À ROTEIRO :
+1 . 1 . Localização física do volume
+O volume foi localizado fisicamente ?
+Consultar item 2 . 1 – Formas de Localização ( p . 8 ) .
+Consultar item 2 . 2 – Áreas Críticas de Busca ( p . 8 ) .
+S E S I M :
+1 . Identificar o motorista
+responsável pela entrega ;
+2 . Realizar o carregamento do
+v e í c u l o ;
+3 . Pedido liberado para entrega .
+S E N Ã O :
+1 . Avançar para verificação de
+inventário .
+
+
+## PAGINA 31 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+3 0
+1 . 2 . Verificação de inventário
+O volume foi localizado no inventário ?
+Consultar item 2 . 1 – Formas de Localização ( p . 8 ) .
+1 . 3 . Consulta do histórico de bipagem do volume
+Houve outra movimentação do volume além da entrada na
+transportadora ?
+Consultar item 3 . 3 – Relatório de Bipagem ( p . 9 ) .
+Consultar item 1 1 – Bipagem : Como Ler Além do Óbvio ( p . 2 3 ) .
+
+M N O P 0 2 - 0 0
+S E S I M :
+1 . Identificar o motorista
+responsável ;
+2 . Realizar o carregamento do
+v e í c u l o ;
+3 . Pedido liberado para entrega .
+S E N Ã O :
+1 . Avançar para análise de bipagem .
+( Ver pág . 9 , item 3 . 3 – Relatório de
+B i p a g e m . )
+S E S I M :
+1 . Avançar para a etapa 4 –
+Verificação do tipo de registro de
+e n t r a d a .
+S E N Ã O :
+1 . Registrar ocorrência no Livro de
+Ocorrências ;
+2 . Solicitar Termo de Desconto para a
+empresa com autorização da
+diretoria ;
+3 . Lançar ocorrência finalizadora :
+Mercadoria Extraviada .
+Consultar item 4 . 3 – Solicitação de
+T e r m o ( p . 1 2 ) .
+Consultar item 1 5 – Livro de
+Ocorrências ( p . 2 5 ) .
+
+## PAGINA 32 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+3 1
+M N O P 0 2 - 0 0
+M A N U A L :
+1 . Questionar o conferente
+responsável ou o motorista da
+r o t a ;
+2 . Definir a responsabilidade ;
+3 . Definir o responsável pela
+aplicação do termo ;
+4 . Lançar ocorrência finalizadora ;
+5 . Fim de Processo .
+SISTÊMICA :
+1 . Registrar ocorrência no Livro de
+Ocorrências ;
+2 . Lançar ocorrência finalizadora :
+Mercadoria Extraviada ;
+3 . Aplicar Termo de Desconto a
+e m p r e s a .
+1 . 4 . Verificação do tipo de registro de entrada do volume
+Como foi realizado o registro de entrada do volume ?
+Consultar item 4 – Definição de Situação e Ação ( p . 1 3 ) .
+2 . REENTREGA LIBERADA
+2 . 1 . Localização física do volume
+O volume foi localizado fisicamente na base operacional ?
+S E S I M :
+1 . Identificar o motorista
+responsável pela entrega ;
+2 . Realizar o carregamento do
+v e í c u l o ;
+3 . Pedido liberado para reentrega .
+S E N Ã O :
+1 . Avançar para verificação de
+prestação de contas do
+motorista .
+Consultar item 1 4 – Situações de
+Alto Risco de Desconto ( p . 2 4 ) .
+Consultar item 4 . 2 – Termo de
+Desconto ( p . 1 1 ) .
+Consultar item 1 3 –
+Responsabilidade Sistêmica –
+B O T B O V ( p . 2 4 ) .
+
+## PAGINA 33 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+3 2
+M N O P 0 2 - 0 0
+2 . 2 . Verificação de prestação de contas do motorista
+O motorista que saiu com o volume realizou a prestação de contas
+corretamente ?
+SE PRESTOU CONTA :
+1 . Descartar o motorista da
+a p u r a ç ã o ;
+2 . Confirmar responsável pela
+b a i x a ;
+3 . Lançar ocorrência finalizadora :
+Mercadoria Extraviada ;
+4 . Encaminhar para Termo de
+Desconto conforme responsável
+identificado .
+SE NÃO PRESTOU CONTA :
+1 . Ir para item 2 . 3 . Validar se o
+motorista possui a caixa física .
+S E S I M :
+1 . Coletar a caixa do motorista ;
+2 . Aplicar advertencia ao
+responsavel pela ocorrênvia :
+Reentrega Liberada ;
+3 . Identificar o motorista
+responsável pela entrega ;
+4 . Realizar o carregamento do
+v e í c u l o ;
+5 . Pedido liberado para reentrega .
+S E N Ã O :
+1 . Identificar quem realizou :
+Bipagem da nota de retorno
+( Assistente ) ;
+Bipagem da caixa na prestação
+( Conferente ) ;
+2 . Lançar ocorrência finalizadora :
+Mercadoria Extraviada ;
+3 . Encaminhar para Termo de
+Desconto conforme responsável
+identificado .
+2 . 3 . Validar se o motorista possui a caixa física
+O motorista possui a caixa física ?
+Consultar item 4 . 2 – Termo de
+Desconto ( p . 1 1 ) .
+Consultar item 1 3 – Responsabilidade
+Sistêmica – BOTBOV ( p . 2 4 ) .
+
+
+## PAGINA 34 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+3 3
+M N O P 0 2 - 0 0
+1 . Identificação do motorista responsável
+Identifique qual motorista saiu originalmente com o pedido .
+2 . Entendimento da situação do pedido
+Durante a análise e / ou contato com o motorista , identificar qual das
+situações a seguir se aplica :
+E M R O T A
+A situação Em Rota indica que o pedido já saiu da base para entrega .
+Este mesmo fluxo também deve ser aplicado quando o status estiver como :
+Saiu para entrega ;
+Transferido entre roteiros ( validar se está realmente em rota ) .
+Para a ocorrência TRANSFERIDO ENTRE ROTEIROS :
+🔎 SE O PEDIDO NÃO ESTIVER FISICAMENTE EM ROTA :
+1 . Localizar a caixa fisicamente na filial ;
+2 . Verificar o roteiro em que o pedido está alocado ;
+3 . Caso o roteiro não tenha saído , zerar o roteiro ;
+4 . Após zerar o roteiro , o sistema retornará automaticamente o pedido
+para Chegada na Transportadora ( retido ) ;
+5 . Tratar ocorrência conforme o fluxo de “ Chegada na Transportadora
+( r e t i d o ) ” .
+🚚 SE O PEDIDO ESTIVER REALMENTE EM ROTA :
+
+## PAGINA 35 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+3 4
+M N O P 0 2 - 0 0
+PEDIDO ENTREGUE , MAS NÃO
+FINALIZADO
+1 . Orientar o motorista a ajustar
+imediatamente o status para
+Entrega Finalizada ;
+2 . Validar se o ajuste foi realizado
+corretamente no sistema .
+PEDIDO NÃO FOI ENTREGUE
+1 . Alinhar com o motorista o
+motivo da não entrega ;
+2 . Definir prazo para realização
+da entrega ;
+3 . Orientar que , após a entrega ,
+o pedido deve ser
+imediatamente finalizado no
+s i s t e m a ;
+Considerar o vencimento do
+pedido para definição do prazo
+de entrega :
+Caso o pedido vá vencer em até
+3 d i a s :
+Pedidos de interior : Prazo
+máximo de até 2 dias ;
+Capital : No mesmo dia ;
+Manter acompanhamento
+operacional dentro do prazo
+acordado ;
+4 dias vencidos ou mais :
+Classificar o pedido como
+faixa crítica ;
+Intensificar a cobrança junto
+ao motorista e operação .
+Consultar item 1 6 – Fechamento
+Correto do Dia ( p . 2 6 ) .
+Consultar item 2 – Classificação de
+Criticidade ( p . 7 ) .
+Consultar item 9 – Range A x Range B
+( p . 2 2 ) .
+
+## PAGINA 36 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+3 5
+M N O P 0 2 - 0 0
+R E T O R N O
+Este procedimento contempla duas situações distintas , cada uma com fluxo
+específico de tratamento .
+A primeira situação refere - se aos retornos não críticos , aplicáveis
+quando o pedido retorna por motivos operacionais , como : 1 ª tentativa de
+entrega , fora de rota , chuvas na região , quebra de veículo , fora de horário
+ou local perigoso ;
+A segunda situação refere - se aos retornos críticos , caracterizados pela
+falta de volume , que exigem validação física , apuração de
+responsabilidade e tratativa específica .
+O fluxo a ser seguido deve ser definido conforme a situação identificada
+para o pedido .
+1 . RETORNO NÃO CRÍTICO : 1 ª TENTATIVA DE ENTREGA , FORA DE ROTA ,
+CHUVAS , QUEBRA DE VEÍCULO , FORA DE HORÁRIO OU LOCAL PERIGOSO .
+1 . 1 . Verificação da localização da caixa
+Onde a caixa está localizada fisicamente ?
+NA FILIAL :
+1 . Confirmar caixa fisicamente na
+f i l i a l ;
+2 . Lançar como Reentrega Liberada ;
+3 . Seguir o fluxo padrão da
+ocorrência de Reentrega
+Liberada .
+COM O PARCEIRO :
+1 . Prosseguir para verificação do
+r o t e i r o .
+Consultar item 6 . 4 – Ocorrência Não Crítica ( p . 1 8 ) .
+
+## PAGINA 37 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+3 6
+M N O P 0 2 - 0 0
+1 . 2 . Verificação do status do roteiro
+O roteiro do motorista está finalizado ?
+NÃO FINALIZADO :
+1 . O motorista pode realizar a 2 ª
+tentativa de entrega ;
+2 . Caso a entrega seja concluída ,
+deve registrar a entrega
+realizada , sobrepondo a
+ocorrência anterior ;
+3 . Acompanhar o andamento até a
+finalização do roteiro via My
+Tracking .
+FINALIZADO :
+O motorista não consegue
+atualizar o pedido nesse roteiro :
+1 . Criar novo roteiro ;
+2 . Reassociar o pedido ;
+3 . Programar a 2 ª tentativa de
+e n t r e g a ;
+4 . Pedido deve seguir para a rota
+no mesmo dia ;
+5 . Se não conseguir sair no
+m e s m o d i a :
+Registrar no Livro de
+Ocorrências ;
+Seguir no dia seguinte .
+2 . 1 . Identificação da Falta de Volume
+O motorista identifica a falta do volume no momento da entrega e realiza
+contato imediato com a base operacional para informar a ocorrência .
+2 . 2 . Consulta do histórico do pedido
+Realizar a verificação das evidências do pedido , considerando :
+Histórico de bipagem do volume no sistema MyTracking
+Ficha de saída / Cinta de carregamento
+2 . RETORNO CRÍTICO : FALTA DE VOLUME
+Consultar item 1 5 – Livro de
+Ocorrências ( p . 2 5 ) .
+Consultar item 6 . 4 – Ocorrência Crítica – Falta de Volume ( p . 1 8 ) .
+Consultar item 1 2 – Situações de Alto Risco de Desconto ( p . 2 4 ) .
+
+## PAGINA 38 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+3 7
+2 . 4 . Verificação da ficha de saída ( cinta de carregamento )
+O volume consta na ficha de saída assinada pelo conferente e pelo
+motorista ?
+M N O P 0 2 - 0 0
+S E S I M :
+1 . Informar ao motorista que o volume saiu sob sua responsabilidade ;
+2 . Orientar nova verificação no veículo ( baú , volumes finais , possível troca ) ;
+3 . Aguardar retorno do motorista .
+4 . Responsabilidade atribuída ao motorista . ( Se Range A , prazo máximo de 2
+dias . Se Range B , retorno imediato no mesmo dia . )
+Resultado do SE SIM :
+Se o volume for localizado → Retornar para entrega ;
+Se o volume não for localizado :
+Definir responsável : Motorista ( falta de volume vem de rota ) ;
+Solicitar termo para o motorista ;
+Lançar ocorrência finalizadora no sistema : Mercadoria Extraviada
+( MyTracking ) ;
+Fim do processo .
+
+S E N Ã O :
+1 . Avançar para análise de movimentação interna .
+S E S I M :
+1 . Avançar para verificação da
+ficha de saída .
+S E N Ã O :
+1 . Avançar para análise de
+movimentação interna do volume .
+2 . 3 . Verificação de bipagem do volume
+O volume foi bipado corretamente no roteiro ?
+Consultar item 3 . 3 – Relatório de Bipagem ( p . 9 ) .
+Consultar item 1 2 – Bipagem : Como Ler Além do Óbvio ( p . 2 3 ) .
+
+## PAGINA 39 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+3 8
+S E S I M : S E N Ã O :
+1 . Registrar ocorrência no Livro
+de Ocorrências ;
+2 . Lançar ocorrência finalizadora :
+Mercadoria Extraviada ;
+3 . Aplicar Termo de Desconto
+para o conferente .
+2 . 5 . Análise de movimentação interna do volume
+Houve movimentação interna do volume sem conferência adequada ?
+M N O P 0 2 - 0 0
+1 . Identificar o colaborador ,
+conferente ou motorista
+responsável pela movimentação ;
+2 . Lançar ocorrência finalizadora :
+Mercadoria Extraviada ;
+3 . Aplicar Termo de Desconto
+conforme apuração ;
+4 . Fim do processo .
+EM TRANSFERÊNCIA
+Considera - se Inserido Integrado ( Transferência ) a situação em que o
+pedido não chega fisicamente na filial , apesar de estar previsto na carreta
+de transferência ( Natura → Transportadora ) .
+1 . Identificação da falta de pedido na carreta
+Após a finalização da descarga e conferência da carreta , é identificado que
+determinados pedidos não chegaram fisicamente à filial .
+Avançar para consolidação das informações de chegada da carreta .
+Consultar item 4 . 2 – Termo de
+Desconto ( p . 1 1 ) .
+Consultar item 1 3 – Responsabilidade
+Sistêmica – BOTBOV ( p . 2 4 ) .
+
+## PAGINA 40 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+3 9
+M N O P 0 2 - 0 0
+2 . Consolidação das informações de chegada da carreta
+Para validação da falta do pedido , são consideradas três bases de
+i n f o r m a ç ã o :
+Relatório de bipagem da carreta ( MyTracking )
+Inventário da filial
+Relatório consolidado pelo time BOTBOV Central .
+Responsabilidades :
+O conferente realiza a bipagem completa da carreta ;
+O relatório de bipagem é extraído do MyTracking ;
+A filial realiza o envio do relatório de bipagem / inventário para o BOTBOV
+C e n t r a l ;
+O time do BOTBOV Central consolida o relatório de bipagem com o
+inventário e envia à Natura .
+Avançar para a verificação no relatório de bipagem da carreta .
+3 . Verificação no relatório de bipagem da carreta
+
+O pedido consta no relatório de bipagem da carreta ?
+S E S I M :
+1 . Realizar busca interna no galpão ;
+2 . Confirmar que o pedido chegou
+fisicamente ;
+3 . Regitsrar evidência do volume
+f i s i c o ;
+4 . Enviar para o time do BOTBOV
+C e n t r a l ;
+5 . Solciitar chegada na
+transportadora sitêmica .
+Consultar item 6 . 2 – Situação : Na
+F i l i a l ( p . 1 6 ) .
+S E N Ã O :
+1 . Avançar para a verificação no
+inventário da filial .
+Consultar item 3 . 3 – Relatório de Bipagem ( p . 9 ) .
+
+## PAGINA 41 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+4 0
+M N O P 0 2 - 0 0
+4 . Verificação no inventário da filial
+O pedido consta no inventário da filial ?
+S E S I M :
+1 . Identificar falha de bipagem ;
+2 . Localizar fisicamente o volume ;
+3 . Realizar chegada na
+transportadora ;
+4 . Associar a roteiro ;
+5 . Seguir fluxo operacional normal .
+S E N Ã O :
+1 . Avançar para a tratativa com
+a Natura – Inserido Integrado .
+5 . Tratativa com a Natura – Inserido Integrado
+O time do BOTBOV Central :
+Consolida relatório de bipagem e inventário ;
+Comunica à Natura os pedidos não recebidos ;
+Aguarda retorno da Natura no prazo de até 4 8 horas .
+Avançar para o retorno da Natura .
+6 . Retorno da Natura
+SE A NATURA CONFIRMAR QUE O
+PEDIDO NÃO FOI ENVIADO :
+1 . Lançar ocorrência de Erro na
+formação de carga ;
+2 . Retirar o pedido do fluxo
+operacional da filial .
+3 . Fim do processo .
+SE A NATURA INFORMAR QUE O
+PEDIDO FOI ENVIADO :
+Realizar nova conferência
+i n t e r n a ;
+Enviar réplica à Natura com
+relatório atualizado ;
+Confirmar ausência física
+do volume ;
+Se o pedido for do range B ,
+sinalizar com urgência no
+grupo oficial da natura .
+Aguardar direcionamento da
+Natura e Consultar item 6 . 1 –
+Situação : Em transferência ( p . 1 5 ) .
+
+## PAGINA 42 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+4 1
+M N O P 0 2 - 0 0
+A gestão de pedidos críticos não é apenas uma sequência de ações , mas
+um processo contínuo de análise , validação e decisão .
+Cada etapa apresentada neste manual da busca física à verificação
+sistêmica , da definição de responsabilidade ao encerramento no
+MyTracking compõe uma lógica única : garantir que nenhuma decisão seja
+tomada sem evidência e que nenhum pedido permaneça sem tratativa
+adequada .
+O processo foi estruturado para reduzir incertezas , padronizar critérios e
+fortalecer a segurança operacional das filiais .
+Quando seguido corretamente , ele transforma situações críticas em
+decisões controladas , documentadas e rastreáveis .
+Mais do que resolver pedidos vencidos , a proposta deste manual é
+estabelecer clareza sobre responsabilidades , evitar interpretações
+equivocadas dos status sistêmicos e assegurar que cada tratativa reflita a
+realidade física do volume .
+A consistência na aplicação do processo é o que sustenta a qualidade da
+operação e a credibilidade do Grupo JB Transporte e Logística perante seus
+parceiros .
+Este manual consolida essa metodologia e deve permanecer como
+referência permanente para a gestão de pedidos críticos .
+CONSIDERAÇÕES FINAIS
+
+## PAGINA 43 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+M N O P 0 2 - 0 0
+
+## PAGINA 44 MNOP02 ##
+GESTÃO DE PEDIDOS CRÍTICOS
+CONSIDERAÇÕES FINAIS
+GRUPO JBFevereiro 2 0 2 6
+GRUPO

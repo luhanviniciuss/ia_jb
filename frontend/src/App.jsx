@@ -38,10 +38,16 @@ function App() {
     setMessages(prev => [...prev, { text: "", isBot: true, isStreaming: true }]);
 
     try {
-      const response = await fetch('http://localhost:8899/ask', {
+      const response = await fetch('http://localhost:5000/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question }),
+        body: JSON.stringify({ 
+          question,
+          history: messages.map(m => ({ 
+            role: m.isBot ? 'assistant' : 'user', 
+            content: m.text 
+          }))
+        }),
         signal: abortControllerRef.current.signal // Conecta o sinal de cancelamento
       });
 

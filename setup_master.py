@@ -29,7 +29,7 @@ def setup_master_knowledge():
 
     conn.commit()
     conn.close()
-    print("✅ Conhecimento Mestre gravado com sucesso!")
+    print("[OK] Conhecimento Mestre gravado com sucesso!")
 
 if __name__ == "__main__":
     setup_master_knowledge()
