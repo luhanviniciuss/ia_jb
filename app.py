@@ -6,6 +6,10 @@ import os
 import re
 import google.generativeai as genai
 import hashlib
+from dotenv import load_dotenv
+
+# Carregar variáveis de ambiente
+load_dotenv()
 
 app = Flask(__name__)
 app.secret_key = "jb_secret_key_intelligence" # Chave para sessões
@@ -94,7 +98,7 @@ def get_context(query, history=None):
     return context
 
 # CONFIGURAÇÃO DO GEMINI
-GEMINI_API_KEY = "AIzaSyACuUrByQjNRReMh9KWM5G9MIjh7qZBDhU"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
 @app.route('/ask', methods=['POST', 'OPTIONS'])
