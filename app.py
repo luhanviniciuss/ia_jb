@@ -28,7 +28,7 @@ def log_request_info():
     # app.logger.info('Body: %s', request.get_data())
 
 def get_context(query, history=None):
-    db_path = r'c:\Users\luhan.vinicius\Desktop\modelo_ia\documentos.db'
+    db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'documentos.db')
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     
