@@ -344,30 +344,44 @@
 </head>
 <body data-theme="light">
 
-    <aside>
+    <!-- LOGIN SCREEN -->
+    <div id="login-overlay" style="position: fixed; inset: 0; background: var(--bg-primary); z-index: 1000; display: flex; align-items: center; justify-content: center;">
+        <div style="background: var(--bg-secondary); padding: 3rem; border-radius: 24px; box-shadow: var(--shadow); width: 100%; max-width: 400px; text-align: center;">
+            <div class="logo" style="justify-content: center; margin-bottom: 2rem;">
+                <i class="fas fa-brain" style="font-size: 2.5rem;"></i>
+                <span style="font-size: 1.8rem;">JB INTEL</span>
+            </div>
+            <h2 style="margin-bottom: 2rem;">Bem-vindo ao Gestor IA</h2>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                <input type="text" id="login-user" placeholder="Usuário" style="padding: 1rem; border-radius: 12px; border: 1px solid var(--border-color); background: var(--bg-accent); color: var(--text-primary); outline: none;">
+                <input type="password" id="login-pass" placeholder="Senha" style="padding: 1rem; border-radius: 12px; border: 1px solid var(--border-color); background: var(--bg-accent); color: var(--text-primary); outline: none;">
+                <button id="btn-login" style="padding: 1rem; border-radius: 12px; border: none; background: var(--jb-orange); color: white; font-weight: 700; cursor: pointer;">Entrar no Sistema</button>
+                <p id="login-error" style="color: #ef4444; font-size: 0.9rem; display: none;"></p>
+            </div>
+            <p style="margin-top: 2rem; color: var(--text-secondary); font-size: 0.8rem;">Grupo JB - Inteligência Logística</p>
+        </div>
+    </div>
+
+    <aside id="sidebar" style="display: none;">
         <div class="logo">
             <i class="fas fa-brain"></i>
             <span>JB INTELLIGENCE</span>
         </div>
-        <button class="new-chat-btn" onclick="location.reload()">
+        <button class="new-chat-btn" onclick="startNewChat()">
             <i class="fas fa-plus"></i> Novo Chat
         </button>
-        <div class="nav-sections">
+        <div class="nav-sections" id="history-list">
             <div class="nav-item active">
-                <i class="fas fa-message"></i> Recentes
+                <i class="fas fa-message"></i> Histórico
             </div>
-            <div class="nav-item" onclick="askPredefined('Me fale sobre as rotas e motoristas')">
-                <i class="fas fa-truck-fast"></i> Rotas e Motoristas
-            </div>
-            <div class="nav-item" onclick="askPredefined('Quais são os pedidos críticos agora?')">
-                <i class="fas fa-exclamation-triangle"></i> Pedidos Críticos
-            </div>
-            <div class="nav-item" onclick="askPredefined('Qual é a super rotina do gestor?')">
-                <i class="fas fa-clipboard-check"></i> Super Rotina
-            </div>
+            <!-- History items will appear here -->
         </div>
-        <div class="nav-item">
-            <i class="fas fa-gear"></i> Configurações
+        <div id="user-info" style="margin-top: auto; padding: 1rem; border-top: 1px solid var(--border-color); font-size: 0.9rem;">
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <div id="user-avatar" style="width: 30px; height: 30px; border-radius: 50%; background: var(--jb-orange); display: flex; align-items: center; justify-content: center; color: white;"></div>
+                <span id="display-username">Usuário</span>
+            </div>
+            <button onclick="logout()" style="margin-top: 10px; background: none; border: none; color: var(--text-secondary); cursor: pointer; font-size: 0.8rem;">Sair</button>
         </div>
     </aside>
 
@@ -436,6 +450,88 @@
         const body = document.body;
 
         let chatHistory = [];
+        let currentUser = null;
+        let currentChatId = null;
+
+        // AUTH LOGIC
+        const loginOverlay = document.getElementById('login-overlay');
+        const loginUser = document.getElementById('login-user');
+        const loginPass = document.getElementById('login-pass');
+        const btnLogin = document.getElementById('btn-login');
+        const loginError = document.getElementById('login-error');
+        const sidebar = document.getElementById('sidebar');
+
+        btnLogin.addEventListener('click', async () => {
+            try {
+                const response = await fetch('/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username: loginUser.value, password: loginPass.value })
+                });
+                const data = await response.json();
+                if (data.status === 'success') {
+                    currentUser = data.user;
+                    loginOverlay.style.display = 'none';
+                    sidebar.style.display = 'flex';
+                    document.getElementById('display-username').innerText = currentUser.username;
+                    document.getElementById('user-avatar').innerText = currentUser.username[0].toUpperCase();
+                    loadHistory();
+                } else {
+                    loginError.innerText = data.message;
+                    loginError.style.display = 'block';
+                }
+            } catch (e) {
+                loginError.innerText = "Erro ao conectar ao servidor.";
+                loginError.style.display = 'block';
+            }
+        });
+
+        async function loadHistory() {
+            const response = await fetch(`/conversations?user_id=${currentUser.id}`);
+            const data = await response.json();
+            const list = document.getElementById('history-list');
+            list.innerHTML = '<div class="nav-item active"><i class="fas fa-message"></i> Recentes</div>';
+            data.forEach(chat => {
+                const item = document.createElement('div');
+                item.className = 'nav-item';
+                item.innerHTML = `<i class="fas fa-clock-rotate-left"></i> ${chat.titulo}`;
+                item.onclick = () => loadChat(chat.id);
+                list.appendChild(item);
+            });
+        }
+
+        async function startNewChat() {
+            const titulo = prompt("Nome da conversa:", "Nova Conversa");
+            if (!titulo) return;
+            const response = await fetch('/conversations', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ user_id: currentUser.id, titulo: titulo })
+            });
+            const data = await response.json();
+            currentChatId = data.id;
+            chatWindow.innerHTML = '';
+            welcomeScreen.style.display = 'flex';
+            chatHistory = [];
+            loadHistory();
+        }
+
+        async function loadChat(id) {
+            currentChatId = id;
+            welcomeScreen.style.display = 'none';
+            chatWindow.innerHTML = '';
+            const response = await fetch(`/messages/${id}`);
+            const messages = await response.json();
+            chatHistory = [];
+            messages.forEach(msg => {
+                addMessage(msg.content, msg.role === 'user' ? 'user-message' : 'bot-message');
+                chatHistory.push({ role: msg.role, content: msg.content });
+            });
+        }
+
+        function logout() {
+            location.reload();
+        }
 
         // Theme Toggle
         themeToggle.addEventListener('click', () => {
@@ -448,6 +544,18 @@
         async function sendMessage(text = null) {
             const question = text || userInput.value.trim();
             if (!question) return;
+
+            if (!currentChatId) {
+                // Auto-create chat if none active
+                const response = await fetch('/conversations', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ user_id: currentUser.id, titulo: question.substring(0, 20) + "..." })
+                });
+                const data = await response.json();
+                currentChatId = data.id;
+                loadHistory();
+            }
 
             welcomeScreen.style.display = 'none';
             addMessage(question, 'user-message');
@@ -466,7 +574,9 @@
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ 
                         question: question,
-                        history: chatHistory 
+                        history: chatHistory,
+                        user_id: currentUser.id,
+                        conversa_id: currentChatId
                     })
                 });
 
@@ -503,8 +613,17 @@
                 chatHistory.push({ role: 'assistant', content: fullResponse });
                 if (chatHistory.length > 10) chatHistory = chatHistory.slice(-10);
 
+                // Se for admin, adiciona botão de correção
+                if (currentUser.role === 'admin') {
+                    const learnBtn = document.createElement('button');
+                    learnBtn.innerHTML = '<i class="fas fa-edit"></i> Corrigir IA';
+                    learnBtn.style = "margin-top: 10px; background: none; border: 1px solid var(--border-color); color: var(--jb-orange); padding: 4px 8px; border-radius: 6px; cursor: pointer; font-size: 0.7rem;";
+                    learnBtn.onclick = () => teachIA(question);
+                    botMsgDiv.appendChild(learnBtn);
+                }
+
             } catch (error) {
-                botMsgDiv.innerText = 'Desculpe, tive um problema de conexão. Verifique se o servidor está ativo.';
+                botMsgDiv.innerText = 'Desculpe, tive um problema de conexão.';
             } finally {
                 typingIndicator.style.display = 'none';
                 sendBtn.disabled = false;
@@ -512,17 +631,30 @@
             }
         }
 
+        async function teachIA(pergunta) {
+            const resposta = prompt("Qual a resposta correta para esta pergunta?");
+            if (!resposta) return;
+
+            const response = await fetch('/learn', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ pergunta, resposta, admin_id: currentUser.id })
+            });
+            const data = await response.json();
+            alert(data.message);
+        }
+
         function addMessage(text, className) {
             const div = document.createElement('div');
             div.className = `message ${className}`;
-            div.innerText = text;
+            div.innerHTML = formatResponse(text);
             chatWindow.appendChild(div);
             chatWindow.scrollTop = chatWindow.scrollHeight;
             return div;
         }
 
         function formatResponse(text) {
-            // Simple markdown-like formatting
+            if (!text) return "";
             return text
                 .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
                 .replace(/\n/g, '<br>');

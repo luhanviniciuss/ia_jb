@@ -49,7 +49,26 @@ def setup_db():
             txt = f"Atividade: {row.get('Atividade', '')}\nPergunta: {row.get('Pergunta', '')}\nResposta: {row.get('Resposta', '')}"
             cursor.execute('INSERT INTO documentos VALUES (?, ?, ?)', (txt, remover_acentos(txt), 'perguntas_IA.xlsx'))
             count += 1
-        print(f"Excel processado: {count} linhas inseridas.")
+        print(f"Excel perguntas_IA processado: {count} linhas inseridas.")
+
+    # NOVO: Processar D23V7.xlsx (Tabela de Rotas e Motoristas)
+    xlsx_d23_path = 'D23V7.xlsx'
+    if os.path.exists(xlsx_d23_path):
+        df_d23 = pd.read_excel(xlsx_d23_path)
+        # Pegamos apenas colunas únicas por Subrota para não saturar o DB com cidades repetidas
+        df_unique = df_d23.drop_duplicates(subset=['SUBROTA'])
+        count_d23 = 0
+        for _, row in df_unique.iterrows():
+            subrota = str(row.get('SUBROTA', ''))
+            largada = str(row.get('Largada Dias', ''))
+            motorista = str(row.get('Motorista', ''))
+            parceiro = str(row.get('Parceiro', ''))
+            regiao = str(row.get('Regio', ''))
+            
+            txt = f"SUBROTA: {subrota}\nDias de Largada: {largada}\nMotorista: {motorista}\nParceiro: {parceiro}\nRegião: {regiao}"
+            cursor.execute('INSERT INTO documentos VALUES (?, ?, ?)', (txt, remover_acentos(txt), 'D23V7.xlsx'))
+            count_d23 += 1
+        print(f"Excel D23V7 processado: {count_d23} subrotas únicas inseridas.")
 
     conn.commit()
     conn.close()
