@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify, Response
 from flask_cors import CORS
-import sqlite3
+import psycopg2
+from psycopg2.extras import RealDictCursor
 import json
 import os
 import re
@@ -31,10 +32,12 @@ def log_request_info():
     app.logger.info('Headers: %s', request.headers)
     # app.logger.info('Body: %s', request.get_data())
 
+def get_db_connection():
+    return psycopg2.connect(os.getenv("DATABASE_URL"))
+
 def get_context(query, history=None):
-    db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'documentos.db')
-    conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
+    conn = get_db_connection()
+    cursor = conn.cursor(cursor_factory=RealDictCursor)
     
     # Melhora na detecção de contexto
     if history:
@@ -73,14 +76,15 @@ def get_context(query, history=None):
 
     # 1. BUSCA NO TREINAMENTO (APRENDIZADO ADMIN) - Prioridade Máxima
     try:
-        cursor.execute("SELECT resposta_correta FROM treinamento_ia WHERE ? LIKE '%' || pergunta || '%' OR pergunta LIKE '%' || ? || '%'", (clean_query, clean_query))
+        cursor.execute("SELECT resposta_correta FROM treinamento_ia WHERE %s LIKE '%%' || pergunta || '%%' OR pergunta LIKE '%%' || %s || '%%'", (clean_query, clean_query))
         train_result = cursor.fetchone()
         if train_result:
-            all_results.append(f"CONHECIMENTO VALIDADO POR ADMIN: {train_result[0]}")
-    except: pass
+            all_results.append(f"CONHECIMENTO VALIDADO POR ADMIN: {train_result['resposta_correta']}")
+    except Exception as e: 
+        print(f"Erro no treinamento: {e}")
 
     for w in search_terms:
-        score_query = f"(CASE WHEN conteudo LIKE ? THEN 50 ELSE 0 END) + (CASE WHEN conteudo_limpo LIKE ? THEN 30 ELSE 0 END)"
+        score_query = f"(CASE WHEN conteudo ILIKE %s THEN 50 ELSE 0 END) + (CASE WHEN conteudo_limpo ILIKE %s THEN 30 ELSE 0 END)"
         params = [f"%{w}%", f"%{w}%"]
         
         try:
@@ -88,7 +92,7 @@ def get_context(query, history=None):
             cursor.execute(sql, params + params)
             results = cursor.fetchall()
             for r in results:
-                all_results.append(r[0])
+                all_results.append(r['conteudo'])
         except Exception as e:
             print(f"Erro na busca por '{w}': {e}")
     
@@ -119,8 +123,9 @@ def ask():
     
     # Salvar pergunta do usuário se houver conversa_id
     if conversa_id:
-        conn = sqlite3.connect('documentos.db')
-        conn.execute("INSERT INTO mensagens (conversa_id, role, content) VALUES (?, ?, ?)", 
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute("INSERT INTO mensagens (conversa_id, role, content) VALUES (%s, %s, %s)", 
                     (conversa_id, 'user', question))
         conn.commit()
         conn.close()
@@ -168,8 +173,9 @@ def ask():
             
             # Salvar resposta da IA se houver conversa_id
             if conversa_id:
-                conn = sqlite3.connect('documentos.db')
-                conn.execute("INSERT INTO mensagens (conversa_id, role, content) VALUES (?, ?, ?)", 
+                conn = get_db_connection()
+                cursor = conn.cursor()
+                cursor.execute("INSERT INTO mensagens (conversa_id, role, content) VALUES (%s, %s, %s)", 
                             (conversa_id, 'assistant', full_response))
                 conn.commit()
                 conn.close()
@@ -189,9 +195,9 @@ def login():
     username = data.get('username')
     password = data.get('password')
     
-    conn = sqlite3.connect('documentos.db')
-    cursor = conn.cursor()
-    cursor.execute("SELECT id, username, role FROM usuarios WHERE username = ? AND password = ?", 
+    conn = get_db_connection()
+    cursor = conn.cursor(cursor_factory=RealDictCursor)
+    cursor.execute("SELECT id, username, role FROM usuarios WHERE username = %s AND password = %s", 
                    (username, hash_password(password)))
     user = cursor.fetchone()
     conn.close()
@@ -199,37 +205,37 @@ def login():
     if user:
         return jsonify({
             "status": "success",
-            "user": {"id": user[0], "username": user[1], "role": user[2]}
+            "user": {"id": user['id'], "username": user['username'], "role": user['role']}
         })
     return jsonify({"status": "error", "message": "Usuário ou senha inválidos"}), 401
 
 @app.route('/conversations', methods=['GET', 'POST'])
 def handle_conversations():
     user_id = request.args.get('user_id') if request.method == 'GET' else request.json.get('user_id')
-    conn = sqlite3.connect('documentos.db')
-    cursor = conn.cursor()
+    conn = get_db_connection()
+    cursor = conn.cursor(cursor_factory=RealDictCursor)
     
     if request.method == 'POST':
         titulo = request.json.get('titulo', 'Nova Conversa')
-        cursor.execute("INSERT INTO conversas (user_id, titulo) VALUES (?, ?)", (user_id, titulo))
-        conversa_id = cursor.lastrowid
+        cursor.execute("INSERT INTO conversas (user_id, titulo) VALUES (%s, %s) RETURNING id", (user_id, titulo))
+        conversa_id = cursor.fetchone()['id']
         conn.commit()
         conn.close()
         return jsonify({"id": conversa_id, "titulo": titulo})
     
-    cursor.execute("SELECT id, titulo, data_criacao FROM conversas WHERE user_id = ? ORDER BY data_criacao DESC", (user_id,))
+    cursor.execute("SELECT id, titulo, data_criacao FROM conversas WHERE user_id = %s ORDER BY data_criacao DESC", (user_id,))
     rows = cursor.fetchall()
     conn.close()
-    return jsonify([{"id": r[0], "titulo": r[1], "data": r[2]} for r in rows])
+    return jsonify([{"id": r['id'], "titulo": r['titulo'], "data": r['data_criacao']} for r in rows])
 
 @app.route('/messages/<int:conversa_id>', methods=['GET'])
 def get_messages(conversa_id):
-    conn = sqlite3.connect('documentos.db')
-    cursor = conn.cursor()
-    cursor.execute("SELECT role, content FROM mensagens WHERE conversa_id = ? ORDER BY timestamp ASC", (conversa_id,))
+    conn = get_db_connection()
+    cursor = conn.cursor(cursor_factory=RealDictCursor)
+    cursor.execute("SELECT role, content FROM mensagens WHERE conversa_id = %s ORDER BY timestamp ASC", (conversa_id,))
     rows = cursor.fetchall()
     conn.close()
-    return jsonify([{"role": r[0], "content": r[1]} for r in rows])
+    return jsonify([{"role": r['role'], "content": r['content']} for r in rows])
 
 @app.route('/learn', methods=['POST'])
 def learn():
@@ -238,9 +244,10 @@ def learn():
     resposta = data.get('resposta')
     admin_id = data.get('admin_id')
     
-    conn = sqlite3.connect('documentos.db')
+    conn = get_db_connection()
+    cursor = conn.cursor()
     try:
-        conn.execute("INSERT OR REPLACE INTO treinamento_ia (pergunta, resposta_correta, admin_id) VALUES (?, ?, ?)", 
+        cursor.execute("INSERT INTO treinamento_ia (pergunta, resposta_correta, admin_id) VALUES (%s, %s, %s) ON CONFLICT (pergunta) DO UPDATE SET resposta_correta = EXCLUDED.resposta_correta", 
                     (pergunta, resposta, admin_id))
         conn.commit()
         return jsonify({"status": "success", "message": "IA aprendeu com sucesso!"})
