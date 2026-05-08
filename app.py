@@ -271,6 +271,17 @@ def learn():
     finally:
         conn.close()
 
+@app.route('/debug', methods=['GET'])
+def debug():
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute("SELECT 1")
+        conn.close()
+        return jsonify({"status": "Conectado com sucesso ao Supabase!"})
+    except Exception as e:
+        return jsonify({"status": "Erro de conexão", "error": str(e), "db_url_exists": os.getenv("DATABASE_URL") is not None}), 500
+
 @app.route('/')
 def home():
     index_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html")
