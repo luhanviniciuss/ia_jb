@@ -376,3 +376,96 @@ textarea {
   .chat-window, .input-area { padding: 1rem; }
   .quick-actions { grid-template-columns: 1fr; }
 }
+
+/* Login Screen - Photo 1 Style */
+.login-screen {
+  position: fixed;
+  inset: 0;
+  background-color: var(--bg-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.login-box {
+  background-color: var(--bg-secondary);
+  padding: 3rem;
+  border-radius: 24px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.logo-icon-img {
+  color: var(--jb-orange);
+}
+
+.login-logo h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--jb-blue);
+}
+
+.login-box h2 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: var(--text-secondary);
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--bg-accent);
+  padding: 0.8rem 1.2rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border-color);
+}
+
+.input-group input {
+  background: none;
+  border: none;
+  outline: none;
+  flex: 1;
+  color: var(--text-primary);
+  font-size: 1rem;
+}
+
+.error-msg {
+  color: #ef4444;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--jb-orange);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(255, 107, 0, 0.2);
+}
+
+.footer-text {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+/ *   L o g i n   S c r e e n   * /  
+ 

@@ -11,18 +11,24 @@ import {
   Sun, 
   CircleNotch,
   Edit,
-  ChevronRight
+  ChevronRight,
+  Brain,
+  Lock
 } from 'lucide-react';
 import './App.css';
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [user, setUser] = useState(null);
+  const [loginData, setLoginData] = useState({ username: '', password: '' });
+  const [loginError, setLoginError] = useState('');
+  
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [theme, setTheme] = useState('light');
   const [conversations, setConversations] = useState([]);
   const [currentChatId, setCurrentChatId] = useState(null);
-  const [user, setUser] = useState({ id: 1, username: 'Gestor JB', role: 'admin' }); // Mock for now, sync with auth later
   const messagesEndRef = useRef(null);
 
   const scrollToBottom = () => {
@@ -30,12 +36,11 @@ function App() {
   };
 
   useEffect(() => {
-    scrollToBottom();
-  }, [messages]);
-
-  useEffect(() => {
-    loadConversations();
-  }, []);
+    if (isLoggedIn) {
+      scrollToBottom();
+      loadConversations();
+    }
+  }, [messages, isLoggedIn]);
 
   const loadConversations = async () => {
     try {
@@ -43,6 +48,27 @@ function App() {
       const data = await response.json();
       setConversations(data);
     } catch (e) { console.error("Erro ao carregar conversas"); }
+  };
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    setLoginError('');
+    try {
+      const response = await fetch('/api/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(loginData)
+      });
+      const data = await response.json();
+      if (data.status === 'success') {
+        setUser(data.user);
+        setIsLoggedIn(true);
+      } else {
+        setLoginError(data.message || 'Usuário ou senha incorretos');
+      }
+    } catch (e) {
+      setLoginError('Erro ao conectar ao servidor');
+    }
   };
 
   const startNewChat = () => {
@@ -61,6 +87,21 @@ function App() {
     finally { setIsLoading(false); }
   };
 
+  const teachIA = async (question) => {
+    const answer = prompt("Qual a resposta correta para esta pergunta?");
+    if (!answer) return;
+
+    try {
+      const response = await fetch('/api/learn', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ pergunta: question, resposta: answer, admin_id: user.id })
+      });
+      const data = await response.json();
+      alert(data.message);
+    } catch (e) { alert("Erro ao salvar treinamento"); }
+  };
+
   const handleSend = async (text = null) => {
     const question = text || input;
     if (!question.trim() || isLoading) return;
@@ -69,11 +110,10 @@ function App() {
     setMessages(prev => [...prev, { text: question, isBot: false }]);
     setIsLoading(true);
 
-    const botMsgIndex = messages.length + 1;
+    const currentHistory = [...messages];
     setMessages(prev => [...prev, { text: "", isBot: true, isStreaming: true }]);
 
     try {
-      // Auto-create conversation if none
       let chatId = currentChatId;
       if (!chatId) {
         const res = await fetch('/api/conversations', {
@@ -94,7 +134,7 @@ function App() {
           question, 
           conversa_id: chatId,
           user_id: user.id,
-          history: messages.map(m => ({ role: m.isBot ? 'assistant' : 'user', content: m.text }))
+          history: currentHistory.map(m => ({ role: m.isBot ? 'assistant' : 'user', content: m.text }))
         })
       });
 
@@ -139,12 +179,50 @@ function App() {
     }
   };
 
+  if (!isLoggedIn) {
+    return (
+      <div className="login-screen" data-theme={theme}>
+        <div className="login-box">
+          <div className="login-logo">
+            <Brain size={48} className="logo-icon-img" />
+            <h1>JB INTEL</h1>
+          </div>
+          <h2>Bem-vindo ao Gestor IA</h2>
+          <form onSubmit={handleLogin}>
+            <div className="input-group">
+              <User size={18} />
+              <input 
+                type="text" 
+                placeholder="Usuário" 
+                value={loginData.username}
+                onChange={e => setLoginData({...loginData, username: e.target.value})}
+                required
+              />
+            </div>
+            <div className="input-group">
+              <Lock size={18} />
+              <input 
+                type="password" 
+                placeholder="Senha" 
+                value={loginData.password}
+                onChange={e => setLoginData({...loginData, password: e.target.value})}
+                required
+              />
+            </div>
+            {loginError && <p className="error-msg">{loginError}</p>}
+            <button type="submit" className="login-btn">Entrar no Sistema</button>
+          </form>
+          <p className="footer-text">Grupo JB - Inteligência Logística</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className={`app-container ${theme}`} data-theme={theme}>
-      {/* Sidebar - Foto 1 Style */}
       <aside className="sidebar">
         <div className="logo">
-          <div className="logo-icon"><Bot size={24} /></div>
+          <div className="logo-icon"><Brain size={24} /></div>
           <span>JB INTEL</span>
         </div>
         
@@ -153,7 +231,7 @@ function App() {
         </button>
 
         <div className="nav-history">
-          <div className="nav-title"><History size={14} /> Recentes</div>
+          <div className="nav-title"><History size={14} /> Histórico</div>
           {conversations.map(conv => (
             <div 
               key={conv.id} 
@@ -167,16 +245,15 @@ function App() {
         </div>
 
         <div className="user-profile">
-          <div className="user-avatar">{user.username[0]}</div>
+          <div className="user-avatar">{user.username[0].toUpperCase()}</div>
           <div className="user-details">
             <span className="username">{user.username}</span>
             <span className="user-role">{user.role}</span>
           </div>
-          <button className="logout-btn"><LogOut size={16} /></button>
+          <button className="logout-btn" onClick={() => setIsLoggedIn(false)}><LogOut size={16} /></button>
         </div>
       </aside>
 
-      {/* Main Chat Area */}
       <main className="main-content">
         <header className="main-header">
           <div className="header-actions">
@@ -222,7 +299,9 @@ function App() {
                       </React.Fragment>
                     ))}
                     {msg.isBot && user.role === 'admin' && !msg.isStreaming && (
-                      <button className="correct-btn"><Edit size={12} /> Corrigir IA</button>
+                      <button className="correct-btn" onClick={() => teachIA(messages[idx-1]?.text)}>
+                        <Edit size={12} /> Corrigir IA
+                      </button>
                     )}
                   </div>
                 </div>
