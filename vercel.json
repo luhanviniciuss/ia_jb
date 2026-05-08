@@ -1,15 +1,5 @@
 {
   "version": 2,
-  "experimentalServices": {
-    "frontend": {
-      "routePrefix": "/",
-      "framework": "vite"
-    },
-    "api": {
-      "routePrefix": "/api",
-      "framework": "flask"
-    }
-  },
   "rewrites": [
     {
       "source": "/api/(.*)",
