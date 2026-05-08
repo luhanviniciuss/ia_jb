@@ -9,7 +9,7 @@ import {
   LogOut, 
   Moon, 
   Sun, 
-  CircleNotch,
+  Loader2, 
   Edit,
   ChevronRight,
   Brain,
@@ -308,7 +308,7 @@ function App() {
               ))}
               {isLoading && (
                 <div className="typing-indicator">
-                  <CircleNotch size={14} className="spin" /> Analisando documentos...
+                  <Loader2 size={14} className="spin" /> Analisando documentos...
                 </div>
               )}
               <div ref={messagesEndRef} />
