@@ -33,7 +33,15 @@ def log_request_info():
     # app.logger.info('Body: %s', request.get_data())
 
 def get_db_connection():
-    return psycopg2.connect(os.getenv("DATABASE_URL"))
+    db_url = os.getenv("DATABASE_URL")
+    if not db_url:
+        raise Exception("DATABASE_URL não configurada nas variáveis de ambiente.")
+    
+    # Garantir que o SSL está sendo usado se for conexão remota
+    if "supabase.com" in db_url and "sslmode" not in db_url:
+        db_url += "?sslmode=require"
+        
+    return psycopg2.connect(db_url)
 
 def get_context(query, history=None):
     conn = get_db_connection()
