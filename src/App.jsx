@@ -44,7 +44,7 @@ function App() {
 
   const loadConversations = async () => {
     try {
-      const response = await fetch(`/api/conversations?user_id=${user.id}`);
+      const response = await fetch(`https://back-end-ia-jb.onrender.com/api/conversations?user_id=${user.id}`);
       const data = await response.json();
       setConversations(data);
     } catch (e) { console.error("Erro ao carregar conversas"); }
@@ -54,7 +54,7 @@ function App() {
     e.preventDefault();
     setLoginError('');
     try {
-      const response = await fetch('/api/login', {
+      const response = await fetch('https://back-end-ia-jb.onrender.com/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(loginData)
@@ -80,7 +80,7 @@ function App() {
     setCurrentChatId(id);
     setIsLoading(true);
     try {
-      const response = await fetch(`/api/messages/${id}`);
+      const response = await fetch(`https://back-end-ia-jb.onrender.com/api/messages/${id}`);
       const data = await response.json();
       setMessages(data.map(m => ({ text: m.content, isBot: m.role !== 'user' })));
     } catch (e) { console.error("Erro ao carregar mensagens"); }
@@ -92,7 +92,7 @@ function App() {
     if (!answer) return;
 
     try {
-      const response = await fetch('/api/learn', {
+      const response = await fetch('https://back-end-ia-jb.onrender.com/api/learn', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ pergunta: question, resposta: answer, admin_id: user.id })
@@ -116,7 +116,7 @@ function App() {
     try {
       let chatId = currentChatId;
       if (!chatId) {
-        const res = await fetch('/api/conversations', {
+        const res = await fetch('https://back-end-ia-jb.onrender.com/api/conversations', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ user_id: user.id, titulo: question.substring(0, 30) })
@@ -127,7 +127,7 @@ function App() {
         loadConversations();
       }
 
-      const response = await fetch('/api/ask', {
+      const response = await fetch('https://back-end-ia-jb.onrender.com/api/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
