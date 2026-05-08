@@ -35,13 +35,20 @@ def log_request_info():
 def get_db_connection():
     db_url = os.getenv("DATABASE_URL")
     if not db_url:
-        raise Exception("DATABASE_URL não configurada nas variáveis de ambiente.")
+        # Erro amigável para o log do Vercel
+        print("ERRO CRÍTICO: Variável DATABASE_URL não encontrada no ambiente do Vercel.")
+        raise Exception("Variável DATABASE_URL não configurada no painel do Vercel.")
     
-    # Garantir que o SSL está sendo usado se for conexão remota
+    # Garantir que o SSL está sendo usado
     if "supabase.com" in db_url and "sslmode" not in db_url:
-        db_url += "?sslmode=require"
+        separator = "&" if "?" in db_url else "?"
+        db_url += f"{separator}sslmode=require"
         
-    return psycopg2.connect(db_url)
+    try:
+        return psycopg2.connect(db_url)
+    except Exception as e:
+        print(f"ERRO DE CONEXÃO COM O BANCO: {str(e)}")
+        raise e
 
 def get_context(query, history=None):
     conn = get_db_connection()
