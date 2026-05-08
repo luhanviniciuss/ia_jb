@@ -1,0 +1,16 @@
+# Ignorar arquivos pesados que não são necessários na nuvem
+documentos.db
+*.pdf
+*.xlsx
+*.txt
+backend/
+node_modules/
+scratch/
+extract_*.py
+setup_*.py
+debug_db.py
+import_routes.py
+inspect_xlsx.py
+Modelfile
+README.md
+index.html
