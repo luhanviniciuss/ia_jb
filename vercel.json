@@ -2,12 +2,10 @@
   "version": 2,
   "experimentalServices": {
     "frontend": {
-      "rootDirectory": "frontend",
-      "framework": "vite"
+      "routePrefix": "/"
     },
     "api": {
-      "rootDirectory": ".",
-      "framework": null
+      "routePrefix": "/api"
     }
   },
   "rewrites": [
