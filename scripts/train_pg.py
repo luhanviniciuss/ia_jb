@@ -73,6 +73,14 @@ def init_schema(conn: psycopg.Connection) -> None:
       updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
     );
 
+    CREATE TABLE IF NOT EXISTS qa_cache (
+      question_norm TEXT PRIMARY KEY,
+      question_raw TEXT NOT NULL,
+      answer TEXT NOT NULL,
+      source_mode TEXT NOT NULL,
+      updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+    );
+
     CREATE TABLE IF NOT EXISTS route_facts (
       id BIGSERIAL PRIMARY KEY,
       route_code TEXT NOT NULL,

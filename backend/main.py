@@ -480,6 +480,14 @@ def init_db() -> None:
       updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
     );
 
+    CREATE TABLE IF NOT EXISTS qa_cache (
+      question_norm TEXT PRIMARY KEY,
+      question_raw TEXT NOT NULL,
+      answer TEXT NOT NULL,
+      source_mode TEXT NOT NULL,
+      updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+    );
+
     CREATE TABLE IF NOT EXISTS route_facts (
       id BIGSERIAL PRIMARY KEY,
       route_code TEXT NOT NULL,
@@ -832,6 +840,38 @@ def lookup_override(question: str) -> str | None:
             return row["answer"] if row else None
 
 
+def lookup_cached_answer(question: str) -> str | None:
+    question_norm = normalize_text(question)
+    if not question_norm:
+        return None
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute("SELECT answer FROM qa_cache WHERE question_norm = %s LIMIT 1", (question_norm,))
+            row = cur.fetchone()
+            return row["answer"] if row else None
+
+
+def save_cached_answer(question: str, answer: str, source_mode: str) -> None:
+    question_norm = normalize_text(question)
+    if not question_norm or not answer.strip():
+        return
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO qa_cache (question_norm, question_raw, answer, source_mode, updated_at)
+                VALUES (%s, %s, %s, %s, NOW())
+                ON CONFLICT (question_norm) DO UPDATE
+                SET question_raw = EXCLUDED.question_raw,
+                    answer = EXCLUDED.answer,
+                    source_mode = EXCLUDED.source_mode,
+                    updated_at = NOW()
+                """,
+                (question_norm, question, answer.strip(), source_mode),
+            )
+        conn.commit()
+
+
 def search_documents(question: str, limit: int = 5) -> list[dict[str, Any]]:
     normalized = normalize_text(question)
 
@@ -918,6 +958,64 @@ def build_context_snippets(hits: list[dict[str, Any]]) -> str:
     return "\n\n".join(blocks)
 
 
+def split_sentences(text: str) -> list[str]:
+    clean = re.sub(r"\s+", " ", text or "").strip()
+    if not clean:
+        return []
+    raw_parts = re.split(r"(?<=[\.\?\!;:])\s+", clean)
+    return [p.strip() for p in raw_parts if len(p.strip()) >= 12]
+
+
+def try_extractive_document_answer(question: str, hits: list[dict[str, Any]]) -> dict[str, Any] | None:
+    terms = extract_search_terms(question)
+    if not hits or not terms:
+        return None
+
+    question_norm = normalize_text(question)
+    best_score = -1
+    best_sentence = ""
+    best_source = ""
+
+    for hit in hits[:4]:
+        content = hit.get("content") or ""
+        source_name = hit.get("source_name") or "fonte_desconhecida"
+        sentences = split_sentences(content)
+        for idx, sentence in enumerate(sentences):
+            sentence_norm = normalize_text(sentence)
+            if not sentence_norm:
+                continue
+            overlap = sum(1 for t in terms if t in sentence_norm)
+            if overlap == 0:
+                continue
+
+            bonus = 0
+            if any(k in question_norm for k in ["papel", "funcao", "objetivo"]) and any(
+                k in sentence_norm for k in ["papel", "funcao", "objetivo", "finalidade", "responsabilidade"]
+            ):
+                bonus += 2
+            if any(k in question_norm for k in ["como", "procedimento", "rotina"]) and any(
+                k in sentence_norm for k in ["procedimento", "rotina", "execucao", "passo"]
+            ):
+                bonus += 1
+
+            score = overlap + bonus
+            if score > best_score:
+                best_score = score
+                candidate = sentence
+                if sentence.rstrip().endswith(":") and idx + 1 < len(sentences):
+                    candidate = f"{sentence} {sentences[idx + 1]}".strip()
+                best_sentence = candidate
+                best_source = source_name
+
+    if best_score < 2 or not best_sentence:
+        return None
+
+    answer = best_sentence
+    if len(answer) > 420:
+        answer = answer[:420].rsplit(" ", 1)[0] + "..."
+    return {"answer": answer, "source": best_source, "score": best_score}
+
+
 def extract_gemini_text(payload: dict[str, Any]) -> str:
     chunks: list[str] = []
     for candidate in payload.get("candidates", []):
@@ -990,12 +1088,20 @@ async def ask_impl(data: dict[str, Any]) -> StreamingResponse:
                 answer = structured.get("answer", "")
                 yield f"data: {json.dumps({'text': answer})}\n\n"
                 full_response = answer
+                save_cached_answer(question, answer, "structured")
                 return
 
             override_answer = lookup_override(question)
             if override_answer:
                 yield f"data: {json.dumps({'text': override_answer})}\n\n"
                 full_response = override_answer
+                save_cached_answer(question, override_answer, "override")
+                return
+
+            cached_answer = lookup_cached_answer(question)
+            if cached_answer:
+                yield f"data: {json.dumps({'text': cached_answer})}\n\n"
+                full_response = cached_answer
                 return
 
             hits = search_documents(question, limit=5)
@@ -1003,6 +1109,15 @@ async def ask_impl(data: dict[str, Any]) -> StreamingResponse:
                 unknown = "Informação não consta nos manuais ou tabelas disponíveis."
                 yield f"data: {json.dumps({'text': unknown})}\n\n"
                 full_response = unknown
+                save_cached_answer(question, unknown, "unknown")
+                return
+
+            extractive = try_extractive_document_answer(question, hits)
+            if extractive:
+                answer = extractive["answer"]
+                yield f"data: {json.dumps({'text': answer})}\n\n"
+                full_response = answer
+                save_cached_answer(question, answer, "extractive")
                 return
 
             api_keys = get_ordered_gemini_api_keys()
@@ -1094,6 +1209,11 @@ async def ask_impl(data: dict[str, Any]) -> StreamingResponse:
 
             if successful_key:
                 advance_gemini_key_pointer(successful_key)
+
+            if full_response.strip() and not full_response.startswith(
+                ("Erro Gemini", "Falha temporária", "Falha interna")
+            ):
+                save_cached_answer(question, full_response.strip(), "gemini")
 
             if not full_response.strip():
                 fallback_error = last_error or "Falha temporária ao consultar modelo de IA. Tente novamente em alguns segundos."
