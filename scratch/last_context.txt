@@ -1,3 +1,0 @@
-QUERY: Objetivo
-SEARCH TERMS: ['objetivo', 'objetivo']
-CONTEXT SIZE: 0

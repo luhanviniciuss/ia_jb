@@ -1,28 +1,32 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { 
-  Send, 
-  Bot, 
-  User, 
-  Plus, 
-  MessageSquare, 
-  History, 
-  LogOut, 
-  Moon, 
-  Sun, 
-  Loader2, 
+﻿import React, { useState, useEffect, useRef } from 'react';
+import {
+  Send,
+  Bot,
+  User,
+  Plus,
+  MessageSquare,
+  History,
+  LogOut,
+  Moon,
+  Sun,
+  Loader2,
   Edit,
   ChevronRight,
   Brain,
-  Lock
+  Lock,
 } from 'lucide-react';
 import './App.css';
+
+const API_BASE =
+  import.meta.env.VITE_API_URL ||
+  `${window.location.protocol}//${window.location.hostname}:8899/api`;
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
   const [loginData, setLoginData] = useState({ username: '', password: '' });
   const [loginError, setLoginError] = useState('');
-  
+
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -32,7 +36,7 @@ function App() {
   const messagesEndRef = useRef(null);
 
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
   useEffect(() => {
@@ -44,20 +48,22 @@ function App() {
 
   const loadConversations = async () => {
     try {
-      const response = await fetch(`https://back-end-ia-jb.onrender.com/api/conversations?user_id=${user.id}`);
+      const response = await fetch(`${API_BASE}/conversations?user_id=${user.id}`);
       const data = await response.json();
       setConversations(data);
-    } catch (e) { console.error("Erro ao carregar conversas"); }
+    } catch {
+      console.error('Erro ao carregar conversas');
+    }
   };
 
   const handleLogin = async (e) => {
     e.preventDefault();
     setLoginError('');
     try {
-      const response = await fetch('https://back-end-ia-jb.onrender.com/api/login', {
+      const response = await fetch(`${API_BASE}/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(loginData)
+        body: JSON.stringify(loginData),
       });
       const data = await response.json();
       if (data.status === 'success') {
@@ -66,7 +72,7 @@ function App() {
       } else {
         setLoginError(data.message || 'Usuário ou senha incorretos');
       }
-    } catch (e) {
+    } catch {
       setLoginError('Erro ao conectar ao servidor');
     }
   };
@@ -80,26 +86,31 @@ function App() {
     setCurrentChatId(id);
     setIsLoading(true);
     try {
-      const response = await fetch(`https://back-end-ia-jb.onrender.com/api/messages/${id}`);
+      const response = await fetch(`${API_BASE}/messages/${id}`);
       const data = await response.json();
-      setMessages(data.map(m => ({ text: m.content, isBot: m.role !== 'user' })));
-    } catch (e) { console.error("Erro ao carregar mensagens"); }
-    finally { setIsLoading(false); }
+      setMessages(data.map((m) => ({ text: m.content, isBot: m.role !== 'user' })));
+    } catch {
+      console.error('Erro ao carregar mensagens');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const teachIA = async (question) => {
-    const answer = prompt("Qual a resposta correta para esta pergunta?");
+    const answer = prompt('Qual a resposta correta para esta pergunta?');
     if (!answer) return;
 
     try {
-      const response = await fetch('https://back-end-ia-jb.onrender.com/api/learn', {
+      const response = await fetch(`${API_BASE}/learn`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ pergunta: question, resposta: answer, admin_id: user.id })
+        body: JSON.stringify({ pergunta: question, resposta: answer, admin_id: user.id }),
       });
       const data = await response.json();
       alert(data.message);
-    } catch (e) { alert("Erro ao salvar treinamento"); }
+    } catch {
+      alert('Erro ao salvar treinamento');
+    }
   };
 
   const handleSend = async (text = null) => {
@@ -107,19 +118,30 @@ function App() {
     if (!question.trim() || isLoading) return;
 
     if (!text) setInput('');
-    setMessages(prev => [...prev, { text: question, isBot: false }]);
+    setMessages((prev) => [...prev, { text: question, isBot: false }]);
     setIsLoading(true);
 
     const currentHistory = [...messages];
-    setMessages(prev => [...prev, { text: "", isBot: true, isStreaming: true }]);
+    setMessages((prev) => [...prev, { text: '', isBot: true, isStreaming: true }]);
+
+    const setLastBotMessage = (value) => {
+      setMessages((prev) => {
+        const newMsgs = [...prev];
+        const lastIdx = newMsgs.length - 1;
+        if (lastIdx >= 0) {
+          newMsgs[lastIdx] = { ...newMsgs[lastIdx], text: value };
+        }
+        return newMsgs;
+      });
+    };
 
     try {
       let chatId = currentChatId;
       if (!chatId) {
-        const res = await fetch('https://back-end-ia-jb.onrender.com/api/conversations', {
+        const res = await fetch(`${API_BASE}/conversations`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ user_id: user.id, titulo: question.substring(0, 30) })
+          body: JSON.stringify({ user_id: user.id, titulo: question.substring(0, 30) }),
         });
         const chatData = await res.json();
         chatId = chatData.id;
@@ -127,27 +149,51 @@ function App() {
         loadConversations();
       }
 
-      const response = await fetch('https://back-end-ia-jb.onrender.com/api/ask', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ 
-          question, 
-          conversa_id: chatId,
-          user_id: user.id,
-          history: currentHistory.map(m => ({ role: m.isBot ? 'assistant' : 'user', content: m.text }))
-        })
-      });
+      const requestBody = {
+        question,
+        conversa_id: chatId,
+        user_id: user.id,
+        history: currentHistory.map((m) => ({ role: m.isBot ? 'assistant' : 'user', content: m.text })),
+      };
+
+      let response;
+      try {
+        response = await fetch(`${API_BASE}/ask`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(requestBody),
+        });
+      } catch {
+        // retry único para falhas transitórias de rede/stream
+        response = await fetch(`${API_BASE}/ask`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(requestBody),
+        });
+      }
+
+      if (!response.ok) {
+        setLastBotMessage(`Falha na API (${response.status}). Tente novamente.`);
+        return;
+      }
+
+      if (!response.body) {
+        setLastBotMessage('Sem resposta do servidor. Tente novamente.');
+        return;
+      }
 
       const reader = response.body.getReader();
       const decoder = new TextDecoder();
-      let fullText = "";
+      let fullText = '';
+      let buffer = '';
 
       while (true) {
         const { done, value } = await reader.read();
         if (done) break;
 
-        const chunk = decoder.decode(value);
-        const lines = chunk.split('\n');
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split('\n');
+        buffer = lines.pop() || '';
 
         for (const line of lines) {
           if (line.startsWith('data: ')) {
@@ -157,23 +203,21 @@ function App() {
               const data = JSON.parse(dataStr);
               if (data.text) {
                 fullText += data.text;
-                setMessages(prev => {
-                  const newMsgs = [...prev];
-                  newMsgs[newMsgs.length - 1].text = fullText;
-                  return newMsgs;
-                });
+                setLastBotMessage(fullText);
               }
-            } catch (e) {}
+            } catch {
+              // ignore invalid chunks
+            }
           }
         }
       }
-    } catch (error) {
-      setMessages(prev => [...prev, { text: "Erro de conexão. Tente novamente.", isBot: true }]);
+    } catch {
+      setLastBotMessage('Erro de conexão. Tente novamente.');
     } finally {
       setIsLoading(false);
-      setMessages(prev => {
+      setMessages((prev) => {
         const newMsgs = [...prev];
-        if (newMsgs[newMsgs.length-1]) newMsgs[newMsgs.length-1].isStreaming = false;
+        if (newMsgs[newMsgs.length - 1]) newMsgs[newMsgs.length - 1].isStreaming = false;
         return newMsgs;
       });
     }
@@ -191,21 +235,21 @@ function App() {
           <form onSubmit={handleLogin}>
             <div className="input-group">
               <User size={18} />
-              <input 
-                type="text" 
-                placeholder="Usuário" 
+              <input
+                type="text"
+                placeholder="Usuário"
                 value={loginData.username}
-                onChange={e => setLoginData({...loginData, username: e.target.value})}
+                onChange={(e) => setLoginData({ ...loginData, username: e.target.value })}
                 required
               />
             </div>
             <div className="input-group">
               <Lock size={18} />
-              <input 
-                type="password" 
-                placeholder="Senha" 
+              <input
+                type="password"
+                placeholder="Senha"
                 value={loginData.password}
-                onChange={e => setLoginData({...loginData, password: e.target.value})}
+                onChange={(e) => setLoginData({ ...loginData, password: e.target.value })}
                 required
               />
             </div>
@@ -225,16 +269,16 @@ function App() {
           <div className="logo-icon"><Brain size={24} /></div>
           <span>JB INTEL</span>
         </div>
-        
+
         <button className="new-chat-btn" onClick={startNewChat}>
           <Plus size={18} /> Novo Chat
         </button>
 
         <div className="nav-history">
           <div className="nav-title"><History size={14} /> Histórico</div>
-          {conversations.map(conv => (
-            <div 
-              key={conv.id} 
+          {conversations.map((conv) => (
+            <div
+              key={conv.id}
               className={`nav-item ${currentChatId === conv.id ? 'active' : ''}`}
               onClick={() => loadChat(conv.id)}
             >
@@ -269,16 +313,16 @@ function App() {
             <div className="welcome-screen">
               <h1>Olá, como posso ajudar?</h1>
               <p>Sou o assistente inteligente do Grupo JB. Especialista em logística e gestão operacional.</p>
-              
+
               <div className="quick-actions">
-                <div className="action-card" onClick={() => handleSend("Quem é o motorista da rota FOR 101?")}>
+                <div className="action-card" onClick={() => handleSend('Quem é o motorista da rota FOR 101?')}>
                   <div className="card-icon"><ChevronRight size={18} /></div>
                   <div className="card-text">
                     <strong>Rota FOR 101</strong>
                     <span>Consulte motorista e parceiro rapidamente.</span>
                   </div>
                 </div>
-                <div className="action-card" onClick={() => handleSend("Como identificar pedidos críticos?")}>
+                <div className="action-card" onClick={() => handleSend('Como identificar pedidos críticos?')}>
                   <div className="card-icon"><ChevronRight size={18} /></div>
                   <div className="card-text">
                     <strong>Pedidos Críticos</strong>
@@ -299,7 +343,7 @@ function App() {
                       </React.Fragment>
                     ))}
                     {msg.isBot && user.role === 'admin' && !msg.isStreaming && (
-                      <button className="correct-btn" onClick={() => teachIA(messages[idx-1]?.text)}>
+                      <button className="correct-btn" onClick={() => teachIA(messages[idx - 1]?.text)}>
                         <Edit size={12} /> Corrigir IA
                       </button>
                     )}
@@ -318,8 +362,8 @@ function App() {
 
         <div className="input-area">
           <div className="input-container">
-            <textarea 
-              placeholder="Pergunte ao JB Intelligence..." 
+            <textarea
+              placeholder="Pergunte ao JB Intelligence..."
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => e.key === 'Enter' && !e.shiftKey && (e.preventDefault(), handleSend())}

@@ -4,7 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 4455 --host",
+    "dev": "npm run dev:web",
+    "dev:web": "vite --port 5000 --host",
+    "dev:full": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/dev-full.ps1",
+    "dev:api": "python backend/main.py",
+    "dev:api:always": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/backend-always.ps1",
+    "train:pg": "python scripts/train_pg.py --xlsx D23V7.xlsx --text mnop02.txt mnop03.txt",
+    "train:qa": "python scripts/generate_bulk_qa.py",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -27,3 +33,4 @@
     "vite": "^8.0.10"
   }
 }
+

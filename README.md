@@ -1,85 +1,83 @@
-# JB Intelligence - Assistente Logístico Grupo JB
+﻿# JB Intelligence - Arquitetura PostgreSQL (Robusta)
 
-Assistente inteligente de alta performance para gestão de rotas, motoristas e processos operacionais do Grupo JB, utilizando a API do Google Gemini 1.5 Flash e RAG (Retrieval-Augmented Generation) com SQLite.
+Backend reestruturado para separar:
+- Resposta estruturada (rotas/parceiro/motorista/dias/região) via SQL direto
+- Resposta documental (manuais/PDFs) via busca + LLM
+- Override administrativo (`/api/learn`) com prioridade máxima
 
-## 🚀 Tecnologias
-- **Backend:** Flask (Python)
-- **Frontend:** HTML5/CSS3/JS (Vanilla) com Design Premium
-- **IA:** Google Gemini 1.5 Flash
-- **Banco de Dados:** SQLite (documentos.db)
-- **Deploy:** Linux Ubuntu + PM2
+## Stack
+- API: FastAPI
+- Banco: PostgreSQL 18
+- Busca textual: PostgreSQL FTS (`tsvector`, `websearch_to_tsquery`) + `pg_trgm`
+- IA: Gemini com fallback automático de modelo
 
----
+## Banco local (configuração atual)
+O backend usa por padrão:
+`postgresql://postgres:2026@localhost:5432/postgres`
 
-## 🛠️ Instalação (Local)
+Você pode sobrescrever no `.env` via `DATABASE_URL`.
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/GrupoJB/jb_assist.git
-   cd jb_assist
-   ```
+## Comandos principais
 
-2. Instale as dependências:
-   ```bash
-   pip install flask flask-cors google-generativeai
-   ```
-
-3. Execute o servidor:
-   ```bash
-   python app.py
-   ```
-
-4. Acesse: `http://localhost:5000`
-
----
-
-## 🌐 Deploy no Linux Ubuntu (Produção)
-
-Siga os passos abaixo para colocar o sistema online usando **PM2** e **Nginx**.
-
-### 1. Preparar o Ambiente
+### 1) Subir tudo
 ```bash
-sudo apt update && sudo apt upgrade -y
-sudo apt install python3-pip python3-venv -y
+npm run dev:full
 ```
 
-### 2. Configurar o Projeto
+### 2) Subir só backend
 ```bash
-# Clone o projeto no servidor
-git clone https://github.com/GrupoJB/jb_assist.git /var/www/jb_assist
-cd /var/www/jb_assist
-
-# Instale as dependências
-pip install flask flask-cors google-generativeai gunicorn
+npm run dev:api
 ```
 
-### 3. Configurar o PM2 (Gerenciador de Processos)
-O PM2 manterá o seu servidor Python rodando 24/7 e o reiniciará automaticamente em caso de falhas.
-
+### 3) Treinar base com tabela + textos
 ```bash
-# Instalar PM2 via NodeJS
-sudo apt install nodejs npm -y
-sudo npm install -g pm2
+npm run train:pg
+```
+Isso executa:
+- `D23V7.xlsx` -> `route_facts`
+- `mnop02.txt`, `mnop03.txt` -> `doc_chunks`
 
-# Iniciar o servidor com PM2
-pm2 start "python3 app.py" --name jb-assistant
-
-# Salvar para iniciar com o boot do sistema
-pm2 save
-pm2 startup
+### 4) Ingerir PDFs diretamente
+```bash
+python scripts/train_pg.py --pdf "MNOP02 - 00 - MANUAL DE GESTÃO DE PEDIDOS CRÍTICOS.pdf" "MNOP03-00 -  SUPER ROTINA GESTOR DE OPERAÇÃO (1).pdf"
 ```
 
-### 4. Configurar o Firewall
+### 5) Treino flexível (novos arquivos)
 ```bash
-sudo ufw allow 5000
+python scripts/train_pg.py --xlsx NOVA_TABELA.xlsx --text novo_manual.txt --pdf novo_manual.pdf
 ```
 
----
+## Como o motor decide respostas
+1. Procura override treinado por admin (`qa_overrides`)
+2. Detecta intenção estruturada (parceiro/motorista/dias/região + rota) e responde direto via SQL
+3. Se não for estruturado, busca os melhores chunks no PostgreSQL (FTS+trigram)
+4. Envia apenas contexto recuperado para o Gemini
+5. Se não houver evidência suficiente, responde: `Informação não consta nos manuais ou tabelas disponíveis.`
 
-## 📂 Estrutura de Dados
-O sistema utiliza o arquivo `documentos.db` para o contexto RAG. 
-- **Rotas e Motoristas:** Extraídos da base D23.
-- **Processos:** Baseados nos manuais MNOP02 e MNOP03.
+## Tabelas principais
+- `app_users`
+- `conversations`
+- `messages`
+- `qa_overrides`
+- `route_facts`
+- `doc_sources`
+- `doc_chunks`
 
-## 📄 Licença
-Propriedade do Grupo JB Transporte e Logística.
+## Credenciais iniciais
+- `admin / admin123`
+- `consultor / jb123`
+
+## Endpoints
+- `GET /api/health`
+- `POST /api/login`
+- `GET|POST /api/conversations`
+- `GET /api/messages/{conversation_id}`
+- `POST /api/learn`
+- `POST /api/ask`
+
+## Observação de qualidade
+Para manter precisão com crescimento da base:
+- Sempre ingerir planilhas operacionais como tabela estruturada
+- Evitar depender de PDF para dados que já existem em coluna
+- Atualizar por fonte (upsert), sem duplicar chunk antigo
+- Validar periodicamente com um conjunto fixo de perguntas críticas
