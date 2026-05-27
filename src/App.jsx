@@ -34,6 +34,7 @@ function App() {
   const [conversations, setConversations] = useState([]);
   const [currentChatId, setCurrentChatId] = useState(null);
   const messagesEndRef = useRef(null);
+  const textareaRef = useRef(null);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -45,6 +46,16 @@ function App() {
       loadConversations();
     }
   }, [messages, isLoggedIn]);
+
+  useEffect(() => {
+    const el = textareaRef.current;
+    if (!el) return;
+
+    el.style.height = 'auto';
+    const nextHeight = Math.min(el.scrollHeight, 180);
+    el.style.height = `${nextHeight}px`;
+    el.style.overflowY = el.scrollHeight > 180 ? 'auto' : 'hidden';
+  }, [input]);
 
   const loadConversations = async () => {
     try {
@@ -117,7 +128,13 @@ function App() {
     const question = text || input;
     if (!question.trim() || isLoading) return;
 
-    if (!text) setInput('');
+    if (!text) {
+      setInput('');
+      if (textareaRef.current) {
+        textareaRef.current.style.height = 'auto';
+        textareaRef.current.style.overflowY = 'hidden';
+      }
+    }
     setMessages((prev) => [...prev, { text: question, isBot: false }]);
     setIsLoading(true);
 
@@ -363,6 +380,7 @@ function App() {
         <div className="input-area">
           <div className="input-container">
             <textarea
+              ref={textareaRef}
               placeholder="Pergunte ao JB Intelligence..."
               value={input}
               onChange={(e) => setInput(e.target.value)}
